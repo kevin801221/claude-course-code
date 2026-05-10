@@ -1,0 +1,152 @@
+{
+  "episode": "EP649 | 💌",
+  "podcast_name": "Gooaye 股癌",
+  "date": "2026-04-01",
+  "duration_minutes": 49.63,
+  "insights": [
+    {
+      "type": "macro",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "近期市場出現大反彈，但對台股和美股的看法不同。台股反彈強勢，若能持續創新高則為多頭回檔格局；美股則被視為「死貓跳」，因為作者已提前降低美股部位。",
+      "key_points": [
+        "台股反彈強勢，美股為死貓跳。",
+        "作者已降低美股部位，開始回補台股。"
+      ]
+    },
+    {
+      "type": "macro",
+      "tickers": [],
+      "sentiment": "bearish",
+      "content": "中東局勢動盪不安，儘管有和談消息，但市場可能不完全相信。油價（特別是遠月油價）仍維持高檔，顯示市場對地緣政治風險的擔憂未減。此外，VIX指數也處於高位震盪，暗示波動性可能放大。",
+      "key_points": [
+        "油價維持高檔，市場對和談持觀望態度。",
+        "VIX指數高位震盪，波動性可能放大。",
+        "⚠️ 風險: 油價若持續創新高，市場將維持保守心態。"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "在高油價和高波動率的環境下，應避免使用過大的槓桿。作者個人選擇不使用槓桿，並在市場波動放大時，會逐步降低部位以回收現金，為後續的連假做準備。",
+      "key_points": [
+        "避免在高油價和高波動率下使用槓桿。",
+        "市場波動放大時，逐步降低部位回收現金。",
+        "⚠️ 風險: 避免過度貪婪，控制部位以應對市場不確定性。"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "bullish",
+      "content": "長期投資觀點認為，在市場中持有越久越有利。春節和清明連假期間，理論上都應抱股。然而，若進行較為激烈的短線操作，則需在連假前適度調整部位，以避免情緒化交易。",
+      "key_points": [
+        "長期持有股票，越久越好。",
+        "短線操作者需在連假前調整部位，避免情緒化交易。",
+        "⚠️ 風險: 抱股過多可能導致情緒化操作，影響判斷。"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "玻璃產業仍是未來題材，預計需要一年半到兩年時間才能看到營收放量。CPO（共同封裝光學）也是類似的未來題材，作者已提前佈局。",
+      "key_points": [
+        "玻璃產業為未來題材，營收放量需1.5-2年。",
+        "CPO為未來題材，已提前佈局。"
+      ]
+    },
+    {
+      "type": "macro",
+      "tickers": [],
+      "sentiment": "bearish",
+      "content": "美股大盤走空後的反彈，若油價持續高檔且反彈力道不強，可能預示著新一波的下跌。作者習慣以部位的60-100%進行調整，不會完全空手等待。",
+      "key_points": [
+        "美股反彈若不強勁且油價高檔，可能預示新一波下跌。",
+        "作者以部位的60-100%進行調整，不完全空手。",
+        "⚠️ 風險: 市場可能再次下跌，需警惕。"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "市場修正提供買進機會，但最忌諱的是「殺低後買不回來」。每次修正都是讓你買進的機會，但要控制好部位，避免情緒化交易。當市場波動率（VIX）極高時，應減少交易決策，因為此時的判斷容易失準。",
+      "key_points": [
+        "市場修正提供買進機會，避免殺低後買不回來。",
+        "控制好部位，避免情緒化交易。",
+        "VIX極高時減少交易決策，避免失準。",
+        "⚠️ 風險: 情緒化交易和在波動率高時做過多決策會導致虧損。"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [],
+      "sentiment": "bullish",
+      "content": "台股市場整體表現強於美股，需持續關注族群輪動。美股則可能要等到地緣政治衝突趨於緩和（不一定是結束）後，市場情緒才會慢慢消化。",
+      "key_points": [
+        "台股強於美股，關注族群輪動。",
+        "美股需待地緣政治衝突緩和後，情緒才會消化。"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "MRVL",
+        "NVDA",
+        "AMD"
+      ],
+      "sentiment": "neutral",
+      "content": "NVIDIA (NVDA) 投資 Marvell (MRVL) 20億美元，並將在 NVLink Fusion 上進行合作。作者認為這筆投資是 NVIDIA 資金過多，且看好 Marvell 在交換機和互連技術的發展。AMD (AMD) 其實更需要 Marvell 的技術來補足其生態系。NVIDIA 的投資是為了強化其在資料中心和 AI 基礎設施的佈局，而非單純彌補某個拼圖。",
+      "key_points": [
+        "NVIDIA 投資 Marvell 強化資料中心和 AI 佈局。",
+        "AMD 更需要 Marvell 的技術。",
+        "NVIDIA 資金充裕，投資是戰略性佈局。"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "MRVL",
+        "2454.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "NVIDIA 透過投資和策略合作，旨在搶佔 Broadcom (AVGO) 的市場份額，並將 Marvell (MRVL)、聯發科 (2454.TW) 等夥伴拉入 NVLink Fusion 生態系。儘管 Broadcom 的市場份額可能被稀釋，但整體市場（藍海）仍在擴大，因此大家都有機會成長。",
+      "key_points": [
+        "NVIDIA 旨在搶佔 Broadcom 市場份額。",
+        "整體市場仍在擴大，各家都有成長機會。",
+        "NVIDIA 的投資是為了建立更完整的生態系。"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "MRVL"
+      ],
+      "sentiment": "neutral",
+      "content": "NVIDIA 對 Marvell 的投資，作者認為並非「極大的利多」，更偏向宣示性意義。特別是 Jim Cramer 的背書，反而可能預示著不好的結果。",
+      "key_points": [
+        "NVIDIA 投資 Marvell 僅具宣示性意義，非極大利多。",
+        "⚠️ 風險: Jim Cramer 的背書可能預示反向走勢。"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "ALAB"
+      ],
+      "sentiment": "neutral",
+      "content": "Astera Labs (ALAB) 在市場上被視為「人人喊打」的角色，但其產品需求並不會因 NVIDIA 投資 Marvell 而受影響。ALAB 與 Marvell 在不同層級運作，可以共存。ALAB 主要專注於 CSP 的混合資料中心，影響有限。",
+      "key_points": [
+        "Astera Labs 產品需求不受 NVIDIA 投資影響。",
+        "ALAB 與 Marvell 在不同層級運作，可共存。",
+        "ALAB 專注於 CSP 混合資料中心，影響有限。"
+      ]
+    }
+  ],
+  "status": "confirmed",
+  "processed_at": "2026-04-06T23:32:50.182391"
+}

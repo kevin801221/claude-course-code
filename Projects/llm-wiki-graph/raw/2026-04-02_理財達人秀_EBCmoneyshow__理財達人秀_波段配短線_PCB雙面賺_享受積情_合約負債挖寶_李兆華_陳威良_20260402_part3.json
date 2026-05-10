@@ -1,0 +1,848 @@
+{
+  "episode": "【理財達人秀】波段配短線 PCB雙面賺 享受積情 合約負債挖寶｜李兆華、陳威良 2026.04.02 part3",
+  "podcast_name": "理財達人秀 EBCmoneyshow",
+  "date": "2026-04-02",
+  "duration_minutes": 115.82,
+  "insights": [
+    {
+      "type": "sector",
+      "tickers": [],
+      "sentiment": "bullish",
+      "content": "儘管連假前市場信心受到考驗，但分析師對PCB產業充滿信心。",
+      "key_points": [
+        "PCB產業信心滿滿"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [
+        "2330.TW"
+      ],
+      "sentiment": "neutral",
+      "content": "台積電法說會即將舉行，若設備股能接單至2028年，則無需過度擔憂。",
+      "key_points": [
+        "台積電法說會",
+        "設備股接單至2028年"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "PCB的操作策略建議採用波段搭配短線，以實現兩邊獲利。",
+      "key_points": [
+        "波段配短線",
+        "PCB操作"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [
+        "2330.TW"
+      ],
+      "sentiment": "neutral",
+      "content": "雖然台積電目前股價略顯壓抑，但若其設備股能接到長期訂單，應密切關注其合約負債狀況。",
+      "key_points": [
+        "台積電法說會",
+        "設備股合約負債"
+      ]
+    },
+    {
+      "type": "macro",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "連假後市場操作，預期第二季地緣政治風險已在遞減趨緩，對市場的影響和干擾將會減少。",
+      "key_points": [
+        "第二季操作",
+        "地緣政治風險趨緩"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "從歷史數據來看，第二季台股走勢常呈現上漲有壓，容易遇到利空消息導致修正或波段調整。",
+      "key_points": [
+        "第二季台股特性",
+        "上漲有壓",
+        "易修正"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "建議第二季操作應保持靈活，主軸是波段搭配短線，形成所謂的「槓零策略」。",
+      "key_points": [
+        "Q2靈活操作",
+        "波段搭配短線",
+        "槓零策略"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "「槓零策略」包含兩部分：一端偏向趨勢波段，鎖定優質股票並長期持有，避免過早賣出；另一端針對有籌碼壓力或追高套牢的個股，透過來回短線操作來彌補損失。",
+      "key_points": [
+        "趨勢波段鎖股",
+        "短打彌補損失",
+        "來回操作"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "PCB族群走勢呈現分化，高價股持續上漲，而中低價股則面臨較大壓力。",
+      "key_points": [
+        "PCB族群分化",
+        "高價股強勢",
+        "中低價股弱勢"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "偏高價的PCB股票持續向上，籌碼壓力較小；而偏中低價的股票則承受較大壓力。",
+      "key_points": [
+        "高價PCB股強勢",
+        "中低價PCB股壓力大"
+      ]
+    },
+    {
+      "type": "macro",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "法人資金目前正在市場中尋找新的投資出口。",
+      "key_points": [
+        "法人資金流向"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "若股票跌破月線，可能需要至少一個月的整理期；若跌破季線，則接下來的第二季可能都在尋求止穩或反覆打底的過程中。",
+      "key_points": [
+        "跌破月線/季線的技術分析",
+        "整理期",
+        "打底"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [
+        "1805.TW",
+        "8358.TW"
+      ],
+      "sentiment": "neutral",
+      "content": "對於富喬、金居等弱勢股票，不應被動等待大反轉，而應積極透過來回操作來應對。",
+      "key_points": [
+        "弱勢股操作",
+        "來回操作",
+        "不被動等待"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [],
+      "sentiment": "bullish",
+      "content": "整體PCB產業無需過度擔心，因為族群內有高價股領漲，且產業規格升級持續進行，不會形成頭部反轉。",
+      "key_points": [
+        "PCB產業無需擔心",
+        "高價股領軍",
+        "產業升級持續"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "技術面上表現較弱的PCB股票，並非代表產業反轉，主要原因可能是籌碼壓力較大。",
+      "key_points": [
+        "弱勢股不代表產業反轉",
+        "籌碼壓力"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "2368.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "金像電的趨勢向上，隨時準備重返四位數價格，挑戰前高。",
+      "key_points": [
+        "趨勢向上",
+        "挑戰前高"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "對於強勢股，建議沿著上升趨勢線操作，若成本較低，只要月均線或上升趨勢線未被跌破，就應持續抱牢，避免過早賣出。",
+      "key_points": [
+        "沿趨勢線操作",
+        "續抱"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "短線操作者，若五日均線勾角向上且股價站穩其上，可考慮進場建立部位；若五日均線跌破，則應出場。",
+      "key_points": [
+        "短線進出場點",
+        "五日均線"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "8358.TW"
+      ],
+      "sentiment": "bearish",
+      "content": "金居的股價已跌破季線和月線，且五日線再次失守，技術面顯示情況較為不利。",
+      "key_points": [
+        "跌破多條均線",
+        "技術面弱勢"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [
+        "8358.TW"
+      ],
+      "sentiment": "neutral",
+      "content": "對於金居這類弱勢股，若想進行攤平或短打操作，必須等到五日線轉向上揚且股價站穩其上才能考慮切入。",
+      "key_points": [
+        "弱勢股切入點",
+        "五日線翻揚"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "短線操作向上時不應死抱，可將前一波高點作為出場參考位置；若股價來到前高附近未能帶量突破，應先減碼出場。",
+      "key_points": [
+        "短線出場點",
+        "前高",
+        "帶量突破"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "若在反彈過程中，五日均線提早跌破，則無需等待前高，應立即減碼出場。",
+      "key_points": [
+        "五日線跌破即出場"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "若前高被正式突破並站穩，則壓力將轉化為支撐，操作區間可向上移動至下一個區間，並沿著五日均線進行操作。",
+      "key_points": [
+        "突破前高後的策略",
+        "壓力變支撐",
+        "區間移動"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "若股票套牢或虧損，可分批（例如每次兩塊或三塊）買回，進行兩三趟操作後，損失應能獲得彌補。",
+      "key_points": [
+        "分批補回",
+        "彌補損失"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [
+        "2330.TW"
+      ],
+      "sentiment": "neutral",
+      "content": "本月市場的另一個焦點是台積電的法說會。",
+      "key_points": [
+        "台積電法說會"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "2330.TW"
+      ],
+      "sentiment": "neutral",
+      "content": "本次法說會前台積電股價並未出現大幅上漲，可能因為法說會時間點尚未非常接近。",
+      "key_points": [
+        "法說會前表現"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "2330.TW"
+      ],
+      "sentiment": "neutral",
+      "content": "連假過後台積電可能開始暖身，其法說會行情發動時間點有不斷提前的趨勢。",
+      "key_points": [
+        "法說會行情提前"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "2330.TW"
+      ],
+      "sentiment": "neutral",
+      "content": "從歷史數據來看，台積電法說會行情呈現漲跌互見，儘管法說會內容一次比一次精彩，但這並非股價上漲的絕對保證。",
+      "key_points": [
+        "法說會內容不等於股價保證",
+        "漲跌互見"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "2330.TW"
+      ],
+      "sentiment": "neutral",
+      "content": "作為大型股，台積電的股價仍需考量外資是否會因國際局勢而站在賣方。",
+      "key_points": [
+        "外資動向",
+        "國際局勢"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "2330.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "台積電一年有四次法說會，其中1月份的法說會行情表現最為出色亮眼，因為它通常會提供全年的展望。",
+      "key_points": [
+        "1月法說會表現最佳",
+        "全年展望"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "2330.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "1月份的法說會作為年度之始，內容會講得特別清楚且充滿自信，對市場的激勵作用也更為明顯。",
+      "key_points": [
+        "年度之始",
+        "內容清楚有自信",
+        "市場激勵"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "2330.TW"
+      ],
+      "sentiment": "neutral",
+      "content": "對於4月份的台積電法說會，個人建議以平常心看待。",
+      "key_points": [
+        "4月法說會平常心"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "2330.TW"
+      ],
+      "sentiment": "neutral",
+      "content": "相信法說會內容會是好的，但對於像台積電這樣的超級績優生，如果內容只是「好」，那可能意味著「不夠好」。",
+      "key_points": [
+        "績優生內容好不夠好"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [
+        "2330.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "掌握台積電進出場時機的勝率最高策略是：在9月底買進，並在年底12月底賣出，此策略勝率高達88%，平均報酬率接近一成。",
+      "key_points": [
+        "9月底買、12月底賣",
+        "高勝率",
+        "高報酬"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [
+        "2330.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "第二高勝率的策略是：在9月底買進台積電，並持有至隔年3月底，這段期間會經歷1月份的法說會，勝率為82%，報酬率可大幅提高至15%。",
+      "key_points": [
+        "9月底買、3月底賣",
+        "經歷1月法說會",
+        "報酬率更高"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [
+        "2330.TW"
+      ],
+      "sentiment": "neutral",
+      "content": "對於熟悉期貨槓桿操作的投資者，可以利用這些規則適度放大報酬。",
+      "key_points": [
+        "期貨槓桿",
+        "放大報酬"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "2330.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "台積電仍是存股、中長線抱牢的最佳選擇。",
+      "key_points": [
+        "存股",
+        "中長線",
+        "最佳選擇"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "2330.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "台積電提供小台積電和夜盤等多樣化交易工具。對於不熟悉複雜操作的投資者，可以耐心尋找危機入市的買點，並選擇存股長期持有。",
+      "key_points": [
+        "多樣工具",
+        "危機入市",
+        "存股抱長線"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [
+        "2330.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "儘管台積電本身可能不再那麼刺激亮眼，但其周邊的設備股股價表現卻非常強勁，勢不可擋。",
+      "key_points": [
+        "台積電周邊設備股強勢"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [],
+      "sentiment": "bullish",
+      "content": "許多設備股都創下歷史新高，要掌握股價的表現，首先必須掌握其業績狀況。",
+      "key_points": [
+        "設備股創新高",
+        "掌握業績"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "掌握業績的領先指標是「合約負債」，這是一種非常有利的負債形式。",
+      "key_points": [
+        "合約負債是業績領先指標",
+        "好的負債"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "以超商咖啡寄杯為例，合約負債代表超商預先收取的貨款。當消費者兌現時，合約負債減少，營收便開始認列入帳。",
+      "key_points": [
+        "合約負債解釋",
+        "營收認列"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "預售禮券、百貨公司禮券等都屬於合約負債的概念，是衡量營收和業績的領先指標。",
+      "key_points": [
+        "預售禮券、百貨禮券",
+        "營收領先指標"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "投資者可以善用免費資源，例如財經軟體或Goodinfo!等財經網站，查詢合約負債數據，且無需支付任何費用。",
+      "key_points": [
+        "免費資源",
+        "Goodinfo!",
+        "查詢合約負債"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "在Goodinfo!的選股功能中，使用「自訂篩選」設定合約負債季增且年增（兩者皆大於0），即可找出符合條件的標的。",
+      "key_points": [
+        "Goodinfo!篩選",
+        "合約負債季增/年增"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [
+        "2330.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "篩選出與台積電相關且合約負債增加的股票，其近期走勢確實非常強勁。",
+      "key_points": [
+        "台積電相關股強勢",
+        "合約負債增加"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "有興趣的投資者可以將表格記錄下來，並自行查看K線圖進行研究。",
+      "key_points": [
+        "自行研究"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [],
+      "sentiment": "bullish",
+      "content": "這些股票的業績明確在手，顯示其成長能見度高。",
+      "key_points": [
+        "業績明確",
+        "成長能見度高"
+      ]
+    },
+    {
+      "type": "macro",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "市場上的聰明錢（法人、大戶）敢於買進，是因為在潛在的地緣政治風險下，業績穩健的股票能提供定心丸，因此強勢股的表現是有其道理的。",
+      "key_points": [
+        "聰明錢進場",
+        "地緣政治風險",
+        "業績定心丸"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [
+        "2330.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "合約負債同時季增且年增的股票，多為台積電周邊的耗材與設備股，這些都是所謂的「護國群山」成員。",
+      "key_points": [
+        "合約負債增加",
+        "護國群山",
+        "周邊耗材設備股"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "接下來將介紹三檔股票供投資者研究。",
+      "key_points": [
+        "個股推薦"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "3583.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "辛耘作為設備商，其業務主要分為再生晶圓、設備代理和設備自製。其中設備自製的毛利率最高（超過四成），且今年佔比將大幅提高。公司接單能見度高，已延續到2027年。其合約負債金額高達142億，這是一種訂金的概念，實際業績的增長可能是數倍。",
+      "key_points": [
+        "設備自製高毛利",
+        "接單能見度高(2027)",
+        "合約負債高(142億)",
+        "訂金概念"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "3583.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "新聞報導辛耘接單至2027年，透過合約負債數據可確認其訂單確實大幅增加。",
+      "key_points": [
+        "合約負債確認接單"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "3583.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "辛耘的股價近期表現非常強勢。",
+      "key_points": [
+        "股價強勢"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "3583.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "辛耘前一波的推升主要來自外資籌碼，近期雖有回測，但技術面仍符合上升趨勢，股價維持在月線上方，表現優於多數台灣科技股。",
+      "key_points": [
+        "外資籌碼",
+        "上升趨勢",
+        "月線上方",
+        "比同業強"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "3583.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "在股價拉回時，投信資金進場，顯示有機會形成內外資法人接力買進的局面。",
+      "key_points": [
+        "投信進場",
+        "土洋法人接力"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "3583.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "除了本業表現良好，辛耘的業外投資也值得關注，其持有一檔新櫃股票「三太」（被稱為三太石妖股），成本為25元，潛在未實現利益約為三個股本。",
+      "key_points": [
+        "業外投資",
+        "持有三太",
+        "成本低",
+        "潛在利益高",
+        "⚠️ 風險: 提及「妖股」，暗示波動性可能較大。"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "8091.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "祥明是一家耗材公司，主要客戶包括應用材料和艾司摩爾。其耗材原料（如鎢、木、氮）在今年或近一年內大幅飆漲，其中鎢在半年內漲幅達5.5倍。祥明握有大量低價庫存，具備成本優勢。",
+      "key_points": [
+        "耗材公司",
+        "大客戶",
+        "原料飆漲",
+        "大量低價庫存"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "8091.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "祥明擁有5.48億的庫存，是其股本3.6億的1.5倍，這類似於記憶體產業的特性，即當報價上漲時，擁有較多庫存的公司將佔據優勢。",
+      "key_points": [
+        "大量庫存",
+        "類似記憶體產業",
+        "報價上漲優勢"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "8091.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "祥明過去透過國際設備大廠打入台積電供應鏈，現在已能直接供貨給台積電，這將使其在價格方面擁有更大的上漲空間。",
+      "key_points": [
+        "直接供貨台積電",
+        "價格上漲空間"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "8091.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "祥明股價今日小幅創新高，形態上已形成突破。若股價回測至頸線附近，將是一個不錯的買入機會。",
+      "key_points": [
+        "股價創新高",
+        "形態突破",
+        "回測頸線是買點"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "3532.TW"
+      ],
+      "sentiment": "neutral",
+      "content": "精彩科的業務包含扇出型封裝。",
+      "key_points": [
+        "扇出型封裝"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "3532.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "今年更值得關注的是台積電先進封裝CoWoS的LL版本，並已推展至第二代。第二代因矽中介層無法透過白光，需要光學精準定位技術，這正是精彩科的技術優勢所在。",
+      "key_points": [
+        "台積電CoWoS LL第二代",
+        "光學精準定位技術",
+        "精彩科技術"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "3532.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "去年精彩科已有一座廠通過大客戶認證並開始量產，今年預計將導入四座新廠，這意味著業績將有大幅度翻倍的空間。法人預期其營收有機會成長三倍。",
+      "key_points": [
+        "大客戶認證",
+        "導入新廠",
+        "業績翻倍",
+        "營收成長三倍"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "3532.TW"
+      ],
+      "sentiment": "neutral",
+      "content": "從技術面來看，精彩科的季線有輕微跌破，但並非帶量跌破，因此可能不是真正的跌破。",
+      "key_points": [
+        "季線微幅跌破",
+        "非帶量跌破"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "3532.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "若季線能在近期重新回穩，並伴隨月線、十日線糾結靠攏，這可能預示著新一波行情的起點。",
+      "key_points": [
+        "季線回穩",
+        "均線糾結",
+        "行情起點"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [],
+      "sentiment": "bullish",
+      "content": "設備股各自擁有獨特的題材，涉獵範圍廣泛，其中PCB設備類股也有創下歷史新高的表現。",
+      "key_points": [
+        "設備股題材多",
+        "範圍廣",
+        "PCB設備創新高"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "設備股是一個非常強勁的族群，透過查詢合約負債，就能清楚了解公司手上的訂單量。",
+      "key_points": [
+        "合約負債確認訂單"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [],
+      "sentiment": "bullish",
+      "content": "分析師威良目前十分看好PCB產業，認為這是台灣一個極具競爭力的大產業，但需留意目前不同位階股票的高低差異。",
+      "key_points": [
+        "看好PCB",
+        "台灣競爭力",
+        "位階差異"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "在分析PCB產業時，建議搭配法人或投信的籌碼動向進行綜合判斷。",
+      "key_points": [
+        "搭配法人籌碼"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "PCB產業成長動能強勁，短線操作可尋找強勢股並沿五日線上操作以獲利；中長線投資者則建議長期抱牢，以享受波段獲利。",
+      "key_points": [
+        "短線五日線操作",
+        "中長線長期抱緊",
+        "波段獲利"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [
+        "2330.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "設備股受台積電法說會影響，許多記憶體設備和晶圓廠都在擴廠。若設備廠商表示訂單滿載，投資者可透過查詢其合約負債來確認訂單是否確實到手。",
+      "key_points": [
+        "設備股受法說會影響",
+        "擴廠",
+        "合約負債確認訂單"
+      ]
+    },
+    {
+      "type": "macro",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "連假期間應密切觀察國際局勢的發展。",
+      "key_points": [
+        "觀察國際局勢"
+      ]
+    },
+    {
+      "type": "macro",
+      "tickers": [],
+      "sentiment": "bullish",
+      "content": "連假結束後，來賓們仍看好台灣產業獨特的競爭力，並提供了具體的佈局方向。",
+      "key_points": [
+        "台灣產業競爭力",
+        "佈局方向"
+      ]
+    }
+  ],
+  "status": "confirmed",
+  "processed_at": "2026-04-07T00:00:13.896635"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "personal-productivity",
+  "version": "1.0.0",
+  "description": "個人生產力套件：週俳句、番茄鐘、YouTube 筆記",
+  "author": "kevinluo",
+  "license": "MIT",
+  "homepage": "https://github.com/YOUR_USERNAME/claude-code-tutorial-plugins",
+  "components": {
+    "commands": ["weekly-haiku"],
+    "hooks": ["pomodoro"],
+    "skills": ["youtube-notes"]
+  }
+}
