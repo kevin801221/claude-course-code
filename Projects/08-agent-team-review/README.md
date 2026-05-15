@@ -107,6 +107,17 @@ uv run python app/backend/server.py          # 瀏覽器能新增便利貼並看
 | 主管提前說做完了 | 回：「先驗收 pytest 全綠再說，沒綠就繼續」 |
 | 結束後殘留 tmux session | `tmux ls` 然後 `tmux kill-session -t <name>` |
 
+## 看 agent team 真正的強大（強烈建議先看這份）
+
+跨層開發是 agent team **最弱**的展示。要親眼看到它強在哪，去跑競爭假設 debug：
+
+- 📄 教案：[`../../docs/walkthroughs/agent_team_walkthrough.md`](../../docs/walkthroughs/agent_team_walkthrough.md)
+- 🐛 演練 sample：[`debug-sample/chat_server.py`](debug-sample/chat_server.py) —— 藏了一個多嫌疑 bug，單一 agent 會錨定就停，agent team 互相證偽才收斂
+
+```bash
+uv run python debug-sample/chat_server.py   # 先看症狀復現（第 2 輪斷線）
+```
+
 ## 進階變化
 
 - **改成研究/審查場景**（agent team 最強用例）：同一份 sub-agent 定義，叫 3 個 reviewer 各看 security / performance / test-coverage 同一個 PR
