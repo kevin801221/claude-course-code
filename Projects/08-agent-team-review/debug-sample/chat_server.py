@@ -27,7 +27,8 @@ import threading
 import time
 
 HOST, PORT = "localhost", 0
-HEARTBEAT_TIMEOUT = 2.0   # 嫌疑 A
+HEARTBEAT_TIMEOUT = 2.0   # recv 輪詢間隔（多久醒來檢查一次連線活性，不是斷線門檻）
+IDLE_LIMIT = 10.0         # 真正的斷線門檻：閒置超過這個秒數才視為 client 死亡
 RECV_BUFFER = 16          # 嫌疑 B
 USER_THINK_TIME = 3.0     # 使用者讀完 echo 再打下一則的真實停頓（> timeout）
 
@@ -39,13 +40,16 @@ def handle_client(conn: socket.socket) -> None:
         try:
             data = conn.recv(RECV_BUFFER)
         except socket.timeout:
-            # 嫌疑 C（真兇）：使用者只是還沒打字，recv 在這裡逾時，
-            # 卻被當成「連線該關了」直接 break。心跳逾時 != 連線斷線。
-            break
+            # 真兇修正：recv 逾時只代表「這個輪詢窗內沒新資料」，
+            # TCP 連線仍是活的。心跳逾時 != 連線斷線。
+            # 只有真的閒置超過 IDLE_LIMIT 才視為 client 死亡而斷線，
+            # 否則繼續等下一則訊息。
+            if time.time() - last_seen > IDLE_LIMIT:
+                break
+            continue
         if not data:
             break
-        # 嫌疑 D：收到資料卻沒更新 last_seen（這段邏輯其實根本沒被用到，
-        # 是誘餌——就算修了 last_seen 也救不了，因為 break 早就跳出了）
+        last_seen = time.time()  # 真的收到資料才更新心跳（last_seen 此時才有意義）
         msg = data.decode("utf-8", errors="ignore")
         conn.sendall(f"echo: {msg}".encode("utf-8"))
     conn.close()
