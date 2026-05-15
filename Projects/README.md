@@ -3,7 +3,7 @@
 > 對應「Claude Code 完整教學 PPT」中的 6 個 mini-projects + GitNexus 工具包。
 > 每個資料夾都是獨立可用的範例，含 `.claude/` 設定 + 詳細 README。
 
-## 📦 6 個 Mini-Projects
+## 📦 8 個 Mini-Projects
 
 | # | 資料夾 | Feature | 場景 |
 |---|---|---|---|
@@ -13,6 +13,8 @@
 | 4 | [`04-pomodoro/`](04-pomodoro/README.md) | Hook | 番茄鐘提醒喝水 |
 | 5 | [`05-organize-downloads/`](05-organize-downloads/README.md) | MCP server | 整理 Downloads 資料夾 |
 | 6 | [`06-discord-dm-bot/`](06-discord-dm-bot/README.md) | Agent SDK | Discord 文字冒險 bot |
+| 7 | [`07-weekly-reports-skill/`](07-weekly-reports-skill/README.md) | Production skill | GitHub commit 變週報 |
+| 8 | [`08-agent-team-review/`](08-agent-team-review/README.md) | Agent teams | 3 人團隊跨層補完便利貼板 |
 
 ## 🛠 額外工具包
 
@@ -71,6 +73,7 @@ python discord_dm_bot.py
 4. **MP2 recipe-genie** — 學 sub-agent，understanding 委派
 5. **MP5 organize-downloads** — 學 MCP，接外部資料源
 6. **MP6 discord-dm-bot** — 學 SDK，最進階
+7. **MP8 agent-team-review** — 學 agent teams，多 Claude 實例並行協作（接在 sub-agent 之後學）
 
 每個專案都可以**獨立完成**，照 README 跑即可。
 
