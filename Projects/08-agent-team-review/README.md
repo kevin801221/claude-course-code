@@ -109,14 +109,11 @@ uv run python app/backend/server.py          # 瀏覽器能新增便利貼並看
 
 ## 看 agent team 真正的強大（強烈建議先看這份）
 
-跨層開發是 agent team **最弱**的展示。要親眼看到它強在哪，去跑競爭假設 debug：
+跨層開發是 agent team **最弱**的展示。要親眼看到它不可替代，去跑**盲評一致性**：
 
 - 📄 教案：[`../../docs/walkthroughs/agent_team_walkthrough.md`](../../docs/walkthroughs/agent_team_walkthrough.md)
-- 🐛 演練 sample：[`debug-sample/chat_server.py`](debug-sample/chat_server.py) —— 藏了一個多嫌疑 bug，單一 agent 會錨定就停，agent team 互相證偽才收斂
-
-```bash
-uv run python debug-sample/chat_server.py   # 先看症狀復現（第 2 輪斷線）
-```
+- 📝 主演練 sample：[`blind-review-sample/`](blind-review-sample/README.md) —— 三份品質接近的文案，**換閱讀順序，單一 agent 名次就翻盤**（已驗證真實數據）；agent team 隔離評分就穩。這個弱點換更強的模型也逃不掉，只能靠架構隔離解決。
+- 🐛 反例 sample：[`debug-sample/chat_server.py`](debug-sample/chat_server.py) —— 多嫌疑 bug，但強 LLM 靜態消去就收斂，示範「什麼場景**不**需要 agent team」（教案私房筆記有完整脈絡）
 
 ## 進階變化
 
