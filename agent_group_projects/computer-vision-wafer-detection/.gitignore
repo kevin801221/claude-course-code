@@ -1,0 +1,6 @@
+.env
+Projects/
+*.pt
+__pycache__/
+.venv/
+runs/

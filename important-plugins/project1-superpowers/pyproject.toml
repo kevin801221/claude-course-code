@@ -1,0 +1,37 @@
+[project]
+name = "pomocat"
+version = "0.1.0"
+description = "終端番茄鐘 — TUI pomodoro with sound and stats."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Kevin Luo" }]
+license = { text = "MIT" }
+dependencies = [
+    "textual>=0.80",
+    "textual-plotext>=0.2.1",
+    "typer>=0.12",
+    "tomli-w>=1.0",
+]
+
+[project.scripts]
+pomocat = "pomocat.cli:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pomocat"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"src/pomocat/assets/alarm.wav" = "pomocat/assets/alarm.wav"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+]
