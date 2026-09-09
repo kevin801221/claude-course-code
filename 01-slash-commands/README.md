@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../resources/logos/claude-howto-logo-dark.svg">
-  <img alt="Claude How To" src="../resources/logos/claude-howto-logo.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="../resources/logos/claude-code-tutorial-logo-dark.svg">
+  <img alt="Claude Code 完整教學" src="../resources/logos/claude-code-tutorial-logo.svg">
 </picture>
 
 # 斜線指令（Slash Commands）
@@ -669,4 +669,4 @@ allowed-tools: Bash(npm *), Bash(git *)
 - https://github.com/anthropics/claude-code/releases/tag/v2.1.154
 **相容模型**：Claude Fable 5, Claude Opus 5, Claude Sonnet 5, Claude Sonnet 4.6, Claude Opus 4.8, Claude Haiku 4.5
 
-*[Claude How To](../) 教學系列的一部分*
+*[Claude Code 完整教學](../) 教學系列的一部分*

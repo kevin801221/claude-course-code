@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 # SessionEnd hook：詢問這次處理了哪些模組，然後把工作階段記錄附加
-# 到 ~/.claude-howto-progress.json，用來持續追蹤學習進度。
+# 到 ~/.claude-code-tutorial-progress.json，用來持續追蹤學習進度。
 #
 # 只在 Claude Code 工作階段結束時觸發一次 — 不是每次回應後都觸發。
 # 用 /dev/tty 做互動輸入，因為 stdin 已經被 hook 的 JSON payload 佔用。
 #
 # 安裝方式：在 .claude/settings.json 的「SessionEnd」事件底下加入（見下方）。
 
-PROGRESS_FILE="$HOME/.claude-howto-progress.json"
+PROGRESS_FILE="$HOME/.claude-code-tutorial-progress.json"
 
 # 防護：只在此 repo 內執行
-if [[ "$CLAUDE_PROJECT_DIR" != *"claude-howto"* ]] && [[ "$PWD" != *"claude-howto"* ]]; then
+if [[ "$CLAUDE_PROJECT_DIR" != *"claude-code-tutorial"* ]] && [[ "$PWD" != *"claude-code-tutorial"* ]]; then
   exit 0
 fi
 

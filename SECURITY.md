@@ -2,7 +2,7 @@
 
 ## 總覽
 
-Claude How To 專案的安全性對我們來說很重要。本文件說明我們的安全性作法，以及如何負責任地回報安全性漏洞。
+Claude Code 完整教學 專案的安全性對我們來說很重要。本文件說明我們的安全性作法，以及如何負責任地回報安全性漏洞。
 
 ## 支援版本
 
@@ -100,7 +100,7 @@ Claude How To 專案的安全性對我們來說很重要。本文件說明我們
 
 **針對敏感的安全性問題，請使用 GitHub 的私密漏洞回報功能：**
 
-1. 造訪：https://github.com/luongnv89/claude-howto/security/advisories
+1. 造訪：https://github.com/kevin801221/claude-code-tutorial/security/advisories
 2. 點選「Report a vulnerability」
 3. 填寫漏洞詳細資訊
 4. 內容須包含：
@@ -303,7 +303,7 @@ pip-audit
 
 ## 安全性公告存檔
 
-過去的安全性公告可在 [GitHub Security Advisories](https://github.com/luongnv89/claude-howto/security/advisories) 分頁中查看。
+過去的安全性公告可在 [GitHub Security Advisories](https://github.com/kevin801221/claude-code-tutorial/security/advisories) 分頁中查看。
 
 ## 聯絡方式
 
@@ -334,4 +334,4 @@ pip-audit
 
 ---
 
-感謝你協助讓 Claude How To 保持安全！🔒
+感謝你協助讓 Claude Code 完整教學 保持安全！🔒

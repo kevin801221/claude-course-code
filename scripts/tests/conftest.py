@@ -30,7 +30,7 @@ def tmp_project(tmp_path: Path) -> Path:
     # Create a proper PNG logo using PIL
     from PIL import Image as PILImage
 
-    logo_path = tmp_path / "claude-howto-logo.png"
+    logo_path = tmp_path / "claude-code-tutorial-logo.png"
     img = PILImage.new("RGB", (100, 100), color=(26, 26, 46))
     img.save(logo_path, "PNG")
 

@@ -24,19 +24,19 @@ cp resources/favicons/* /path/to/your/website/public/
 ## Use in Markdown/Documentation
 
 ```markdown
-# Claude How To
+# Claude Code 完整教學
 
-![Claude How To Logo](resources/logos/claude-howto-logo.svg)
+![Claude Code 完整教學 Logo](resources/logos/claude-code-tutorial-logo.svg)
 
-![Icon](resources/icons/claude-howto-icon.svg)
+![Icon](resources/icons/claude-code-tutorial-icon.svg)
 ```
 
 ## Recommended Sizes
 
 | Purpose | Size | File |
 |---------|------|------|
-| Website header | 520×120 | `logos/claude-howto-logo.svg` |
-| App icon | 256×256 | `icons/claude-howto-icon.svg` |
+| Website header | 520×120 | `logos/claude-code-tutorial-logo.svg` |
+| App icon | 256×256 | `icons/claude-code-tutorial-icon.svg` |
 | Browser tab | 32×32 | `favicons/favicon-32.svg` |
 | Mobile home screen | 128×128 | `favicons/favicon-128.svg` |
 | Desktop app | 256×256 | `favicons/favicon-256.svg` |
@@ -67,17 +67,17 @@ This symbolizes "finding your way through code with clear guidance."
 ## What to Use Where
 
 ### Website
-- **Header**: Logo (`logos/claude-howto-logo.svg`)
+- **Header**: Logo (`logos/claude-code-tutorial-logo.svg`)
 - **Favicon**: 32px (`favicons/favicon-32.svg`)
-- **Social preview**: Icon (`icons/claude-howto-icon.svg`)
+- **Social preview**: Icon (`icons/claude-code-tutorial-icon.svg`)
 
 ### GitHub
-- **README badge**: Icon (`icons/claude-howto-icon.svg`) at 64-128px
-- **Repository avatar**: Icon (`icons/claude-howto-icon.svg`)
+- **README badge**: Icon (`icons/claude-code-tutorial-icon.svg`) at 64-128px
+- **Repository avatar**: Icon (`icons/claude-code-tutorial-icon.svg`)
 
 ### Social Media
-- **Profile picture**: Icon (`icons/claude-howto-icon.svg`)
-- **Banner**: Logo (`logos/claude-howto-logo.svg`)
+- **Profile picture**: Icon (`icons/claude-code-tutorial-icon.svg`)
+- **Banner**: Logo (`logos/claude-code-tutorial-logo.svg`)
 - **Thumbnail**: Icon at 256×256px
 
 ### Documentation

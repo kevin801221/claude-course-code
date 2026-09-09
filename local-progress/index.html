@@ -335,7 +335,7 @@
 <div class="toast" id="toast"></div>
 
 <script>
-const STORAGE_KEY = 'claude-howto-progress';
+const STORAGE_KEY = 'claude-code-tutorial-progress';
 
 const MODULES = [
   {
@@ -650,9 +650,9 @@ document.getElementById('export-btn').addEventListener('click', () => {
   const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json' });
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob);
-  a.download = `claude-howto-progress-${new Date().toISOString().slice(0,10)}.json`;
+  a.download = `claude-code-tutorial-progress-${new Date().toISOString().slice(0,10)}.json`;
   a.click();
-  showToast('Progress exported — save the file as ~/.claude-howto-progress.json');
+  showToast('Progress exported — save the file as ~/.claude-code-tutorial-progress.json');
 });
 
 document.getElementById('import-file').addEventListener('change', e => {

@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../resources/logos/claude-howto-logo-dark.svg">
-  <img alt="Claude How To" src="../resources/logos/claude-howto-logo.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="../resources/logos/claude-code-tutorial-logo-dark.svg">
+  <img alt="Claude Code 完整教學" src="../resources/logos/claude-code-tutorial-logo.svg">
 </picture>
 
 # 技能指南（Agent Skills）
@@ -880,15 +880,15 @@ chmod +x ~/.claude/skills/my-skill/scripts/*.py
 
 當你開始認真建立技能，有兩件事會變得不可或缺：一套已驗證的技能庫，以及管理它們的工具。
 
-**[luongnv89/skills](https://github.com/luongnv89/skills)** — 我幾乎在所有專案中每天都會用到的一套技能收藏。其中值得一提的有 `logo-designer`（即時產生專案標誌）與 `ollama-optimizer`（為你的硬體調校本機 LLM 效能）。如果你想要現成可用的技能，這是很好的起點。
+**[kevin801221/skills](https://github.com/kevin801221/skills)** — 我幾乎在所有專案中每天都會用到的一套技能收藏。其中值得一提的有 `logo-designer`（即時產生專案標誌）與 `ollama-optimizer`（為你的硬體調校本機 LLM 效能）。如果你想要現成可用的技能，這是很好的起點。
 
-**[luongnv89/asm](https://github.com/luongnv89/asm)** — Agent Skill Manager（代理技能管理工具）。處理技能開發、重複偵測與測試。`asm link` 指令能讓你在任何專案中測試技能，不必到處複製檔案——一旦你的技能數量超過幾個，這個工具就不可或缺。
+**[kevin801221/asm](https://github.com/kevin801221/asm)** — Agent Skill Manager（代理技能管理工具）。處理技能開發、重複偵測與測試。`asm link` 指令能讓你在任何專案中測試技能，不必到處複製檔案——一旦你的技能數量超過幾個，這個工具就不可或缺。
 
 ## 延伸資源
 
 - [官方技能文件](https://code.claude.com/docs/en/skills)
 - [Agent Skills 架構部落格文章](https://claude.com/blog/equipping-agents-for-the-real-world-with-agent-skills)
-- [技能收藏庫](https://github.com/luongnv89/skills) - 現成可用技能的收藏
+- [技能收藏庫](https://github.com/kevin801221/skills) - 現成可用技能的收藏
 - [斜線指令指南](../01-slash-commands/) - 使用者主動呼叫的捷徑
 - [子代理指南](../04-subagents/) - 委派任務的 AI 代理
 - [記憶指南](../02-memory/) - 持久化上下文

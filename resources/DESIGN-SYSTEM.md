@@ -1,10 +1,10 @@
-# Claude How To - Design System
+# Claude Code 完整教學 - Design System
 
 ## Visual Identity
 
 ### Icon Design Concept: Compass with Code Bracket
 
-The Claude How To icon uses a **compass with a `>` code bracket** to represent guided navigation through code:
+The Claude Code 完整教學 icon uses a **compass with a `>` code bracket** to represent guided navigation through code:
 
 ```
      N (green)
@@ -161,13 +161,13 @@ All icons center at the midpoint of their canvas:
 
 ### Web Header
 - Size: 520×120px logo
-- File: `logos/claude-howto-logo.svg`
+- File: `logos/claude-code-tutorial-logo.svg`
 - Background: White or dark (#0A0A0A)
 - Padding: 20px minimum
 
 ### App Icon
 - Size: 256×256px
-- File: `icons/claude-howto-icon.svg`
+- File: `icons/claude-code-tutorial-icon.svg`
 - Background: White or dark
 - Use: App shortcuts, avatars
 

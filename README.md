@@ -1,34 +1,25 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="resources/logos/claude-howto-logo-dark.svg">
-  <img alt="Claude How To" src="resources/logos/claude-howto-logo.svg">
-</picture>
+# 在週末內精通 Claude Code 完整教學
 
-<p align="center">
-  <a href="https://github.com/trending">
-    <img src="https://img.shields.io/badge/GitHub-🔥%20%231%20Trending-purple?style=for-the-badge&logo=github"/>
-  </a>
-</p>
+> 🚀 從基礎到高階：結合 10 大系統化理論模組、多 Agent 協作產線、原生 Agent Teams 與真實工業級專案的旗艦級教學庫。
+> 
+> 由 [@kevin801221](https://github.com/kevin801221) 精心打造與繁體中文化整理
 
-[![GitHub Stars](https://img.shields.io/github/stars/kevin801221/claude-new-course?style=flat&color=gold)](https://github.com/kevin801221/claude-new-course/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/kevin801221/claude-new-course?style=flat)](https://github.com/kevin801221/claude-new-course/network/members)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-2.1.263-brightgreen)](CHANGELOG.md)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-2.1+-purple)](https://code.claude.com)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-🌐 **Language / Ngôn ngữ / 语言 / Мова / 言語：** [繁體中文](README.md) | [Tiếng Việt](vi/README.md) | [简体中文](zh/README.md) | [Українська](uk/README.md) | [日本語](ja/README.md)
+從輸入 `claude` 開始，到能協調代理、Hooks、技能（Skills）與 MCP 伺服器——搭配視覺化教學、可直接複製貼上的範本，以及豐富的實戰專案工廠。
 
-# 在週末內精通 Claude Code
+**[15 分鐘快速上手](#15-分鐘快速上手)** | **[找到你的等級](#不知道從哪裡開始)** | **[實戰專案工廠](#實戰專案工廠-projects)** | **[瀏覽功能目錄](CATALOG.md)**
 
-從輸入 `claude` 開始，到能協調代理、Hooks、技能（Skills）與 MCP 伺服器——搭配視覺化教學、可直接複製貼上的範本，以及有引導的學習路徑。
-
-**[15 分鐘快速上手](#15-分鐘快速上手)** | **[找到你的等級](#不知道從哪裡開始)** | **[瀏覽功能目錄](CATALOG.md)**
 
 ---
 
 ## 目錄
 
 - [問題在哪裡](#問題在哪裡)
-- [Claude How To 如何解決](#claude-how-to-如何解決)
+- [Claude Code 完整教學 如何解決](#claude-how-to-如何解決)
 - [運作原理](#運作原理)
 - [不知道從哪裡開始？](#不知道從哪裡開始)
 - [15 分鐘快速上手](#15-分鐘快速上手)
@@ -51,7 +42,7 @@
 
 ---
 
-## Claude How To 如何解決
+## Claude Code 完整教學 如何解決
 
 這不是又一份功能參考文件，而是一份**有結構、視覺化、以範例為導向的教學**，教你使用每一項 Claude Code 功能，並提供你今天就能複製進專案的實戰範本。
 
@@ -144,7 +135,7 @@
 ```bash
 # 1. 複製這份教學
 git clone https://github.com/kevin801221/claude-new-course.git
-cd claude-howto
+cd claude-code-tutorial
 
 # 2. 複製你的第一個斜線指令
 mkdir -p /path/to/your-project/.claude/commands
@@ -864,7 +855,7 @@ mypy scripts/ --ignore-missing-imports
 uv run scripts/build_epub.py
 ```
 
-這會產生 `claude-howto-guide.epub`，內含所有內容，包括渲染後的 Mermaid 圖表。
+這會產生 `claude-code-tutorial-guide.epub`，內含所有內容，包括渲染後的 Mermaid 圖表。
 
 更多選項請見 [scripts/README.md](scripts/README.md)。
 

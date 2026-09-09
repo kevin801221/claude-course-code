@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../resources/logos/claude-howto-logo-dark.svg">
-  <img alt="Claude How To" src="../resources/logos/claude-howto-logo.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="../resources/logos/claude-code-tutorial-logo-dark.svg">
+  <img alt="Claude Code 完整教學" src="../resources/logos/claude-code-tutorial-logo.svg">
 </picture>
 
 # CLI 參考
@@ -1047,7 +1047,7 @@ claude -p --output-format json "query"
 
 ---
 
-*本文為 [Claude How To](../) 指南系列的一部分*
+*本文為 [Claude Code 完整教學](../) 指南系列的一部分*
 
 ---
 

@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../resources/logos/claude-howto-logo-dark.svg">
-  <img alt="Claude How To" src="../resources/logos/claude-howto-logo.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="../resources/logos/claude-code-tutorial-logo-dark.svg">
+  <img alt="Claude Code 完整教學" src="../resources/logos/claude-code-tutorial-logo.svg">
 </picture>
 
 # Hooks
@@ -1237,7 +1237,7 @@ python3 09-advanced-features/setup-auto-mode-permissions.py
 ### 範例 8：學習進度記錄器（SessionEnd）
 
 在每次 Claude Code 工作階段結束時，記錄你這次學習了哪些模組。進度會儲存
-在 `~/.claude-howto-progress.json` — 位於 repo 之外，所以能在
+在 `~/.claude-code-tutorial-progress.json` — 位於 repo 之外，所以能在
 `git pull` 之後留存，不會被覆寫。
 
 **為什麼用 `SessionEnd` 而不是 `Stop`？**
@@ -1253,12 +1253,12 @@ Hook 腳本是透過 `stdin` 接收 hook 的 JSON payload，所以互動式的 `
 ```bash
 #!/usr/bin/env bash
 # SessionEnd hook：詢問這次處理了哪些模組，然後把工作階段記錄
-# 附加到 ~/.claude-howto-progress.json，用來持續追蹤學習進度。
+# 附加到 ~/.claude-code-tutorial-progress.json，用來持續追蹤學習進度。
 
-PROGRESS_FILE="$HOME/.claude-howto-progress.json"
+PROGRESS_FILE="$HOME/.claude-code-tutorial-progress.json"
 
 # 防護：只在此 repo 內執行
-if [[ "$CLAUDE_PROJECT_DIR" != *"claude-howto"* ]] && [[ "$PWD" != *"claude-howto"* ]]; then
+if [[ "$CLAUDE_PROJECT_DIR" != *"claude-code-tutorial"* ]] && [[ "$PWD" != *"claude-code-tutorial"* ]]; then
   exit 0
 fi
 
@@ -1352,7 +1352,7 @@ chmod +x .claude/hooks/session-end.sh
 }
 ```
 
-**輸出 — `~/.claude-howto-progress.json`：**
+**輸出 — `~/.claude-code-tutorial-progress.json`：**
 
 ```json
 {

@@ -15,7 +15,7 @@ Usage:
 
     Command-line options:
         --root, -r      Root directory containing markdown files (default: repo root)
-        --output, -o    Output EPUB file path (default: <root>/claude-howto-guide.epub)
+        --output, -o    Output EPUB file path (default: <root>/claude-code-tutorial-guide.epub)
         --verbose, -v   Enable verbose logging
         --mmdc-path     Path to mmdc binary (default: mmdc from PATH)
 
@@ -23,7 +23,7 @@ Usage:
     automatically install required packages in an isolated environment.
 
 Output:
-    Creates 'claude-howto-guide.epub' in the repository root directory.
+    Creates 'claude-code-tutorial-guide.epub' in the repository root directory.
 
 Features:
     - Organizes chapters by folder structure (01-slash-commands, etc.)
@@ -36,7 +36,7 @@ Features:
 Requirements:
     - uv (recommended) or Python 3.10+ with dependencies installed
     - @mermaid-js/mermaid-cli installed globally: npm install -g @mermaid-js/mermaid-cli
-    - Repository structure with markdown files and claude-howto-logo.png
+    - Repository structure with markdown files and claude-code-tutorial-logo.png
 """
 
 from __future__ import annotations
@@ -103,7 +103,7 @@ class EPUBConfig:
     logo_path: Path | None = None
 
     # EPUB Metadata
-    identifier: str = "claude-howto-guide"
+    identifier: str = "claude-code-tutorial-guide"
     title: str = "Claude Code How-To Guide"
     language: str = "en"
     author: str = "Claude Code Community"
@@ -222,7 +222,7 @@ def validate_inputs(config: EPUBConfig, logger: logging.Logger) -> None:
         errors.append(f"Output directory is not writable: {output_dir}")
 
     # Check logo if specified
-    logo_path = config.logo_path or (config.root_path / "claude-howto-logo.png")
+    logo_path = config.logo_path or (config.root_path / "claude-code-tutorial-logo.png")
     if not logo_path.exists():
         logger.warning(
             f"Logo file not found: {logo_path}. Cover will be generated without logo."
@@ -591,7 +591,7 @@ def create_cover_image(
         subtitle_font = load_font(config.subtitle_font_paths, 24, logger)
 
         # Add logo if available
-        logo_path = config.logo_path or (config.root_path / "claude-howto-logo.png")
+        logo_path = config.logo_path or (config.root_path / "claude-code-tutorial-logo.png")
         if logo_path.exists():
             _add_logo_to_cover(cover, logo_path, config, logger)
         else:
@@ -1046,7 +1046,7 @@ def main() -> int:
         "-o",
         type=Path,
         default=None,
-        help="Output EPUB file path (default: <root>/claude-howto-guide.epub)",
+        help="Output EPUB file path (default: <root>/claude-code-tutorial-guide.epub)",
     )
     parser.add_argument(
         "--verbose", "-v", action="store_true", help="Enable verbose logging"
@@ -1083,10 +1083,10 @@ def main() -> int:
     # Set language-specific paths and metadata.
     # Each entry: (source root, default output filename, title)
     lang_map: dict[str, tuple[Path, str, str]] = {
-        "en": (repo_root, "claude-howto-guide.epub", EPUBConfig.en_title),
-        "vi": (repo_root / "vi", "claude-howto-guide-vi.epub", EPUBConfig.vi_title),
-        "zh": (repo_root / "zh", "claude-howto-guide-zh.epub", EPUBConfig.zh_title),
-        "ja": (repo_root / "ja", "claude-howto-guide-ja.epub", EPUBConfig.ja_title),
+        "en": (repo_root, "claude-code-tutorial-guide.epub", EPUBConfig.en_title),
+        "vi": (repo_root / "vi", "claude-code-tutorial-guide-vi.epub", EPUBConfig.vi_title),
+        "zh": (repo_root / "zh", "claude-code-tutorial-guide-zh.epub", EPUBConfig.zh_title),
+        "ja": (repo_root / "ja", "claude-code-tutorial-guide-ja.epub", EPUBConfig.ja_title),
     }
     root, default_output_name, title = lang_map[args.lang]
     output = args.output or (repo_root / default_output_name)

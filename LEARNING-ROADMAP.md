@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="resources/logos/claude-howto-logo-dark.svg">
-  <img alt="Claude How To" src="resources/logos/claude-howto-logo.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="resources/logos/claude-code-tutorial-logo-dark.svg">
+  <img alt="Claude Code 完整教學" src="resources/logos/claude-code-tutorial-logo.svg">
 </picture>
 
 # 📚 Claude Code 學習路線圖
@@ -724,7 +724,7 @@ done
 - [MCP 協定規格](https://modelcontextprotocol.io)
 
 ### 部落格文章
-- [認識 Claude Code 斜線指令](https://medium.com/@luongnv89/discovering-claude-code-slash-commands-cdc17f0dfb29)
+- [認識 Claude Code 斜線指令](https://medium.com/@kevin801221/discovering-claude-code-slash-commands-cdc17f0dfb29)
 
 ### 社群
 - [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook)

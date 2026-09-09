@@ -18,8 +18,8 @@
     "Sonnet",
     "Opus",
     "Haiku",
-    "luongnv89",
-    "claude-howto",
+    "kevin801221",
+    "claude-code-tutorial",
     "ModelContextProtocol",
     "YAML",
     "JSON",
@@ -245,7 +245,7 @@
     "unparse"
   ],
   "ignoreWords": [
-    "luongnv89",
+    "kevin801221",
     "wjhrdy",
     "Cherry",
     "Boris",

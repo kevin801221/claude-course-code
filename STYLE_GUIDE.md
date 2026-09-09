@@ -1,11 +1,11 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="resources/logos/claude-howto-logo-dark.svg">
-  <img alt="Claude How To" src="resources/logos/claude-howto-logo.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="resources/logos/claude-code-tutorial-logo-dark.svg">
+  <img alt="Claude Code 完整教學" src="resources/logos/claude-code-tutorial-logo.svg">
 </picture>
 
 # 風格指南
 
-> 為 Claude How To 貢獻內容時應遵循的慣例與格式規則。遵循本指南可讓內容保持一致、專業且易於維護。
+> 為 Claude Code 完整教學 貢獻內容時應遵循的慣例與格式規則。遵循本指南可讓內容保持一致、專業且易於維護。
 
 ---
 
@@ -55,7 +55,7 @@
 | **設定檔** | 標準名稱 | `.mcp.json`, `settings.json` |
 | **記憶（Memory）檔案** | 依範圍加前綴 | `project-CLAUDE.md`, `personal-CLAUDE.md` |
 | **根目錄文件** | UPPER_CASE `.md` | `CATALOG.md`, `QUICK_REFERENCE.md`, `CONTRIBUTING.md` |
-| **圖片素材** | Kebab-case | `pr-slash-command.png`, `claude-howto-logo.svg` |
+| **圖片素材** | Kebab-case | `pr-slash-command.png`, `claude-code-tutorial-logo.svg` |
 
 ### 規則
 
@@ -509,8 +509,8 @@ agent: Explore                     # context: fork 時使用的代理類型
 
 ```html
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="resources/logos/claude-howto-logo-dark.svg">
-  <img alt="Claude How To" src="resources/logos/claude-howto-logo.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="resources/logos/claude-code-tutorial-logo-dark.svg">
+  <img alt="Claude Code 完整教學" src="resources/logos/claude-code-tutorial-logo.svg">
 </picture>
 ```
 

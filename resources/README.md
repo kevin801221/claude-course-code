@@ -1,22 +1,22 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="logos/claude-howto-logo-dark.svg">
-  <img alt="Claude How To" src="logos/claude-howto-logo.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="logos/claude-code-tutorial-logo-dark.svg">
+  <img alt="Claude Code 完整教學" src="logos/claude-code-tutorial-logo.svg">
 </picture>
 
-# Claude How To - Brand Assets
+# Claude Code 完整教學 - Brand Assets
 
-Complete collection of logos, icons, and favicons for the Claude How To project. All assets use the V3.0 design: a compass with code bracket (`>`) symbol, representing guided navigation through code — using a Black/White/Gray palette with Bright Green (#22C55E) accent.
+Complete collection of logos, icons, and favicons for the Claude Code 完整教學 project. All assets use the V3.0 design: a compass with code bracket (`>`) symbol, representing guided navigation through code — using a Black/White/Gray palette with Bright Green (#22C55E) accent.
 
 ## Directory Structure
 
 ```
 resources/
 ├── logos/
-│   ├── claude-howto-logo.svg       # Main logo - Light mode (520×120px)
-│   └── claude-howto-logo-dark.svg  # Main logo - Dark mode (520×120px)
+│   ├── claude-code-tutorial-logo.svg       # Main logo - Light mode (520×120px)
+│   └── claude-code-tutorial-logo-dark.svg  # Main logo - Dark mode (520×120px)
 ├── icons/
-│   ├── claude-howto-icon.svg       # App icon - Light mode (256×256px)
-│   └── claude-howto-icon-dark.svg  # App icon - Dark mode (256×256px)
+│   ├── claude-code-tutorial-icon.svg       # App icon - Light mode (256×256px)
+│   └── claude-code-tutorial-icon-dark.svg  # App icon - Dark mode (256×256px)
 └── favicons/
     ├── favicon-16.svg              # Favicon - 16×16px
     ├── favicon-32.svg              # Favicon - 32×32px (primary)
@@ -51,8 +51,8 @@ assets/logo/
 ### Logos
 
 **Files**:
-- `logos/claude-howto-logo.svg` (Light mode)
-- `logos/claude-howto-logo-dark.svg` (Dark mode)
+- `logos/claude-code-tutorial-logo.svg` (Light mode)
+- `logos/claude-code-tutorial-logo-dark.svg` (Dark mode)
 
 **Specifications**:
 - **Size**: 520×120 px
@@ -68,8 +68,8 @@ assets/logo/
 ### Icons
 
 **Files**:
-- `icons/claude-howto-icon.svg` (Light mode)
-- `icons/claude-howto-icon-dark.svg` (Dark mode)
+- `icons/claude-code-tutorial-icon.svg` (Light mode)
+- `icons/claude-code-tutorial-icon-dark.svg` (Dark mode)
 
 **Specifications**:
 - **Size**: 256×256 px
@@ -249,7 +249,7 @@ inkscape -D -z --file=favicon-256.svg --export-png=favicon-256.png
 
 ## Attribution
 
-These assets are part of the Claude How To project.
+These assets are part of the Claude Code 完整教學 project.
 
 **License**: MIT (see project LICENSE file)
 

@@ -40,8 +40,8 @@ def site_root(tmp_path: Path) -> Path:
     (tmp_path / "README.md").write_text(
         "<picture>\n"
         '  <source media="(prefers-color-scheme: dark)" '
-        'srcset="resources/logos/claude-howto-logo-dark.svg">\n'
-        '  <img alt="Claude How To" src="resources/logos/claude-howto-logo.svg">\n'
+        'srcset="resources/logos/claude-code-tutorial-logo-dark.svg">\n'
+        '  <img alt="Claude Code 完整教學" src="resources/logos/claude-code-tutorial-logo.svg">\n'
         "</picture>\n\n"
         "# Home Page\n\nWelcome. See [Slash Commands](01-slash-commands/README.md).\n"
         "Also check [script](scripts/build.sh) and the [logo](resources/logos/logo.svg).\n"
@@ -69,8 +69,8 @@ def site_root(tmp_path: Path) -> Path:
     logos = tmp_path / "resources" / "logos"
     logos.mkdir(parents=True)
     (logos / "logo.svg").write_text("<svg></svg>")
-    (logos / "claude-howto-logo.svg").write_text("<svg></svg>")
-    (logos / "claude-howto-logo-dark.svg").write_text("<svg></svg>")
+    (logos / "claude-code-tutorial-logo.svg").write_text("<svg></svg>")
+    (logos / "claude-code-tutorial-logo-dark.svg").write_text("<svg></svg>")
 
     return tmp_path
 

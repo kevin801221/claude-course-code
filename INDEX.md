@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="resources/logos/claude-howto-logo-dark.svg">
-  <img alt="Claude How To" src="resources/logos/claude-howto-logo.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="resources/logos/claude-code-tutorial-logo-dark.svg">
+  <img alt="Claude Code 完整教學" src="resources/logos/claude-code-tutorial-logo.svg">
 </picture>
 
 # Claude Code 範例 - 完整索引
@@ -509,7 +509,7 @@ documentation/
 ## 完整檔案樹
 
 ```
-claude-howto/
+claude-code-tutorial/
 ├── README.md                                    # 主要總覽
 ├── INDEX.md                                     # 本檔案
 ├── QUICK_REFERENCE.md                           # 快速參考卡

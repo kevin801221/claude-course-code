@@ -1,4 +1,4 @@
-# Pre-commit hooks for claude-howto project
+# Pre-commit hooks for claude-code-tutorial project
 # Run `pre-commit install` to set up hooks
 # Run `pre-commit run --all-files` to check all files
 

@@ -1,5 +1,5 @@
 ╔═══════════════════════════════════════════════════════════════════════════╗
-║           CLAUDE HOW TO - BRAND ASSETS RESOURCE LIBRARY                   ║
+║           Claude Code 完整教學 - BRAND ASSETS RESOURCE LIBRARY                   ║
 ║                         Complete Asset Package                            ║
 ╚═══════════════════════════════════════════════════════════════════════════╝
 
@@ -18,12 +18,12 @@ resources/
 │   └─ Visual identity, color system, typography, effects
 │
 ├── 📁 logos/
-│   └─ 📊 claude-howto-logo.svg (800×200px)
+│   └─ 📊 claude-code-tutorial-logo.svg (800×200px)
 │       → Main horizontal logo with terminal icon
 │       → Perfect for: Headers, marketing, print
 │
 ├── 📁 icons/
-│   └─ 🔷 claude-howto-icon.svg (256×256px)
+│   └─ 🔷 claude-code-tutorial-icon.svg (256×256px)
 │       → App icon with ascending hexagons
 │       → Perfect for: Apps, avatars, thumbnails
 │
@@ -41,8 +41,8 @@ resources/
 
 FILE                          SIZE        USE CASE
 ────────────────────────────────────────────────────────────────────────────
-logos/claude-howto-logo.svg   800×200px   Website headers, marketing
-icons/claude-howto-icon.svg   256×256px   App icons, avatars, social
+logos/claude-code-tutorial-logo.svg   800×200px   Website headers, marketing
+icons/claude-code-tutorial-icon.svg   256×256px   App icons, avatars, social
 favicons/favicon-32.svg       32×32px     Browser favicon (primary)
 favicons/favicon-16.svg       16×16px     Browser tab (old browsers)
 favicons/favicon-64.svg       64×64px     Bookmarks, high-DPI
@@ -125,8 +125,8 @@ All colors maintain WCAG AAA contrast on dark backgrounds (8.2:1+)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 STEP 1: Choose Your Use Case
-   • Website? → Use logos/claude-howto-logo.svg
-   • App/Avatar? → Use icons/claude-howto-icon.svg
+   • Website? → Use logos/claude-code-tutorial-logo.svg
+   • App/Avatar? → Use icons/claude-code-tutorial-icon.svg
    • Browser? → Use favicons/favicon-32.svg
 
 STEP 2: Read the Right Guide
@@ -145,10 +145,10 @@ STEP 3: Copy & Use
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Logos:
-  ✓ claude-howto-logo.svg (main logo)
+  ✓ claude-code-tutorial-logo.svg (main logo)
 
 Icons:
-  ✓ claude-howto-icon.svg (app icon)
+  ✓ claude-code-tutorial-icon.svg (app icon)
 
 Favicons (all sizes):
   ✓ favicon-16.svg
@@ -183,20 +183,20 @@ No raster images needed - SVG covers all use cases!
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 HTML (Web):
-  <img src="resources/icons/claude-howto-icon.svg" alt="Claude How To">
+  <img src="resources/icons/claude-code-tutorial-icon.svg" alt="Claude Code 完整教學">
 
 Markdown:
-  ![Claude How To](resources/icons/claude-howto-icon.svg)
+  ![Claude Code 完整教學](resources/icons/claude-code-tutorial-icon.svg)
 
 CSS Background:
-  background-image: url('resources/icons/claude-howto-icon.svg');
+  background-image: url('resources/icons/claude-code-tutorial-icon.svg');
 
 React/JSX:
-  import logo from './resources/icons/claude-howto-icon.svg';
-  <img src={logo} alt="Claude How To" />
+  import logo from './resources/icons/claude-code-tutorial-icon.svg';
+  <img src={logo} alt="Claude Code 完整教學" />
 
 Next.js/Web Framework:
-  <Image src={logo} alt="Claude How To" />
+  <Image src={logo} alt="Claude Code 完整教學" />
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 

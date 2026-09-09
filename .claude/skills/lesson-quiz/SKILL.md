@@ -4,7 +4,7 @@ description: "Test a learner on a single Claude Code tutorial lesson (01-10) wit
 effort: high
 metadata:
   version: 1.3.0
-  author: Luong NGUYEN
+  author: Kevin Luo
 ---
 
 # Lesson Quiz

@@ -1,5 +1,5 @@
 ╔════════════════════════════════════════════════════════════════════════════╗
-║                  CLAUDE HOW TO - COMPLETE ASSET MANIFEST                   ║
+║                  Claude Code 完整教學 - COMPLETE ASSET MANIFEST                   ║
 ║                      All Files Ready for Use                              ║
 ╚════════════════════════════════════════════════════════════════════════════╝
 
@@ -15,10 +15,10 @@ resources/
 ├─ 📄 MANIFEST.txt                       (this) File listing
 │
 ├─ 📁 logos/                             (8.0K total)
-│  └─ 📊 claude-howto-logo.svg          (8.0K) 800×200px main logo
+│  └─ 📊 claude-code-tutorial-logo.svg          (8.0K) 800×200px main logo
 │
 ├─ 📁 icons/                             (8.0K total)
-│  └─ 🔷 claude-howto-icon.svg          (8.0K) 256×256px app icon
+│  └─ 🔷 claude-code-tutorial-icon.svg          (8.0K) 256×256px app icon
 │
 └─ 📁 favicons/                          (20K total)
    ├─ 🔹 favicon-16.svg                 (3.2K) 16×16px browser tab
@@ -83,13 +83,13 @@ FOR WEBSITES (HTML):
   <link rel="apple-touch-icon" href="/resources/favicons/favicon-128.svg">
 
 FOR MARKDOWN:
-  ![Claude How To](resources/icons/claude-howto-icon.svg)
+  ![Claude Code 完整教學](resources/icons/claude-code-tutorial-icon.svg)
 
 FOR REACT/NEXT.JS:
-  import icon from './resources/icons/claude-howto-icon.svg';
+  import icon from './resources/icons/claude-code-tutorial-icon.svg';
 
 FOR CSS BACKGROUND:
-  background-image: url('resources/icons/claude-howto-icon.svg');
+  background-image: url('resources/icons/claude-code-tutorial-icon.svg');
 
 ═════════════════════════════════════════════════════════════════════════════
 
@@ -97,11 +97,11 @@ FOR CSS BACKGROUND:
 
 USE CASE                    FILE                        SIZE
 ─────────────────────────────────────────────────────────────────────────────
-Website header              logos/claude-howto-logo.svg     800×200px
+Website header              logos/claude-code-tutorial-logo.svg     800×200px
 Browser tab                 favicons/favicon-32.svg         32×32px
 Mobile home screen          favicons/favicon-128.svg        128×128px
-App icon                    icons/claude-howto-icon.svg     256×256px
-Social media thumbnail      icons/claude-howto-icon.svg     256×256px
+App icon                    icons/claude-code-tutorial-icon.svg     256×256px
+Social media thumbnail      icons/claude-code-tutorial-icon.svg     256×256px
 Bookmark/favorite icon      favicons/favicon-64.svg         64×64px
 Apple touch icon            favicons/favicon-128.svg        128×128px
 PWA/Android app             favicons/favicon-256.svg        256×256px
@@ -112,8 +112,8 @@ Old browsers (fallback)     favicons/favicon-16.svg         16×16px
 ✅ VERIFICATION CHECKLIST
 
 SVG Assets:
-  ✓ logos/claude-howto-logo.svg       Main logo
-  ✓ icons/claude-howto-icon.svg       App icon
+  ✓ logos/claude-code-tutorial-logo.svg       Main logo
+  ✓ icons/claude-code-tutorial-icon.svg       App icon
   ✓ favicons/favicon-16.svg           16px favicon
   ✓ favicons/favicon-32.svg           32px favicon
   ✓ favicons/favicon-64.svg           64px favicon
@@ -131,7 +131,7 @@ Documentation:
 
 🎨 DESIGN CONCEPT
 
-The icon represents the Claude How To learning journey with ascending hexagons:
+The icon represents the Claude Code 完整教學 learning journey with ascending hexagons:
 
               🔶 MINT
         Advanced Features
@@ -208,8 +208,8 @@ LONG TERM:
 💡 PRO TIPS
 
 • Use favicon-32.svg as primary favicon (works on all modern browsers)
-• Use icons/claude-howto-icon.svg for avatars at 64-256px
-• Use logos/claude-howto-logo.svg for website headers (scale to fit)
+• Use icons/claude-code-tutorial-icon.svg for avatars at 64-256px
+• Use logos/claude-code-tutorial-logo.svg for website headers (scale to fit)
 • Keep the ascending hexagon concept for any custom variants
 • Always maintain the established color palette
 • SVG files are editable - see DESIGN-SYSTEM.md for color customization

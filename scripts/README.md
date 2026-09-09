@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../resources/logos/claude-howto-logo-dark.svg">
-  <img alt="Claude How To" src="../resources/logos/claude-howto-logo.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="../resources/logos/claude-code-tutorial-logo-dark.svg">
+  <img alt="Claude Code 完整教學" src="../resources/logos/claude-code-tutorial-logo.svg">
 </picture>
 
 # Build Scripts
@@ -69,7 +69,7 @@ usage: build_epub.py [-h] [--root ROOT] [--output OUTPUT] [--verbose]
 options:
   -h, --help            show this help message and exit
   --root, -r ROOT       Root directory (default: repo root)
-  --output, -o OUTPUT   Output path (default: claude-howto-guide.epub)
+  --output, -o OUTPUT   Output path (default: claude-code-tutorial-guide.epub)
   --verbose, -v         Enable verbose logging
   --mmdc-path PATH      Path to mmdc binary (default: mmdc from PATH)
   --lang {en,vi,zh,ja}  Language to build (default: en)
@@ -94,7 +94,7 @@ uv run scripts/build_epub.py --mmdc-path ./node_modules/.bin/mmdc
 
 ## Output
 
-Creates `claude-howto-guide.epub` in the repository root directory.
+Creates `claude-code-tutorial-guide.epub` in the repository root directory.
 
 The EPUB includes:
 - Cover image with project logo
@@ -133,7 +133,7 @@ Managed via PEP 723 inline script metadata:
 
 **`mmdc` fails in CI or a container**: Chromium needs a sandbox-free profile. Write `{"args":["--no-sandbox","--disable-setuid-sandbox"]}` to a file and pass it via `--puppeteer-config`.
 
-**Missing logo**: The script generates a text-only cover if `claude-howto-logo.png` is not found.
+**Missing logo**: The script generates a text-only cover if `claude-code-tutorial-logo.png` is not found.
 
 ---
 
@@ -181,7 +181,7 @@ options:
   --root, -r ROOT       Source root (default: repo root)
   --output, -o OUTPUT   Output directory (default: <repo>/site)
   --lang LANG           Language to build: en | vi | zh | ja | uk
-  --repo-url URL        GitHub repo for blob links (default: luongnv89/claude-howto)
+  --repo-url URL        GitHub repo for blob links (default: kevin801221/claude-code-tutorial)
   --branch BRANCH       Branch for blob links (default: main)
   --verbose, -v         Enable verbose logging
 ```

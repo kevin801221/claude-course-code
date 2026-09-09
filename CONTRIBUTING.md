@@ -1,15 +1,15 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="resources/logos/claude-howto-logo-dark.svg">
-  <img alt="Claude How To" src="resources/logos/claude-howto-logo.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="resources/logos/claude-code-tutorial-logo-dark.svg">
+  <img alt="Claude Code 完整教學" src="resources/logos/claude-code-tutorial-logo.svg">
 </picture>
 
-# 為 Claude How To 做出貢獻
+# 為 Claude Code 完整教學 做出貢獻
 
 感謝你有興趣為這個專案做出貢獻！本指南將協助你了解如何有效地參與貢獻。
 
 ## 關於本專案
 
-Claude How To 是一份以視覺化、範例導向的方式介紹 Claude Code 的指南。我們提供：
+Claude Code 完整教學 是一份以視覺化、範例導向的方式介紹 Claude Code 的指南。我們提供：
 - **Mermaid 圖表**說明功能如何運作
 - 可立即使用的**生產就緒範本**
 - 附帶背景脈絡與最佳實踐的**實際範例**
@@ -54,8 +54,8 @@ Claude How To 是一份以視覺化、範例導向的方式介紹 Claude Code �
 
 ### 1. Fork 並複製（clone）
 ```bash
-git clone https://github.com/luongnv89/claude-howto.git
-cd claude-howto
+git clone https://github.com/kevin801221/claude-code-tutorial.git
+cd claude-code-tutorial
 ```
 
 ### 2. 建立分支

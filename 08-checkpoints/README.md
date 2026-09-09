@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../resources/logos/claude-howto-logo-dark.svg">
-  <img alt="Claude How To" src="../resources/logos/claude-howto-logo.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="../resources/logos/claude-code-tutorial-logo-dark.svg">
+  <img alt="Claude Code 完整教學" src="../resources/logos/claude-code-tutorial-logo.svg">
 </picture>
 
 # 檢查點與回溯（Checkpoints and Rewind）
@@ -307,7 +307,7 @@ Claude Code 只會保留**最近 100 個檢查點**的快照；即使還在保�
 
 檢查點能讓你回到過去——但你怎麼知道*什麼時候*該這麼做？隨著對話變長，Claude 的上下文視窗會逐漸填滿，模型品質也會在不知不覺中下降。你可能在不知情的狀況下，用一個「半盲」的模型交付程式碼。
 
-**[cc-context-stats](https://github.com/luongnv89/cc-context-stats)** 透過在 Claude Code 狀態列加入即時**上下文區間**來解決這個問題。它會追蹤你目前在上下文視窗中的位置——從 **Plan**（綠色，適合規劃與寫程式碼）經過 **Code**（黃色，避免開始新的規劃）到 **Dump**（橘色，該收尾並回溯了）。當你看到區間變化時，就知道該建立檢查點、重新開始，而不是在品質下降的情況下硬撐下去。
+**[cc-context-stats](https://github.com/kevin801221/cc-context-stats)** 透過在 Claude Code 狀態列加入即時**上下文區間**來解決這個問題。它會追蹤你目前在上下文視窗中的位置——從 **Plan**（綠色，適合規劃與寫程式碼）經過 **Code**（黃色，避免開始新的規劃）到 **Dump**（橘色，該收尾並回溯了）。當你看到區間變化時，就知道該建立檢查點、重新開始，而不是在品質下降的情況下硬撐下去。
 
 ## 相關概念
 
