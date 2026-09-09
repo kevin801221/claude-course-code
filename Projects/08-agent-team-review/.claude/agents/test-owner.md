@@ -8,6 +8,7 @@ model: sonnet
 ---
 
 你負責測試層。你的檔案**只能**在 `app/tests/` 底下。
+本專案要蓋的功能規格見 `app/SPEC.md`。
 
 硬規則：絕對不要編輯 `app/frontend/` 或 `app/backend/`。
 如果測試因為真的有 bug 而失敗，**不要自己改實作** ——

@@ -2,11 +2,24 @@
 
 > 一鍵把 `/gitnexus` 裝到你電腦，所有 repo 都能用。
 
+> ⚠️ **這份只裝「skill + slash command」（讓 Claude Code 會指揮 GitNexus）**。
+> **GitNexus 本體（真正解析 codebase 的引擎）要先另外裝**——請先看 [`README.md` 的「GitNexus 是什麼」段](./README.md#gitnexus-是什麼先讀這段再動手)，跑完 Step 1 再回來這份。
+
 ## 前置要求
 
 - macOS / Linux / Windows (WSL)
 - Node.js 18+（推薦 v20 LTS 或 v22）
 - 已裝 Claude Code（`claude --version` 跑得出來）
+- **已裝 GitNexus 本體**（`gitnexus --version` 跑得出來）— 兩種裝法：
+  ```bash
+  # 選項 A：npm 全域裝（最快）
+  npm install -g gitnexus
+
+  # 選項 B：git clone 跑 source（要客製或貢獻 PR 時用）
+  git clone https://github.com/abhigyanpatwari/GitNexus.git ~/code/GitNexus
+  cd ~/code/GitNexus && npm install && npm run build && npm link
+  ```
+  詳細差異看 README 的「Step 1」。
 
 ## 一鍵裝（個人層，所有 repo 都能用）
 

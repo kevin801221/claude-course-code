@@ -18,9 +18,7 @@
 ### 一行指令裝（推薦）
 
 ```bash
-claude mcp add fs \
-  npx -y @modelcontextprotocol/server-filesystem \
-  ~/Downloads
+claude mcp add fs -- npx -y @modelcontextprotocol/server-filesystem ~/Downloads
 ```
 
 ### 或手動編輯 settings.json

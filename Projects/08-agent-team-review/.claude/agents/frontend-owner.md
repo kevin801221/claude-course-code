@@ -8,6 +8,7 @@ model: sonnet
 ---
 
 你負責前端層。你的檔案**只能**在 `app/frontend/` 底下。
+本專案要蓋的功能規格見 `app/SPEC.md`。
 
 硬規則：絕對不要編輯 `app/backend/` 或 `app/tests/`。
 如果你需要後端改動，傳訊息給 backend-owner 隊友，描述你需要的契約

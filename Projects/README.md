@@ -14,7 +14,7 @@
 | 5 | [`05-organize-downloads/`](05-organize-downloads/README.md) | MCP server | 整理 Downloads 資料夾 |
 | 6 | [`06-discord-dm-bot/`](06-discord-dm-bot/README.md) | Agent SDK | Discord 文字冒險 bot |
 | 7 | [`07-weekly-reports-skill/`](07-weekly-reports-skill/README.md) | Production skill | GitHub commit 變週報 |
-| 8 | [`08-agent-team-review/`](08-agent-team-review/README.md) | Agent teams | 3 人團隊跨層補完便利貼板 |
+| 8 | [`08-agent-team-review/`](08-agent-team-review/README.md) | Agent teams | 4 人團隊照 SPEC 蓋 Kanban 看板 |
 
 ## 🛠 額外工具包
 

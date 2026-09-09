@@ -77,3 +77,13 @@ Want full recipe for which one?
 | Claude 沒派 recipe-genie | 在 prompt 明確說「請 recipe-genie 處理」|
 | 食譜太複雜 | 在 prompt 加「30 分鐘內可完成」|
 | 老是推薦中式 | 在 prompt 加「給我 1 中 1 西 1 日」|
+
+## 把這個專案推上 GitHub
+
+第一次玩 GitHub？看 [`docs/GITHUB_SETUP.md`](docs/GITHUB_SETUP.md) — 完整三方案教學：
+
+- **方案 A**：gh CLI + SSH key（日常 push/pull 必學，含雙帳號設定）
+- **方案 B**：GitHub MCP（讓 Claude Code 直接讀 PR、開 issue）
+- **方案 C**：Personal Access Token（MCP / CI / script 用）
+
+含常見錯誤排查（Permission denied、push 錯帳號、token 過期…）。

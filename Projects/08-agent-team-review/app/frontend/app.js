@@ -1,27 +1,18 @@
-// 便利貼板前端（教學沙盒，刻意留半成品）。
+// Kanban 看板前端 —— agent team 的起點骨架。
 //
-// 已實作：載入時 GET /api/notes 並 render。
-// ❌ 還沒做 —— frontend-owner 隊友的任務：
-//    加一個輸入框 + 按鈕，POST 新便利貼到後端，成功後重新 render。
-//    送出前務必跟 backend-owner 確認 POST /api/notes 的契約。
+// 這是空殼。frontend-owner 隊友照 app/SPEC.md 蓋：
+//   - 三欄看板 todo / doing / done，各欄列出該狀態的卡片
+//   - 頂部輸入框新增卡片（POST /api/cards，預設 todo）
+//   - 每張卡有 ←/→ 移動鈕（PATCH status）+ 刪除鈕（DELETE）
+//   - 任何操作後重新 render
+// 串 API 前，先跟 backend-owner 確認 /api/cards 的契約（見 app/SPEC.md）。
 
 const API_BASE = "http://localhost:8000";
 
-async function loadNotes() {
-  const res = await fetch(`${API_BASE}/api/notes`);
-  const notes = await res.json();
-  render(notes);
-}
+// 骨架自我檢查：確認後端活著（蓋好後可刪這段）。
+fetch(`${API_BASE}/api/health`)
+  .then((r) => r.json())
+  .then((d) => console.log("backend health:", d))
+  .catch(() => console.warn("後端還沒起？先跑 uv run python app/backend/server.py"));
 
-function render(notes) {
-  const board = document.getElementById("board");
-  board.replaceChildren(); // 清空（不用 innerHTML，避免 XSS 教壞學生）
-  for (const n of notes) {
-    const el = document.createElement("div");
-    el.className = `note ${n.color || "yellow"}`;
-    el.textContent = n.text; // textContent：純文字，安全
-    board.appendChild(el);
-  }
-}
-
-loadNotes();
+// TODO(frontend-owner): 從這裡開始蓋。

@@ -2,22 +2,17 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="utf-8" />
-  <title>便利貼板</title>
+  <title>Kanban 看板</title>
   <style>
     body { font-family: system-ui, -apple-system, sans-serif; padding: 24px; }
     h1 { font-size: 18px; }
-    #board { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 16px; }
-    .note { width: 160px; min-height: 100px; padding: 12px; border-radius: 8px;
-            box-shadow: 0 1px 4px rgba(0,0,0,.15); }
-    .yellow { background: #fff3a0; }
-    .pink   { background: #ffc7d9; }
-    .blue   { background: #bfe3ff; }
-    /* ❌ 還沒有「新增便利貼」的輸入框 —— frontend-owner 隊友的任務 */
+    /* TODO(frontend-owner): 照 app/SPEC.md 做三欄看板（todo / doing / done）、
+       頂部新增輸入框、每張卡的 ←/→ 移動鈕與刪除鈕。樣式自由發揮。 */
   </style>
 </head>
 <body>
-  <h1>便利貼板</h1>
-  <div id="board"></div>
+  <h1>Kanban 看板（骨架 —— 由 agent team 照 app/SPEC.md 蓋完）</h1>
+  <!-- TODO(frontend-owner): 三欄看板的容器放這 -->
   <script src="app.js"></script>
 </body>
 </html>

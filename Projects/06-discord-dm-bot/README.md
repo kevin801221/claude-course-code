@@ -2,23 +2,27 @@
 
 > 群組沒梗了 → 開個 Discord bot 當 D&D Dungeon Master → 群組友愛和諧 ❤️
 
+> 本範例用 **Google Gemini API**（免費額度足夠玩），不需要 Anthropic API key。
+> 因為這個 bot 只用到「保持多輪對話 context」的純聊天能力，沒用到 Agent SDK 的工具/檔案操作，
+> 換成 Gemini 的 chat session 幾乎是一對一對應。
+
 ## 為什麼做
 
 - ❌ 週末群組沒梗了
 - ❌ 想玩文字版 D&D 但找不到 DM
-- ✅ Claude Agent SDK 寫一個有人格的 DM bot，永遠在線
+- ✅ Gemini API 寫一個有人格的 DM bot，永遠在線
 
-## 用到的 Claude Code feature
+## 用到的 feature
 
-- Claude Agent SDK (Python)
+- Google Gemini API（`google-genai` Python SDK 的 async chat session）
 - discord.py (Discord library)
-- 一個有性格的 system prompt
+- 一個有性格的 system prompt（放在 chat 的 `system_instruction`）
 
 ## 前置要求
 
 1. Python 3.10+
 2. Discord bot token（30 秒申請）
-3. Anthropic API key
+3. Gemini API key（Google AI Studio 免費領取：https://aistudio.google.com/apikey）
 
 ## 安裝
 
@@ -34,16 +38,16 @@
 
 ```bash
 cd 06-discord-dm-bot
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+uv venv
+source .venv/bin/activate
+uv pip install -r requirements.txt
 ```
 
 ### Step 3：設環境變數
 
 ```bash
 cp .env.example .env
-# 編輯 .env 填入你的 DISCORD_TOKEN 跟 ANTHROPIC_API_KEY
+# 編輯 .env 填入你的 DISCORD_TOKEN 跟 GEMINI_API_KEY
 
 # 載入
 export $(cat .env | xargs)
@@ -122,16 +126,21 @@ def roll(dice: str) -> int:
 
 ### 變化 3：存檔
 
-用 ClaudeSDKClient 的 session 機制存檔，續寫一週：
+Gemini chat 沒有 server 端 session id，但可以把對話歷史 dump 出來存檔，下次用 `history=` 重建：
 
 ```python
-# 結束時存 session id
-session_id = client.session_id
-db.save(channel_id, session_id)
+# 結束時存對話歷史（list[Content]）
+history = chat.get_history()
+db.save(channel_id, [c.model_dump() for c in history])
 
 # 下次 !resume 接續
-async with ClaudeSDKClient(resume_session=session_id) as c:
-    ...
+from google.genai import types
+saved = [types.Content(**c) for c in db.load(channel_id)]
+chat = gemini.aio.chats.create(
+    model=MODEL,
+    config=types.GenerateContentConfig(system_instruction=DM_PROMPT),
+    history=saved,
+)
 ```
 
 ### 變化 4：替換主題
@@ -151,7 +160,7 @@ gcloud run deploy dm-bot --source . --region asia-east1
 
 # 或 Fly.io
 fly launch
-fly secrets set DISCORD_TOKEN=... ANTHROPIC_API_KEY=...
+fly secrets set DISCORD_TOKEN=... GEMINI_API_KEY=...
 fly deploy
 ```
 
@@ -161,6 +170,7 @@ fly deploy
 |---|---|
 | `Improper token has been passed` | DISCORD_TOKEN 錯了，重新複製 |
 | Bot 不回應訊息 | 確認「Message Content Intent」有開 |
-| `ANTHROPIC_API_KEY not set` | `export ANTHROPIC_API_KEY=sk-ant-...` |
-| Bot 重啟後忘了之前故事 | session 沒存 — 看「變化 3」加存檔 |
-| 跑很久 LLM 一直回 | 加 `max_turns=10` 限制 |
+| `GEMINI_API_KEY` 沒設 | `export GEMINI_API_KEY=...`（Google AI Studio 領） |
+| `429 RESOURCE_EXHAUSTED` | 免費額度用完 — 等額度重置，或在 AI Studio 升級付費 |
+| Bot 重啟後忘了之前故事 | 對話歷史沒存 — 看「變化 3」用 `get_history` 存檔 |
+| 故事越玩越慢 | 對話歷史會一直變長 — 玩太久就 `!end` 重開一局 |
