@@ -1,0 +1,9 @@
+{
+  "name": "devops-automation",
+  "version": "1.0.0",
+  "description": "完整的 DevOps 自動化，涵蓋部署、監控與事件回應",
+  "author": {
+    "name": "Community"
+  },
+  "license": "MIT"
+}

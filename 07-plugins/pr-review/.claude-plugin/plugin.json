@@ -1,0 +1,9 @@
+{
+  "name": "pr-review",
+  "version": "1.0.0",
+  "description": "完整的 PR 審查工作流程，涵蓋安全性、測試與文件",
+  "author": {
+    "name": "Anthropic"
+  },
+  "license": "MIT"
+}
