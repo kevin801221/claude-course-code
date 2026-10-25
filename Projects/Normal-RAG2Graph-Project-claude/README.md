@@ -34,7 +34,7 @@
 ### Step 0：確認 .env 裡有 API Key
 
 ```bash
-cd /Users/kevinluo/google-agent-ecosystem/Antigravity-work/Normal-RAG2Graph-Project-claude
+cd Projects/Normal-RAG2Graph-Project-claude
 cat .env
 ```
 

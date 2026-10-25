@@ -41,8 +41,9 @@ claude-code-complete-tutorial/
 │   ├── hook_walkthrough.md            (Hooks 心智模型)
 │   ├── gitnexus_walkthrough.md        (GitNexus knowledge graph 工具深入・Part 10/16)
 │   ├── karpathy_skills_walkthrough.md (Karpathy 4 原則 + 最小 plugin 解剖・Part 6/11)
+│   ├── matt_pocock_ai_pm_skills_walkthrough.md (Matt Pocock 28萬星 AI PM 方案：implement-spec/pr/retro・Part 8)
 │   └── anthropics_marketplace_skills_walkthrough.md
-├── Projects/                          ← 8 個 mini-project + 工具包（見 Projects/README.md）
+├── Projects/                          ← 9 個 mini-project + 旗艦工具包（見 Projects/README.md）
 │   ├── README.md
 │   ├── 01-weekly-haiku/               (slash command)
 │   ├── 02-recipe-genie/               (sub-agent)
@@ -52,6 +53,7 @@ claude-code-complete-tutorial/
 │   ├── 06-discord-dm-bot/             (Agent SDK)
 │   ├── 07-weekly-reports-skill/       (production-grade skill)
 │   ├── 08-agent-team-review/          (agent teams：4 人團隊照 SPEC 蓋 Kanban)
+│   ├── 09-timetrace/                  (一鏡到底：Agents×Skills×MCP×Hooks×Design 蓋 SaaS)
 │   ├── build-gitnexus-skill-commandline/ (/gitnexus 工具包)
 │   ├── plugins-from-zero-to-marketplace/ (3 plugin marketplace 範例)
 │   ├── Normal-RAG2Graph-Project-claude/  (RAG→Graph 案例)

@@ -876,13 +876,23 @@ chmod +x ~/.claude/skills/my-skill/scripts/*.py
 
 把技能打包進外掛的 `skills/` 目錄，以擴大散布範圍。
 
-## 更進一步：一套技能收藏庫與一套技能管理工具
+## 更進一步：社群旗艦技能庫與管理工具
 
-當你開始認真建立技能，有兩件事會變得不可或缺：一套已驗證的技能庫，以及管理它們的工具。
+當你開始認真建立技能，有兩套社群已驗證的旗艦體系不可不讀：
 
-**[kevin801221/skills](https://github.com/kevin801221/skills)** — 我幾乎在所有專案中每天都會用到的一套技能收藏。其中值得一提的有 `logo-designer`（即時產生專案標誌）與 `ollama-optimizer`（為你的硬體調校本機 LLM 效能）。如果你想要現成可用的技能，這是很好的起點。
+### 1. Matt Pocock 28 萬星工程技能庫（`mattpocock/skills`）⭐
+業界最受矚目的工程師與 AI PM 專屬技能體系。它不靠無拘束的「Vibe Coding」，而是將軟體工程幾十年的嚴謹習慣沉澱為可組合的 `SKILL.md` 鏈條：
+- **`/ask-matt`**：技能導航總管，依目前工程情境自動路由。
+- **`/to-spec`** 與 **`/to-tickets`**：將訪談轉為結構化規格與帶相依性宣告的 Ticket Graph。
+- **`/implement-spec`**：解析未受阻擋任務，調度多 Sub-agents 並行施工。
+- **`/pr`**：包含 Mermaid 架構圖、客觀測試證據與單向門/雙向門風險分級的 PR。
+- **`/retro`**：落實「修環境，不修程式」的閉環復盤。
+- **安裝指令**：`npx skills@latest add mattpocock/skills` 或 `/plugin install mattpocock-skills`。
+- **完整帶課手冊**：詳見 [`docs/walkthroughs/matt_pocock_ai_pm_skills_walkthrough.md`](../docs/walkthroughs/matt_pocock_ai_pm_skills_walkthrough.md)。
 
-**[kevin801221/asm](https://github.com/kevin801221/asm)** — Agent Skill Manager（代理技能管理工具）。處理技能開發、重複偵測與測試。`asm link` 指令能讓你在任何專案中測試技能，不必到處複製檔案——一旦你的技能數量超過幾個，這個工具就不可或缺。
+### 2. Kevin 推薦技能與管理工具
+- **[kevin801221/skills](https://github.com/kevin801221/skills)** — 包含 `logo-designer`（即時產生專案標誌）與 `ollama-optimizer`（本機 LLM 效能調校）等實用現成技能。
+- **[kevin801221/asm](https://github.com/kevin801221/asm)** — Agent Skill Manager。支援 `asm link` 在不同專案間快速軟連結測試技能。
 
 ## 延伸資源
 

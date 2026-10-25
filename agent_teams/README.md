@@ -33,13 +33,14 @@
 
 | 資料夾 | 在做什麼 | 示範重點 |
 |---|---|---|
-| [`ios-app-flutter-dev/`](ios-app-flutter-dev/README.md) | 用原生 Agent teams 蓋一個 Flutter 冥想 App,先派 researcher 研究、再三個模組隊友平行開發 | 啟用旗標 → 研究先行 → 凍結規格 → 平行分工(mailbox 對齊 shared)→ 整合驗收 → 清理 team |
+| [`ios-app-flutter-dev/`](ios-app-flutter-dev/README.md) | 用原生 Agent teams 蓋一個「arXiv 每日論文閱讀器」App（後端 Python/FastAPI + 前端 Flutter） | 研究先行 → 凍結規格與 API 契約 → 三隊友平行（backend/reader/breathing，mailbox 對齊 shared）→ 整合驗收 → 清理 team |
 
-> 內含兩份:`冥想-1-完成版/`(上課前自己彩排)、`冥想-2-空白課堂版/`(上課現場帶學生做),共用 `agent-team-playbook.md`。
+> 內含兩份：[`arxiv-1-完成版/`](ios-app-flutter-dev/arxiv-1-完成版/README.md)（上課前自己彩排）、[`arxiv-2-空白課堂版/`](ios-app-flutter-dev/arxiv-2-空白課堂版/README.md)（上課現場帶學生做），共用 `agent-team-playbook.md`。
 
 ## 配套教材
 
-- 逐步可貼腳本:[`ios-app-flutter-dev/agent-team-playbook.md`](ios-app-flutter-dev/agent-team-playbook.md)
-- 120 分鐘帶課:[`ios-app-flutter-dev/冥想-2-空白課堂版/WALKTHROUGH.md`](ios-app-flutter-dev/冥想-2-空白課堂版/WALKTHROUGH.md)
-- sub-agent 對照組:[`../Projects/02-recipe-genie/`](../Projects/02-recipe-genie/README.md)
-- 判斷「該不該開 team」的框架:[`../docs/walkthroughs/agent_team_walkthrough.md`](../docs/walkthroughs/agent_team_walkthrough.md)
+- 逐步可貼腳本：[`ios-app-flutter-dev/agent-team-playbook.md`](ios-app-flutter-dev/agent-team-playbook.md)
+- 120 分鐘帶課：[`ios-app-flutter-dev/arxiv-2-空白課堂版/WALKTHROUGH.md`](ios-app-flutter-dev/arxiv-2-空白課堂版/WALKTHROUGH.md)
+- sub-agent 對照組：[`../Projects/02-recipe-genie/`](../Projects/02-recipe-genie/README.md)
+- 判斷「該不該開 team」的框架：[`../docs/walkthroughs/agent_team_walkthrough.md`](../docs/walkthroughs/agent_team_walkthrough.md)
+
