@@ -36,10 +36,10 @@
 在精華包根目錄執行：
 
 ```sh
-CLAUDE_CONFIG_DIR=/private/tmp/claude-course-kit-validation claude plugin test advanced/matt-flow-mods
+CLAUDE_CONFIG_DIR="$(mktemp -d)" claude plugin test advanced/matt-flow-mods
 ```
 
-預期摘要為 76 個測試通過、0 失敗。這使用 `claude-code/testing` 與測試檔的模擬引擎事件，不需要呼叫模型；`CLAUDE_CONFIG_DIR` 將測試設定隔離於暫存目錄。請記下自己的 CLI 版本與實際輸出，版本不支援時改做靜態推演。
+預期摘要為 76 個測試通過、0 失敗。這使用 `claude-code/testing` 與測試檔的模擬引擎事件，不需要呼叫模型；`mktemp -d` 在 macOS/Linux/WSL 建立新的暫存目錄，`CLAUDE_CONFIG_DIR` 將測試設定隔離在其中。請記下自己的 CLI 版本與實際輸出，版本不支援時改做靜態推演。
 
 加分：針對多 session 同時更新 store 的競爭，或 Bash 寫檔不經 `codeGate` 的限制，寫出一個失敗案例。這套導航是流程護欄，不提供完整的工具安全隔離。
 

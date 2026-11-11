@@ -64,10 +64,10 @@ matt-flow 只負責導航與把關，沒有收錄 `/grill-with-docs`、`/impleme
 
 本包已檢查 JSON 可解析、shell 腳本語法有效、逐檔內容與來源快照一致；另外在 macOS 上，以 Claude Code `2.1.319` 實際執行原測試，結果 **76 pass / 0 fail**，約 1.96 秒。
 
-在精華包根目錄可重跑同一命令：
+在精華包根目錄可使用 macOS/Linux/WSL 適用的暫存目錄重跑：
 
 ```sh
-CLAUDE_CONFIG_DIR=/private/tmp/claude-course-kit-validation claude plugin test advanced/matt-flow-mods
+CLAUDE_CONFIG_DIR="$(mktemp -d)" claude plugin test advanced/matt-flow-mods
 ```
 
 此測試使用隔離的 Claude 設定目錄，沒有開互動 session、呼叫模型或變更使用者的 history／trust。測試透過 `claude-code/testing` 與原測試內的模擬引擎事件檢查狀態轉移、關卡和 UI 事件輸出；**未驗證真人操作的實際 UI、完整 TypeScript 型別編譯，或與外部 `mattpocock-skills` 的完整互動**。它也沒有執行 `scripts/live-check`。其他 CLI 版本仍需自行確認是否提供這個測試子命令。

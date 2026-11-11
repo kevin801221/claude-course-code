@@ -4,9 +4,17 @@ Kevin Luo 課程配套 · 2026-11-11 · v1.0.0
 
 **從一個能離線執行的小專案開始，把 CLAUDE.md、Commands、Skills、Agents、Hooks、MCP 串成能驗收的工作流。**本包依課堂完整講義編排，從五個指定 Repo 去重、挑選原碼並修正可攜性；不用先讀完數百頁文件。
 
+## 同學請從這裡下載
+
+**[下載學生專用 ZIP](https://raw.githubusercontent.com/kevin801221/claude-course-code/student-kit-v1.0.0/student-kit/dist/claude-code-student-kit-v1.0.0-2026-11-11.zip)**，解壓到獨立資料夾，例如桌面。解壓後應有 `claude-code-student-kit/`，裡面可看到 `package.json`、`CLAUDE.md`、`labs/` 與隱藏的 `.claude/`。
+
+這個 GitHub 頁面位於較大的 `claude-course-code` Repo 的 `student-kit/` 子目錄；GitHub 的 Code → Download ZIP 會下載整個分支，外層目錄名稱和本包不同。首次上課請使用上面的學生專用 ZIP。
+
+如果你已 clone 整個 Repo，可在 `student-kit/dist/` 找到同一份 ZIP，將它解壓到該 Repo 外再啟動 Claude。從父 Repo 內直接進入 `student-kit/`，Claude 仍可能向上載入父層的 CLAUDE.md 與設定，影響這份精華包的操作。
+
 ## 15 分鐘開始
 
-準備 Node.js 22+、Python 3.10+。本包根專案只用標準函式庫，**不需要 `npm install`、API key 或 Claude 登入就能跑測試**。
+先完成上面的獨立解壓，再準備 Node.js 22+、Python 3.10+。本包根專案只用標準函式庫，**不需要 `npm install`、API key 或 Claude 登入就能跑測試**。從解壓資料夾的外層執行：
 
 ```bash
 cd claude-code-student-kit
@@ -65,6 +73,8 @@ claude --permission-mode manual
 本包根層提供規則、command、skill 與只讀代理，專案權限設定為 `manual`；你既有的使用者/組織設定仍可能影響 session。Hooks、MCP、Plugin 都由各 Lab 明確載入；Mods 與專案原始代理是選讀，不會自動執行。不要把整個 advanced/ 搬進 `.claude/`。
 
 真人 Claude 對話、天氣查詢、Headless、Teams 與 ML 訓練需要各自環境或帳號；離線測試不代表這些端到端流程已通過。請看 [驗證紀錄與限制](docs/verification.md) 和 [版本說明](docs/compatibility.md)。
+
+分享前的獨立複檢與修正，見 [分享檢查紀錄](docs/share-review.md)。
 
 ## 來源與授權
 
