@@ -1,0 +1,7 @@
+{
+  "name":"workshopflow-course","version":"1.0.0","private":true,"type":"module",
+  "engines":{"node":">=22.13.0"},
+  "scripts":{"build":"tsc --noEmit && vite build","start":"node server/start.mjs","reset":"node server/reset.mjs","test":"node --test tests/api.test.mjs"},
+  "dependencies":{"express":"5.1.0","react":"19.2.1","react-dom":"19.2.1"},
+  "devDependencies":{"typescript":"5.9.3","vite":"6.4.1","@types/react":"19.2.5","@types/react-dom":"19.2.3","playwright":"1.56.1"}
+}

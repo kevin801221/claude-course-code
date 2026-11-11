@@ -27,6 +27,12 @@
 | [`llm-wiki-graph/`](llm-wiki-graph/README.md) | 知識庫圖譜 | 多 Agent 萃取知識庫為 Graph 資料庫與 Canvas 呈現 |
 | [`hello-world-python/`](hello-world-python/README.md) | 最小範例 | 極簡 `uv` Python 專案範例 |
 
+## 隨投影片操作的實驗
+
+- [Graphify：建立工單程式的圖，追到通知函式](graphify-lab/README.md)
+- [WorkshopFlow：從 PM 訪談到實作與共同驗收](workshopflow/README.md)
+- [AgenticRAG：依序跑 Agentic、Corrective、Adaptive 三本筆記本](agentic-rag/README.md)
+
 ## 🚀 快速使用流程
 
 ### 對於 slash command / agent / skill / hook：

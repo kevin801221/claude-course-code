@@ -134,8 +134,8 @@
 
 ```bash
 # 1. 複製這份教學
-git clone https://github.com/kevin801221/claude-new-course.git
-cd claude-code-tutorial
+git clone https://github.com/kevin801221/claude-course-code.git
+cd claude-course-code
 
 # 2. 複製你的第一個斜線指令
 mkdir -p /path/to/your-project/.claude/commands
@@ -189,6 +189,14 @@ cp -r 03-skills/code-review-specialist ~/.claude/skills/
 ---
 
 ## 實戰專案工廠 (Projects)
+
+### 跟著投影片做：三個課堂實驗
+
+| 投影片主題 | 從這裡開始 | 驗收問題 |
+|---|---|---|
+| Graphify：工單的呼叫路徑 | [Projects/graphify-lab/README.md](Projects/graphify-lab/README.md) | email 改成選填，儲存與通知各會怎麼變？用來源與測試核對圖上的線索。 |
+| WorkshopFlow：三種協作做同一個 App | [Projects/workshopflow/README.md](Projects/workshopflow/README.md) | 三組拿相同的 PM 回答與變更單，哪一組能通過同一份驗收？ |
+| Claude Agent SDK × LangGraph | [Projects/agentic-rag/README.md](Projects/agentic-rag/README.md) | 在三本 notebook 中追蹤：什麼時候檢索、重寫問題、改查其他來源或停止？ |
 
 除了 10 大系統化理論模組之外，本教學庫提供了 **9 大從輕量到生產級的實戰 Mini-projects**，以及真實世界 RAG 知識庫：
 

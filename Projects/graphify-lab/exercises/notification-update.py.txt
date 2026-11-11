@@ -1,0 +1,6 @@
+def format_message(ticket):
+    return f"Ticket {ticket['id']} received"
+
+
+def send_notification(ticket):
+    return {"recipient": ticket["email"], "status": "queued", "message": format_message(ticket)}
