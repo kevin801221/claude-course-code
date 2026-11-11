@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "course-lessons": {
+      "command": "python3",
+      "args": ["labs/06-mcp/lesson-server.py"]
+    }
+  }
+}

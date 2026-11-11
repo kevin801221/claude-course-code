@@ -1,0 +1,7 @@
+{
+  "name": "matt-flow",
+  "version": "0.7.0",
+  "author": { "name": "kevin801221" },
+  "description": "Matt 導航: keeps Claude on Matt Pocock's skill flow, beginner to expert. It tells Claude the step, locks code and commits until their step passes, and hands you each next command; a pane shows the progress, and /matt-flow all lists every project.",
+  "types": "./types/index.d.ts"
+}

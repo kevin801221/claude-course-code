@@ -1,0 +1,8 @@
+[
+  {"topic": "Memory / CLAUDE.md", "part": "08", "lab": "labs/01-memory", "description": "專案慣例、分層規則與任務驗收"},
+  {"topic": "Skills", "part": "10", "lab": "labs/03-skills", "description": "可重複使用的 SOP"},
+  {"topic": "Subagents", "part": "11", "lab": "labs/04-agents", "description": "分工、隔離脈絡與證據交接"},
+  {"topic": "Hooks", "part": "12", "lab": "labs/05-hooks", "description": "攔截工具事件並回傳決策"},
+  {"topic": "MCP", "part": "13", "lab": "labs/06-mcp", "description": "只讀本機課程查詢工具"},
+  {"topic": "Plugins", "part": "14", "lab": "labs/07-plugins", "description": "把 Skill 封裝成外掛"}
+]

@@ -1,0 +1,7 @@
+{
+  "name": "course-review",
+  "version": "1.0.0",
+  "description": "課堂用唯讀程式審查技能",
+  "author": { "name": "Kevin Luo (kevin801221)" },
+  "license": "MIT"
+}
