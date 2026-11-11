@@ -1,0 +1,9 @@
+{
+  "name": "dev-essentials",
+  "version": "1.0.0",
+  "description": "開發練習：審查代理、示意 production/secret guard 與格式化",
+  "author": {
+    "name": "Kevin Luo (kevin801221)"
+  },
+  "license": "MIT"
+}

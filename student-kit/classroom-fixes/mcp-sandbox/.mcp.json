@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "fs": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "${COURSE_MCP_SANDBOX_DIR}"
+      ]
+    }
+  }
+}

@@ -20,6 +20,10 @@ def fail(path, message):
 for path in files:
     if path.is_symlink():
         fail(path, "教材不應包含符號連結")
+    # Source snapshots retain upstream schemas, example snippets and old links.
+    # Their bytes and completeness are checked by check-full-course.py instead.
+    if path.relative_to(ROOT).parts[0] in {"course", "references"} and path.relative_to(ROOT).as_posix() != "references/english-workflows/README.md":
+        continue
     if path.suffix == ".json":
         try:
             json.loads(path.read_text(encoding="utf-8"))
@@ -91,5 +95,6 @@ if errors:
     print("\n".join(errors), file=sys.stderr)
     sys.exit(1)
 print(f"教材檢查通過：{len(files)} 個檔案、{len(expected_labs)} 個 Labs、{len(manifest['files'])} 項來源紀錄。")
-print("已檢查 JSON、Python 語法、本地 Markdown 連結、frontmatter 邊界與來源雜湊。")
+print("已檢查本包編寫檔案的 JSON、Python 語法、本地連結、frontmatter 與精選來源雜湊。")
+print("course/、references/ 的來源快照由完整課堂檢查器驗證；不宣稱所有上游程式皆可直接執行。")
 print("此命令不呼叫模型，不驗證外部網站或真人 Claude 端到端行為。")

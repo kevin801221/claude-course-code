@@ -1,0 +1,30 @@
+{
+  "name": "course-workshop",
+  "owner": {
+    "name": "kevin801221"
+  },
+  "plugins": [
+    {
+      "name": "personal-productivity",
+      "source": "./plugins/personal-productivity",
+      "version": "1.0.0",
+      "description": "個人生產力：週俳句、工具次數休息提醒與 YouTube 筆記"
+    },
+    {
+      "name": "dev-essentials",
+      "source": "./plugins/dev-essentials",
+      "version": "1.0.0",
+      "description": "開發練習：審查代理、示意 production/secret guard 與格式化"
+    },
+    {
+      "name": "fun-pack",
+      "source": "./plugins/fun-pack",
+      "version": "0.1.0",
+      "description": "輕量示範：食譜代理與 commit 詩稿"
+    }
+  ],
+  "metadata": {
+    "description": "課堂用三個本機 Plugin：個人生產力、開發事件與輕量示範。",
+    "version": "1.0.0"
+  }
+}

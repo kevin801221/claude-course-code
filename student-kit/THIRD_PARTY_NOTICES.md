@@ -1,3 +1,15 @@
+# v2巢狀授權補充
+
+本包新撰內容採MIT；來源庫根授權不會自動覆蓋其內第三方程式。
+
+- [Cole Medin Context Engineering MIT](course/context-engineering-intro/LICENSE)
+- [Jesse Vincent Superpowers MIT](course/important-plugins/superpowers/LICENSE)
+- [Pomocat MIT](course/important-plugins/project1-superpowers/LICENSE)
+- [Anthropic Claude Code上游授權原文](licenses/anthropic-claude-code-LICENSE.md)：Ralph隨此通知保留；不宣稱其被本包改成MIT。
+- [PR review toolkit原README](course/important-plugins/pr-review-toolkit/README.md) 另明列License MIT與作者，原文保留。
+
+五庫根LICENSE與原有致謝如下；所有來源出處均在完整manifest。
+
 # 第三方授權與致謝
 
 本包包含下列 MIT 來源的原始或改寫素材。各授權全文隨包保留，不因整理、翻譯或改寫而移除原作者的權利通知。根層 LICENSE 適用新增的原創程式與說明；第三方部分另受各原始 LICENSE 約束。

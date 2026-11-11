@@ -1,0 +1,32 @@
+# 平行 worktree 產出(由 setup-worktrees.sh 建,不進 git)
+/trees/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+*.iml
+.idea/
+
+# iOS / signing(絕不 commit)
+ios/Flutter/flutter_export_environment.sh
+*.mobileprovision
+*.p12
+*.p8
+
+# OS
+.DS_Store
+
+# 環境變數
+.env
+.env.local
+
+# Python / backend(uv 管理)
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/

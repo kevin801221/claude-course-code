@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.0.0 — 2026-11-12
+
+- 補回完整十模組、九專題、Context Engineering、多代理/Teams、Plugins與完整參考方法。
+- 新增1,784份來源檔、逐檔hash/排除理由與逐章內容狀態。
+- 新增週報/MCP/marketplace課堂修正版，保留來源原碼與已知問題。
+- 區分TimeTrace藍圖、Gemini Discord與缺失的附錄Notebook。
+
 ## 1.0.0 — 2026-11-11
 
 - 分享前複檢：補上公開學生專用 ZIP 入口與獨立解壓指引，避免載入父教學 Repo 的設定。

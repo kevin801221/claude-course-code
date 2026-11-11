@@ -1,5 +1,9 @@
 # 來源、選材與改寫紀錄
 
+## v2完整課堂版
+
+完整1,784份來源的原路徑、固定commit、byte/hash、Notebook淨化/連結調整與排除理由，見 [sources/full-manifest.json](sources/full-manifest.json)。核心來源入口在 [CLASSROOM.md](CLASSROOM.md)。以下原有49項是v1精選的歷史清單，並非v2全部內容。
+
 整理基準：指定講義與五個本機 Git 快照。逐檔完整資料見 [sources/manifest.json](sources/manifest.json)，含來源/目標路徑、固定 commit、SHA-256 與 copy/adapted/reading-reference 分類。
 
 ## 五份快照

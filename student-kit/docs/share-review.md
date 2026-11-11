@@ -1,5 +1,6 @@
 # 分享前複檢
 
+> 此頁為v1歷史驗證；v2完整課堂版請看 [v2驗證紀錄](v2-verification.md) 與 [涵蓋矩陣](lecture-map.md)。
 日期：2026-11-11。檢查環境：Claude Code 2.1.322、Node.js 22.13.0、Python 3.13.1。
 
 ## Standards

@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+backend/.venv/
+
+# Node
+node_modules/
+.next/
+
+# Data（修正：實際路徑是 local_chromadb/ 與 local_graph.db）
+backend/local_chromadb/
+backend/local_graph.db
+backend/temp_uploads/
+backend/raw/
+
+# Build artifacts
+frontend/tsconfig.tsbuildinfo
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Git worktrees
+.worktree/

@@ -1,0 +1,84 @@
+---
+name: doc-generator
+description: 從原始碼產生完整、準確的 API 文件。使用時機：建立或更新 API 文件、產生 OpenAPI 規格，或使用者提到 API 文件、端點、文件時。
+---
+
+# API 文件產生器技能
+
+## 產生內容
+
+- OpenAPI／Swagger 規格
+- API 端點文件
+- SDK 使用範例
+- 整合指南
+- 錯誤碼參考
+- 身分驗證指南
+
+## 文件結構
+
+### 針對每個端點
+
+````markdown
+## GET /api/v1/users/:id
+
+### 說明
+簡短說明這個端點做什麼
+
+### 參數
+
+| 名稱 | 型別 | 必填 | 說明 |
+|------|------|----------|-------------|
+| id | string | 是 | 使用者 ID |
+
+### 回應
+
+**200 成功**
+```json
+{
+  "id": "usr_123",
+  "name": "John Doe",
+  "email": "john@example.com",
+  "created_at": "2025-01-15T10:30:00Z"
+}
+```
+
+**404 找不到**
+```json
+{
+  "error": "USER_NOT_FOUND",
+  "message": "User does not exist"
+}
+```
+
+### 範例
+
+**cURL**
+```bash
+curl -X GET "https://api.example.com/api/v1/users/usr_123" \
+  -H "Authorization: Bearer YOUR_TOKEN"
+```
+
+**JavaScript**
+```javascript
+const user = await fetch('/api/v1/users/usr_123', {
+  headers: { 'Authorization': 'Bearer token' }
+}).then(r => r.json());
+```
+
+**Python**
+```python
+response = requests.get(
+    'https://api.example.com/api/v1/users/usr_123',
+    headers={'Authorization': 'Bearer token'}
+)
+user = response.json()
+```
+````
+
+---
+
+**最後更新**：2026 年 8 月 4 日
+**Claude Code 版本**：2.1.220
+**資料來源**：
+- https://code.claude.com/docs/en/skills
+**相容模型**：Claude Fable 5, Claude Opus 5, Claude Sonnet 5, Claude Sonnet 4.6, Claude Opus 4.8, Claude Haiku 4.5

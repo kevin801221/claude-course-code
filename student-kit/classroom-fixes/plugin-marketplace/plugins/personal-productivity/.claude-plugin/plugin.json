@@ -1,0 +1,9 @@
+{
+  "name": "personal-productivity",
+  "version": "1.0.0",
+  "description": "個人生產力：週俳句、工具次數休息提醒與 YouTube 筆記",
+  "author": {
+    "name": "Kevin Luo (kevin801221)"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "devops-automation",
+  "version": "1.0.0",
+  "description": "部署、監控與事件應變的 DevOps 自動化範例",
+  "author": {
+    "name": "Community"
+  },
+  "license": "MIT"
+}

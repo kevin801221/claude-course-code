@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.python-version
+
+# 環境變數(絕不 commit)
+.env
+.env.local
+
+# OS
+.DS_Store
+
+# 教學產出(每次研究會重生)
+Projects/*/
+!Projects/.gitkeep
+
+# uv
+uv.lock

@@ -1,0 +1,5 @@
+{
+  "name": "Smart RAG",
+  "description": "A dark-mode Document Q&A Engine (RAG Chatbot) with pure vector search and retrieved chunks visualization.",
+  "requestFramePermissions": []
+}

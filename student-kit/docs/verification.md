@@ -1,5 +1,6 @@
 # 發行前驗證紀錄
 
+> 此頁為v1歷史驗證；v2完整課堂版請看 [v2驗證紀錄](v2-verification.md) 與 [涵蓋矩陣](lecture-map.md)。
 日期：2026-11-11。環境：macOS、Node.js 22.x、Python 3.14.3、Claude Code 2.1.319。根專案預期支援 Node.js 22+、Python 3.10+；未另在 Windows、舊 Python 或不同 CLI 版本驗證。
 
 本頁保留首次製作的驗證紀錄。分享前已於 Claude Code 2.1.322、Node.js 22.13.0、Python 3.13.1 再次檢查，並修正下載入口及 Mods 暫存路徑，詳見 [分享檢查紀錄](share-review.md)。

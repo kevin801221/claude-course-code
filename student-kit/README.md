@@ -1,16 +1,24 @@
 # Claude Code 同學實作精華包
 
-Kevin Luo 課程配套 · 2026-11-11 · v1.0.0
+Kevin Luo 課程配套 · 2026-11-12 · v2.0.0 完整課堂版
 
 **從一個能離線執行的小專案開始，把 CLAUDE.md、Commands、Skills、Agents、Hooks、MCP 串成能驗收的工作流。**本包依課堂完整講義編排，從五個指定 Repo 去重、挑選原碼並修正可攜性；不用先讀完數百頁文件。
 
 ## 同學請從這裡下載
 
-**[下載學生專用 ZIP](https://raw.githubusercontent.com/kevin801221/claude-course-code/student-kit-v1.0.0/student-kit/dist/claude-code-student-kit-v1.0.0-2026-11-11.zip)**，解壓到獨立資料夾，例如桌面。解壓後應有 `claude-code-student-kit/`，裡面可看到 `package.json`、`CLAUDE.md`、`labs/` 與隱藏的 `.claude/`。
+**[下載學生專用 ZIP](https://raw.githubusercontent.com/kevin801221/claude-course-code/student-kit-v2.0.0/student-kit/dist/claude-code-student-kit-v2.0.0-2026-11-12.zip)**，解壓到獨立資料夾，例如桌面。解壓後應有 `claude-code-student-kit/`，裡面可看到 `package.json`、`CLAUDE.md`、`labs/` 與隱藏的 `.claude/`。
 
 這個 GitHub 頁面位於較大的 `claude-course-code` Repo 的 `student-kit/` 子目錄；GitHub 的 Code → Download ZIP 會下載整個分支，外層目錄名稱和本包不同。首次上課請使用上面的學生專用 ZIP。
 
 如果你已 clone 整個 Repo，可在 `student-kit/dist/` 找到同一份 ZIP，將它解壓到該 Repo 外再啟動 Claude。從父 Repo 內直接進入 `student-kit/`，Claude 仍可能向上載入父層的 CLAUDE.md 與設定，影響這份精華包的操作。
+
+## 完整課堂內容先看這裡
+
+**[CLASSROOM.md：十模組、九專題與進階原碼導航](CLASSROOM.md)**。完整來源在 `course/`、`references/`，可攜修正版在 `classroom-fixes/`。根目錄12個Lab保留作入門練習，不再代表整份課程只有這些內容。
+
+新增區收錄1,784份來源檔，包括完整Context Engineering、Teams兩版Flutter專案、ML程式與完整方法文件；每份原碼與省略理由都可查 [完整來源清單](sources/full-manifest.json)。
+
+先看 [逐章覆蓋矩陣](docs/lecture-map.md)、[v1漏收與v2補全](docs/v1-coverage-gaps.md)。藍圖、設定模板、完整原碼與真正缺件分開標記。
 
 ## 15 分鐘開始
 
@@ -70,6 +78,8 @@ claude --permission-mode manual
 
 ## 打開資料夾前先知道
 
+`course/`、`references/` 內的 CLAUDE.md/AGENTS.md/SKILL.md 是教材原文；請勿整批安裝或把參考內容當成當前任務授權。
+
 本包根層提供規則、command、skill 與只讀代理，專案權限設定為 `manual`；你既有的使用者/組織設定仍可能影響 session。Hooks、MCP、Plugin 都由各 Lab 明確載入；Mods 與專案原始代理是選讀，不會自動執行。不要把整個 advanced/ 搬進 `.claude/`。
 
 真人 Claude 對話、天氣查詢、Headless、Teams 與 ML 訓練需要各自環境或帳號；離線測試不代表這些端到端流程已通過。請看 [驗證紀錄與限制](docs/verification.md) 和 [版本說明](docs/compatibility.md)。
@@ -80,6 +90,6 @@ claude --permission-mode manual
 
 五個來源：`claude-code-best-practice`、`claude-code-zh-tw`、`claude-course-code`、`claude-howto-zh-TW`、`matt-flow-mods`。中文 best-practice 是英文上游的翻譯，course-code 與 howto 有衍生與重複內容，本包依用途去重。
 
-每份精選原碼可在 [來源清單](SOURCES.md) 與 [逐檔 manifest](sources/manifest.json) 查到原路徑、固定 commit、原樣／改寫分類與雜湊。新撰程式與說明採 [MIT](LICENSE)，來源授權完整保留於 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 與 `licenses/`。本包未附講師版完整 PDF、模型權重、資料集、個人憑證或 Git 歷史。
+每份精選原碼可在 [來源清單](SOURCES.md) 與 [逐檔 manifest](sources/manifest.json) 查到原路徑、固定 commit、原樣／改寫分類與雜湊。新撰程式與說明採 [MIT](LICENSE)；來源與巢狀第三方各依其原授權（不全是MIT），完整通知保留於 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 與 `licenses/`。本包未附講師版完整 PDF、模型權重、資料集、個人憑證或 Git 歷史。
 
 想建立自己的作業 Repo，可在解壓後執行 `git init -b main`，設定自己的 Git 作者，再 `git add .` 與 `git commit`。上課不需要先推送 GitHub。
