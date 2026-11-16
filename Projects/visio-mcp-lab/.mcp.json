@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "visio-lab": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["run", "--locked", "python", "server.py"]
+    }
+  }
+}

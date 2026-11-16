@@ -197,6 +197,7 @@ cp -r 03-skills/code-review-specialist ~/.claude/skills/
 | Graphify：工單的呼叫路徑 | [Projects/graphify-lab/README.md](Projects/graphify-lab/README.md) | email 改成選填，儲存與通知各會怎麼變？用來源與測試核對圖上的線索。 |
 | WorkshopFlow：三種協作做同一個 App | [Projects/workshopflow/README.md](Projects/workshopflow/README.md) | 三組拿相同的 PM 回答與變更單，哪一組能通過同一份驗收？ |
 | Claude Agent SDK × LangGraph | [Projects/agentic-rag/README.md](Projects/agentic-rag/README.md) | 在三本 notebook 中追蹤：什麼時候檢索、重寫問題、改查其他來源或停止？ |
+| Visio 流程圖 × MCP | [Projects/visio-mcp-lab/README.md](Projects/visio-mcp-lab/README.md) | 在既有 Visio 檔加入主管審核，驗證退回補件後能重新送審。 |
 
 除了 10 大系統化理論模組之外，本教學庫提供了 **9 大從輕量到生產級的實戰 Mini-projects**，以及真實世界 RAG 知識庫：
 
