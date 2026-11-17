@@ -1,0 +1,21 @@
+{
+  "scenario": "missing",
+  "split": "dev",
+  "has_event": true,
+  "event_start_s": 40,
+  "t_true_45_s": 82,
+  "interference": [],
+  "missing_s": [
+    55,
+    98,
+    99,
+    150
+  ],
+  "params": {
+    "base_c": 40.0,
+    "slope_c_per_s": 0.12,
+    "plateau_c": 52.0,
+    "sigma_c": 0.3,
+    "seed": 10104
+  }
+}

@@ -1,5 +1,20 @@
 # 來源、選材與改寫紀錄
 
+<a id="realtek-sources"></a>
+
+## 瑞昱課後問題與實作 · 2026-11-17
+
+| 學生包案例 | 上游固定版本 | 收錄範圍 |
+| --- | --- | --- |
+| [Visio MCP](realtek/cases/visio-mcp/STUDENT.md) | [claude-course-code · `b1c5315`](https://github.com/kevin801221/claude-course-code/tree/b1c5315339f8526c07b4d10da2f86ba89f7f8371/Projects/visio-mcp-lab) | 專案 MCP 設定、伺服器、原生起始圖、可重跑的 stdio 測試。 |
+| [日週報與長期記憶](realtek/cases/claude-mem/Q2.md) | [claude-mem-application_ · `23ede23`](https://github.com/kevin801221/claude-mem-application_/tree/23ede238b63004166a01299b45911f1c4f87036e) | 報表與檢索共用一個案例目錄，離線課堂資料另以合成紀錄提供。 |
+| [Markdown 檢索](realtek/cases/md-retrieval/STUDENT.md) | [compare-claudecode-retrieval-methods · `b741780`](https://github.com/kevin801221/compare-claudecode-retrieval-methods/tree/b7417806ca78bdd98cb54edeb2a04b6b7c402a49) | 以同一題和來源段落示範不同整理方式，完整評測條件請見原始 repo。 |
+| [團隊畫圖 Skill](realtek/cases/mermaid-design/STUDENT.md) | [mermaid-design · `bd9216e`](https://github.com/kevin801221/mermaid-design/tree/bd9216ed6cc45b03ea86bf498138d6b7ba9d5594) | 課堂使用的 Skill、排版規則、範例圖與渲染工具。 |
+| [剪貼簿翻譯](realtek/cases/clip-translate/STUDENT.md) | [clip-translate · `bb05f1b`](https://github.com/kevin801221/clip-translate/tree/bb05f1bdda1c0eb49dfc4a1c3001c83023d3a7bf) | macOS 腳本與啟停步驟，另附可重跑的受控檢查。 |
+| [研究到 PRD／SoW](realtek/cases/autosearch-prd/STUDENT.md) | [autosearch-PRD-claudecode · `f0e10ce`](https://github.com/kevin801221/autosearch-PRD-claudecode/tree/f0e10cef442c46cef9eebda4831225374cc4fbd7) | 講師授權收錄離線程式、模板、測試與合成資料。完整 repo 維持私有。 |
+
+[課後五問與延伸實作索引](realtek/README.md)。個別來源的署名及授權見[隨包注意事項](THIRD_PARTY_NOTICES.md)。
+
 ## v2完整課堂版
 
 完整1,784份來源的原路徑、固定commit、byte/hash、Notebook淨化/連結調整與排除理由，見 [sources/full-manifest.json](sources/full-manifest.json)。核心來源入口在 [CLASSROOM.md](CLASSROOM.md)。以下原有49項是v1精選的歷史清單，並非v2全部內容。

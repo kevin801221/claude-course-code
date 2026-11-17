@@ -1,0 +1,5 @@
+# 會議錄音轉文字（含說話者分辨）
+# 另外需要系統安裝 ffmpeg：
+#   Mac:     brew install ffmpeg
+#   Windows: winget install Gyan.FFmpeg
+whisperx>=3.1

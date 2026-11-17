@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "note": "全部為教案合成證據；公開文件被找到不等於其規格已被採納。",
+  "evidence": [
+    {"evidence_id": "EV-001", "evidence_kind": "public_spec", "decision_status": "proposed",
+     "title": "（合成）競品 Alpha 溫度監測器規格摘要", "claim": "持續過溫告警延遲 ≤ 10 s。",
+     "url_or_path": "fixtures/c/notes/competitor_alpha.md", "conflicts_with": ["EV-003"]},
+    {"evidence_id": "EV-002", "evidence_kind": "user_provided", "decision_status": "approved",
+     "title": "（合成）維護工程師情境筆記", "claim": "需要在同一時間軸同時看原始與濾波曲線，缺測位置要看得出來。",
+     "url_or_path": "fixtures/c/notes/user_notes.md"},
+    {"evidence_id": "EV-003", "evidence_kind": "user_provided", "decision_status": "unresolved",
+     "title": "（合成）產線主管需求筆記", "claim": "希望持續升溫在 5 s 內告警。",
+     "url_or_path": "fixtures/c/notes/user_notes.md", "conflicts_with": ["EV-001"]},
+    {"evidence_id": "EV-004", "evidence_kind": "teaching_assumption", "decision_status": "approved",
+     "title": "教案假設：取樣與告警規則", "claim": "1 Hz；濾波輸出 ≥ 45 °C 連續 3 筆有效讀值告警；孤立尖峰為干擾。",
+     "url_or_path": "fixtures/c/notes/classroom-assumptions.md"},
+    {"evidence_id": "EV-005", "evidence_kind": "supplier_suggestion", "decision_status": "proposed",
+     "title": "（合成）供應商建議：支援多感測器", "claim": "同一檔案可含多個 sensor_id，各自濾波與告警。",
+     "url_or_path": "fixtures/c/notes/supplier_mail.md"},
+    {"evidence_id": "EV-006", "evidence_kind": "teaching_assumption", "decision_status": "approved",
+     "title": "教案假設：CSV 欄位", "claim": "CSV 欄位為 timestamp_s,temp_c；空值為缺測。",
+     "url_or_path": "fixtures/c/notes/classroom-assumptions.md"}
+  ]
+}

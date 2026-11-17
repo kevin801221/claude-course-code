@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "note": "全部為教案合成來源（synthetic），不是真實文獻；ID、作者、網址皆為虛構。",
+  "sources": [
+    {
+      "source_id": "SYN-IEEE-001", "kind": "ieee",
+      "title": "（合成）低成本溫度感測之移動平均與中值濾波比較",
+      "url_or_path": "synthetic://ieee/SYN-IEEE-001", "doi": "10.0000/synthetic.ieee.001", "arxiv_id": null,
+      "access_level": "synthetic", "retrieved_at": "2026-11-01T00:00:00Z", "locator": "合成摘要第 2 句",
+      "claim": "中值濾波對孤立尖峰較穩健，移動平均會把尖峰攤平但不消除。",
+      "limitations": "合成來源，僅示範證據登錄格式；不能作為真實性能證據。",
+      "selection_basis": "source_claim"
+    },
+    {
+      "source_id": "SYN-ARXIV-001", "kind": "arxiv",
+      "title": "（合成）Exponential smoothing for early over-temperature detection",
+      "url_or_path": "synthetic://arxiv/0000.00001", "doi": null, "arxiv_id": "0000.00001v1",
+      "access_level": "synthetic", "retrieved_at": "2026-11-01T00:00:00Z", "locator": "合成摘要",
+      "claim": "EMA 在持續升溫時的反應通常快於等長移動平均。",
+      "limitations": "合成來源；摘要層級主張，未提供可重現資料。",
+      "selection_basis": "source_claim"
+    },
+    {
+      "source_id": "SYN-ARXIV-001-DUP", "kind": "arxiv",
+      "title": "（合成）Exponential smoothing for early over-temperature detection (v2)",
+      "url_or_path": "synthetic://arxiv/0000.00001v2", "doi": null, "arxiv_id": "0000.00001v2",
+      "access_level": "synthetic", "retrieved_at": "2026-11-01T00:00:00Z", "locator": "合成摘要",
+      "claim": "同 SYN-ARXIV-001 的新版本。",
+      "limitations": "與 SYN-ARXIV-001 為同一 arXiv ID 的不同版本，應被去重。",
+      "selection_basis": "context_only"
+    },
+    {
+      "source_id": "SYN-ART-001", "kind": "article",
+      "title": "（合成）技術部落格：在韌體裡實作移動平均",
+      "url_or_path": "synthetic://article/SYN-ART-001", "doi": null, "arxiv_id": null,
+      "access_level": "synthetic", "retrieved_at": "2026-11-01T00:00:00Z", "locator": "第 1 節",
+      "claim": "簡單移動平均實作容易、記憶體固定。",
+      "limitations": "合成來源；公開文章只說明實作，不提供性能比較。",
+      "selection_basis": "teaching_choice"
+    },
+    {
+      "source_id": "SYN-YT-001", "kind": "youtube",
+      "title": "（合成）影片：MCU 上的 EMA 濾波示範",
+      "url_or_path": "synthetic://youtube/SYN-YT-001", "doi": null, "arxiv_id": null,
+      "access_level": "synthetic", "retrieved_at": "2026-11-01T00:00:00Z", "locator": "03:10–05:40",
+      "claim": "示範如何以一個乘加更新 EMA。",
+      "limitations": "影片可解釋操作，不能單靠其存在證明性能。",
+      "selection_basis": "context_only"
+    },
+    {
+      "source_id": "SYN-PAT-001", "kind": "patent",
+      "title": "（合成）專利：以中值濾波結合連續超限計數的過溫告警方法",
+      "url_or_path": "synthetic://patent/SYN-PAT-001", "doi": null, "arxiv_id": null,
+      "access_level": "synthetic", "retrieved_at": "2026-11-01T00:00:00Z", "locator": "請求項 1",
+      "claim": "主張中值濾波加連續 N 筆超限可降低誤報。",
+      "limitations": "專利是公開主張，不等於性能證明；本教案不做法律或專利結論。",
+      "selection_basis": "source_claim"
+    }
+  ],
+  "skipped": [
+    {
+      "source_id": "SYN-IEEE-002", "kind": "ieee",
+      "title": "（合成）全文需授權的期刊論文",
+      "reason": "無合法全文存取權；不使用、不臆測其內容。"
+    }
+  ]
+}

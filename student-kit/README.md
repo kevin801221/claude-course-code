@@ -1,6 +1,6 @@
 # Claude Code 同學實作精華包
 
-Kevin Luo 課程配套 · 2026-11-12 · v2.0.0 完整課堂版
+Kevin Luo 課程配套 · v2.0.0 完整課堂版 · 2026-11-17 更新
 
 **從一個能離線執行的小專案開始，把 CLAUDE.md、Commands、Skills、Agents、Hooks、MCP 串成能驗收的工作流。**本包依課堂完整講義編排，從五個指定 Repo 去重、挑選原碼並修正可攜性；不用先讀完數百頁文件。
 
@@ -13,6 +13,8 @@ Kevin Luo 課程配套 · 2026-11-12 · v2.0.0 完整課堂版
 如果你已 clone 整個 Repo，可在 `student-kit/dist/` 找到同一份 ZIP，將它解壓到該 Repo 外再啟動 Claude。從父 Repo 內直接進入 `student-kit/`，Claude 仍可能向上載入父層的 CLAUDE.md 與設定，影響這份精華包的操作。
 
 ## 完整課堂內容先看這裡
+
+**[瑞昱課後五問與兩個延伸實作](realtek/README.md)** 與簡報第 177 頁對應。從問題進入可直接操作的教材，最後用每題的預期結果驗收。研發到 PRD／SoW 的實驗可用包內的程式與合成資料離線重跑。
 
 **[CLASSROOM.md：十模組、九專題與進階原碼導航](CLASSROOM.md)**。完整來源在 `course/`、`references/`，可攜修正版在 `classroom-fixes/`。根目錄12個Lab保留作入門練習，不再代表整份課程只有這些內容。
 

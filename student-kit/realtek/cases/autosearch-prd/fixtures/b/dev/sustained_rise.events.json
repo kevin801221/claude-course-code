@@ -1,0 +1,16 @@
+{
+  "scenario": "sustained_rise",
+  "split": "dev",
+  "has_event": true,
+  "event_start_s": 40,
+  "t_true_45_s": 82,
+  "interference": [],
+  "missing_s": [],
+  "params": {
+    "base_c": 40.0,
+    "slope_c_per_s": 0.12,
+    "plateau_c": 52.0,
+    "sigma_c": 0.3,
+    "seed": 10103
+  }
+}

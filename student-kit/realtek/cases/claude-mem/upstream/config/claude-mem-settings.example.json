@@ -1,0 +1,35 @@
+{
+  "_說明": "合併進 ~/.claude-mem/settings.json（Windows 為 %USERPROFILE%\\.claude-mem\\settings.json）。以底線開頭的欄位只是說明，複製時請刪除。改完要重啟 worker。",
+
+  "_整理筆記的服務": "統一用 Codex 整理；Codex 額度用完時自動改用 Claude。先執行 codex login。",
+  "CLAUDE_MEM_PROVIDER": "codex",
+  "CLAUDE_MEM_QUOTA_FALLBACK_PROVIDER": "claude",
+
+  "_模式與語言": "code--zh 讓筆記與摘要用中文寫",
+  "CLAUDE_MEM_MODE": "code--zh",
+
+  "_專案名稱": "用 git 遠端名稱，讓不同成員的同一專案名稱一致",
+  "CLAUDE_MEM_PROJECT_NAME_SOURCE": "git-remote",
+
+  "_開工時帶入其他 agent 的紀錄": "同時用 Claude Code 與 Codex 時建議開",
+  "CLAUDE_MEM_SESSION_START_INCLUDE_ALL_SOURCES": "true",
+
+  "_降低雜訊與成本": "略過子代理與常見雜訊指令",
+  "CLAUDE_MEM_SKIP_SUBAGENT_OBSERVATIONS": "true",
+  "CLAUDE_MEM_SKIP_BASH_PATTERNS": "^(ls|pwd|cat|git status|git diff)\\b",
+
+  "_隱私": "自動遮蔽密鑰，加上通用規則；公司內部 token 格式請加到 CUSTOM_PATTERNS",
+  "CLAUDE_MEM_REDACT_ENABLED": "true",
+  "CLAUDE_MEM_REDACT_GENERIC_ENABLED": "true",
+  "CLAUDE_MEM_REDACT_CUSTOM_PATTERNS": "[]",
+
+  "_自動備份": "每 24 小時備份一次，保留 7 份",
+  "CLAUDE_MEM_BACKUP_ENABLED": "true",
+  "CLAUDE_MEM_BACKUP_INTERVAL_HOURS": "24",
+  "CLAUDE_MEM_BACKUP_RETAIN_COUNT": "7",
+
+  "_Notion 原始紀錄庫": "要用時把 ENABLED 改成 true，填入 integration secret 與資料庫 ID",
+  "CLAUDE_MEM_NOTION_ENABLED": "false",
+  "CLAUDE_MEM_NOTION_TOKEN": "ntn_請填入",
+  "CLAUDE_MEM_NOTION_DATABASE_ID": "請填入資料庫ID或網址"
+}

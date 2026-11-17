@@ -1,0 +1,6 @@
+[
+  {"id":101,"date":"2026-11-16","author":"eng","kind":"初報","subject":"重複報名","detail":"使用者回報連點後看到兩個成功提示，尚未確認資料是否重複。","evidence":"TKT-7"},
+  {"id":102,"date":"2026-11-17","author":"eng","kind":"完成","subject":"重複報名","detail":"同一使用者連送兩次報名請求，修正後資料庫只新增一筆，回歸測試已通過。","evidence":"TEST-12"},
+  {"id":103,"date":"2026-11-17","author":"pm","kind":"決議","subject":"報名名額","detail":"每位使用者每場活動只占一個名額。","evidence":"DEC-3"},
+  {"id":104,"date":"2026-11-17","author":"pm","kind":"待查","subject":"取消通知","detail":"取消報名後是否寄信，等待產品負責人回覆。","evidence":"TKT-9"}
+]

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "requirements": [
+    {"id": "REQ-001", "title": "CSV 匯入", "status": "approved",
+     "statement": "系統應能匯入 timestamp_s,temp_c 欄位的 CSV（1 Hz）。",
+     "interfaces": ["csv_input"], "evidence_ids": ["EV-002", "EV-006"], "acceptance_ids": ["AT-001", "AT-002"],
+     "behavior": ["讀取 timestamp_s 與 temp_c 兩欄；temp_c 空值視為缺測，不當 0", "時間戳必須嚴格遞增且每秒一筆"],
+     "exceptions": ["缺少 temp_c 欄位時顯示「缺少欄位：temp_c」並停止匯入", "時間戳不遞增時顯示錯誤列號並停止匯入"]},
+    {"id": "REQ-002", "title": "原始與濾波曲線", "status": "approved",
+     "statement": "系統應在同一時間軸顯示原始與濾波溫度曲線，單位 °C。",
+     "interfaces": ["csv_input", "chart"], "evidence_ids": ["EV-002"], "acceptance_ids": ["AT-003"],
+     "behavior": ["原始與濾波曲線共用時間軸（s）與溫度軸（°C）", "缺測位置明示為斷點，不假畫連續值"],
+     "exceptions": ["整段缺測時顯示「無有效資料」"]},
+    {"id": "REQ-003", "title": "持續升溫告警", "status": "approved",
+     "statement": "濾波輸出 ≥ 45 °C 且連續 3 筆有效讀值時，於第 3 筆觸發告警。",
+     "interfaces": ["alarm"], "evidence_ids": ["EV-004"], "acceptance_ids": ["AT-004", "AT-005"],
+     "behavior": ["低於門檻或缺值即重置連續計數", "孤立尖峰視為干擾，不應觸發"],
+     "exceptions": ["缺測期間不累積計數"]},
+    {"id": "REQ-004", "title": "告警延遲目標", "status": "unresolved",
+     "statement": "持續升溫的告警延遲上限待決策；在獨立決策證據出現前標為待驗證，研究測量只作參考。",
+     "interfaces": ["alarm"], "evidence_ids": ["EV-001", "EV-003"], "acceptance_ids": ["AT-006"],
+     "behavior": ["延遲定義：真值首達 45 °C 到首次告警的秒數"],
+     "exceptions": ["未決策前不得把研究參考值寫成產品門檻"],
+     "target": {"name": "持續升溫告警延遲上限", "value": null, "unit": "s", "status": "待驗證"},
+     "b_reference": {"metric": "detection_latency_s", "split": "eval"}}
+  ]
+}

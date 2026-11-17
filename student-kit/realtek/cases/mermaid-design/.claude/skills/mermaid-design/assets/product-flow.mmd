@@ -1,0 +1,36 @@
+---
+config:
+  theme: base
+  htmlLabels: false
+  themeVariables:
+    fontFamily: '"PingFang TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif'
+    fontSize: 16px
+    primaryColor: '#F8FAFC'
+    primaryTextColor: '#1E293B'
+    primaryBorderColor: '#CBD5E1'
+    lineColor: '#94A3B8'
+    edgeLabelBackground: '#FFFFFF'
+  flowchart:
+    curve: linear
+    padding: 10
+    nodeSpacing: 28
+    rankSpacing: 40
+    diagramPadding: 12
+---
+flowchart TB
+  accTitle: 申請審核流程
+  accDescr: 提交後檢查資料；缺件時補齊並重新檢查。資料齊全則由主管審核，通過後完成登記，拒絕則通知結果。
+  submit("提交申請") --> check("資料齊全？")
+  check -->|齊全| review("主管審核")
+  check -->|缺件| amend("補齊資料")
+  amend --> check
+  review -->|通過| done("完成登記")
+  review -->|拒絕| reject("通知拒絕結果")
+
+  classDef default fill:#F8FAFC,stroke:#CBD5E1,stroke-width:1px,color:#1E293B;
+  classDef main fill:#EFF6FF,stroke:#93B4EE,stroke-width:1.4px,color:#1E3A5F;
+  classDef success fill:#ECFDF5,stroke:#86BEA2,stroke-width:1.2px,color:#205441;
+  classDef outcome fill:#FFF5F3,stroke:#DDB5AD,stroke-width:1px,color:#76443B;
+  class submit,check,review main;
+  class done success;
+  class reject outcome;

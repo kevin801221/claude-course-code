@@ -1,0 +1,14 @@
+{
+  "scenario": "noise",
+  "split": "eval",
+  "has_event": false,
+  "event_start_s": null,
+  "t_true_45_s": null,
+  "interference": [],
+  "missing_s": [],
+  "params": {
+    "base_c": 42.0,
+    "sigma_c": 1.0,
+    "seed": 20201
+  }
+}

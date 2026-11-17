@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "mode": "offline",
+  "sources": [
+    {
+      "source_id": "SYN-IEEE-001",
+      "kind": "ieee",
+      "title": "（合成）低成本溫度感測之移動平均與中值濾波比較",
+      "url_or_path": "synthetic://ieee/SYN-IEEE-001",
+      "doi": "10.0000/synthetic.ieee.001",
+      "arxiv_id": null,
+      "access_level": "synthetic",
+      "retrieved_at": "2026-11-01T00:00:00Z",
+      "locator": "合成摘要第 2 句",
+      "claim": "中值濾波對孤立尖峰較穩健，移動平均會把尖峰攤平但不消除。",
+      "limitations": "合成來源，僅示範證據登錄格式；不能作為真實性能證據。",
+      "selection_basis": "source_claim"
+    },
+    {
+      "source_id": "SYN-ARXIV-001",
+      "kind": "arxiv",
+      "title": "（合成）Exponential smoothing for early over-temperature detection",
+      "url_or_path": "synthetic://arxiv/0000.00001",
+      "doi": null,
+      "arxiv_id": "0000.00001v1",
+      "access_level": "synthetic",
+      "retrieved_at": "2026-11-01T00:00:00Z",
+      "locator": "合成摘要",
+      "claim": "EMA 在持續升溫時的反應通常快於等長移動平均。",
+      "limitations": "合成來源；摘要層級主張，未提供可重現資料。",
+      "selection_basis": "source_claim"
+    }
+  ],
+  "skipped": [
+    {
+      "source_id": "SYN-IEEE-002",
+      "kind": "ieee",
+      "title": "（合成）全文需授權的期刊論文",
+      "reason": "無合法全文存取權；不使用、不臆測其內容。"
+    }
+  ],
+  "duplicates_removed": [
+    {
+      "source_id": "SYN-ARXIV-001-DUP",
+      "duplicate_of": "SYN-ARXIV-001",
+      "key": "arxiv:0000.00001"
+    }
+  ],
+  "_note": "範例：節錄自離線 sources.json（合成來源）"
+}

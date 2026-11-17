@@ -1,0 +1,30 @@
+{
+  "scenario": "spike",
+  "split": "dev",
+  "has_event": false,
+  "event_start_s": null,
+  "t_true_45_s": null,
+  "interference": [
+    {
+      "t_s": 25,
+      "height_c": 15.0,
+      "label": "isolated_spike"
+    },
+    {
+      "t_s": 70,
+      "height_c": 28.0,
+      "label": "isolated_spike"
+    },
+    {
+      "t_s": 130,
+      "height_c": 22.0,
+      "label": "isolated_spike"
+    }
+  ],
+  "missing_s": [],
+  "params": {
+    "base_c": 40.0,
+    "sigma_c": 0.2,
+    "seed": 10102
+  }
+}

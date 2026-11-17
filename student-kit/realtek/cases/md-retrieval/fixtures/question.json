@@ -1,0 +1,15 @@
+{
+  "id": "Q32",
+  "type": "lookup",
+  "question": "Python LangGraph 的 CachePolicy 要自行決定如何從 node 輸入產生快取鍵，並限制快取存活秒數，分別要填哪兩個參數？",
+  "must_include": [
+    "key_func",
+    "ttl"
+  ],
+  "must_not_include": [],
+  "gold_docs": [
+    "langgraph/graph-api-nodes"
+  ],
+  "probe_terms": [],
+  "answerable": true
+}

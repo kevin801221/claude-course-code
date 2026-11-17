@@ -1,5 +1,9 @@
 # v2巢狀授權補充
 
+## 2026-11-17 課後實作
+
+新增教材的六個來源與固定版本列在 [SOURCES.md](SOURCES.md#realtek-sources)。Visio 實驗與 Mermaid Skill 隨附原始 MIT 授權。Markdown 檢索教材使用的 LangChain 文件節錄保留上游的署名與授權。其他講師案例依課程授權隨包提供，各檔保留原始權利聲明。完整的 `autosearch-PRD-claudecode` 由講師以私人 repo 維護。
+
 本包新撰內容採MIT；來源庫根授權不會自動覆蓋其內第三方程式。
 
 - [Cole Medin Context Engineering MIT](course/context-engineering-intro/LICENSE)

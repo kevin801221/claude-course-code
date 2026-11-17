@@ -5402,9 +5402,11 @@
       "source_git_oid": "fa8ed19694759eeca4e7268e69e4847320ef928c",
       "source_mode": "100644",
       "source_sha256": "1a92c670a02a8ad595324fb78670dcb12fcf97b6f6e6e53ff79793564ccde997",
-      "destination": "course/Projects/llm-wiki-graph/raw/2026-04-02_理財達人秀_EBCmoneyshow__理財達人秀_川普變驚嚇_低軌封測CPO壓不住_節後搶反彈_抄投信答案_波段配短線_PCB雙面賺_台積電設備_合約負債挖寶__李兆華_黃豐凱_陳唯泰_陳威良20260402_電視完整版_.json",
+      "destination": "course/Projects/llm-wiki-graph/raw/2026-04-02_EBCmoneyshow_full.json",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/raw/2026-04-02_%E7%90%86%E8%B2%A1%E9%81%94%E4%BA%BA%E7%A7%80_EBCmoneyshow__%E7%90%86%E8%B2%A1%E9%81%94%E4%BA%BA%E7%A7%80_%E5%B7%9D%E6%99%AE%E8%AE%8A%E9%A9%9A%E5%9A%87_%E4%BD%8E%E8%BB%8C%E5%B0%81%E6%B8%ACCPO%E5%A3%93%E4%B8%8D%E4%BD%8F_%E7%AF%80%E5%BE%8C%E6%90%B6%E5%8F%8D%E5%BD%88_%E6%8A%84%E6%8A%95%E4%BF%A1%E7%AD%94%E6%A1%88_%E6%B3%A2%E6%AE%B5%E9%85%8D%E7%9F%AD%E7%B7%9A_PCB%E9%9B%99%E9%9D%A2%E8%B3%BA_%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%A8%AD%E5%82%99_%E5%90%88%E7%B4%84%E8%B2%A0%E5%82%B5%E6%8C%96%E5%AF%B6__%E6%9D%8E%E5%85%86%E8%8F%AF_%E9%BB%83%E8%B1%90%E5%87%B1_%E9%99%B3%E5%94%AF%E6%B3%B0_%E9%99%B3%E5%A8%81%E8%89%AF20260402_%E9%9B%BB%E8%A6%96%E5%AE%8C%E6%95%B4%E7%89%88_.json",
-      "transformations": [],
+      "transformations": [
+        "portable-destination-name"
+      ],
       "destination_sha256": "1a92c670a02a8ad595324fb78670dcb12fcf97b6f6e6e53ff79793564ccde997",
       "destination_git_oid": "fa8ed19694759eeca4e7268e69e4847320ef928c",
       "bytes": 8131,
@@ -5584,11 +5586,13 @@
       "source_sha256": "44950d47af065c52823b3f3a65cc504a08babdeaad24ddd6a79080c2beb68355",
       "destination": "course/Projects/llm-wiki-graph/wiki/concepts/AI 驅動的台灣產業升級.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/concepts/AI%20%E9%A9%85%E5%8B%95%E7%9A%84%E5%8F%B0%E7%81%A3%E7%94%A2%E6%A5%AD%E5%8D%87%E7%B4%9A.md",
-      "transformations": [],
-      "destination_sha256": "44950d47af065c52823b3f3a65cc504a08babdeaad24ddd6a79080c2beb68355",
-      "destination_git_oid": "617b231191812cc06d1e60f4ffd11a7b80beb3b9",
-      "bytes": 11708,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "29eaca57f3d8970dacd574167c4dc29e09cf70a3eedd99b2e2e2138a7d647e4f",
+      "destination_git_oid": "eb654a5de4c4ebc0c5984b755247f398957f7926",
+      "bytes": 11477,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -5599,11 +5603,13 @@
       "source_sha256": "47a6da802e42a5880676a040215dee1791b211867015652cb85c37492e438cd0",
       "destination": "course/Projects/llm-wiki-graph/wiki/concepts/Agentic AI 與 CPU 投資主線.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/concepts/Agentic%20AI%20%E8%88%87%20CPU%20%E6%8A%95%E8%B3%87%E4%B8%BB%E7%B7%9A.md",
-      "transformations": [],
-      "destination_sha256": "47a6da802e42a5880676a040215dee1791b211867015652cb85c37492e438cd0",
-      "destination_git_oid": "0bba42fc3c16863f7eac95c9762896e576352137",
-      "bytes": 9249,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "1dd2b3ce84bce0927b3c42690ff5bd0fb4dd57fe7e81ba819c87700688f73017",
+      "destination_git_oid": "5f7dd7543e9e332b4acc1c10f629ea07b717c641",
+      "bytes": 9018,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -5614,11 +5620,13 @@
       "source_sha256": "42c11191a67b870421b8e2c39ccd0a3498f4813bc2c055b4ab8f9be2d361f42a",
       "destination": "course/Projects/llm-wiki-graph/wiki/concepts/CPO 與矽光子.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/concepts/CPO%20%E8%88%87%E7%9F%BD%E5%85%89%E5%AD%90.md",
-      "transformations": [],
-      "destination_sha256": "42c11191a67b870421b8e2c39ccd0a3498f4813bc2c055b4ab8f9be2d361f42a",
-      "destination_git_oid": "c6c2386d3b6156c7b83e72a1b48bf84a3ac083e2",
-      "bytes": 7563,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "45b6f587955d6da733bf80a86f5cabf8d01a1437fe035b644d33cd314514e073",
+      "destination_git_oid": "03216f58545cfecba2ab7d4f22446270258053be",
+      "bytes": 7332,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -5644,11 +5652,13 @@
       "source_sha256": "f4947f44099c77d36d60eda1bbb187ba669cc3893ec4eb8e53da3caf3d458cff",
       "destination": "course/Projects/llm-wiki-graph/wiki/concepts/PCB 與 CCL 供應鏈.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/concepts/PCB%20%E8%88%87%20CCL%20%E4%BE%9B%E6%87%89%E9%8F%88.md",
-      "transformations": [],
-      "destination_sha256": "f4947f44099c77d36d60eda1bbb187ba669cc3893ec4eb8e53da3caf3d458cff",
-      "destination_git_oid": "ae684f6d739c386d6c0b5421a32d963af6115ebb",
-      "bytes": 5824,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "27a9836a4cf0138d9d2b4846e28574a8c85a0ea5722a54875a474997be01e61a",
+      "destination_git_oid": "b197cbe8e4e5cfa0ce289e7ecf5f797b8ad9af7f",
+      "bytes": 5593,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -5674,11 +5684,13 @@
       "source_sha256": "ef305870097025f2ffc99702accdf5ed02984384a7965839515096bc83d9d1ae",
       "destination": "course/Projects/llm-wiki-graph/wiki/concepts/事件後應對投資法.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/concepts/%E4%BA%8B%E4%BB%B6%E5%BE%8C%E6%87%89%E5%B0%8D%E6%8A%95%E8%B3%87%E6%B3%95.md",
-      "transformations": [],
-      "destination_sha256": "ef305870097025f2ffc99702accdf5ed02984384a7965839515096bc83d9d1ae",
-      "destination_git_oid": "3934c4e4591e2855846b3d2c9ea417a027f5856d",
-      "bytes": 11450,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "92105f72e287f448a5ffaaf0d9e95fe129bf5b2b8d4b630d233aee0cae938698",
+      "destination_git_oid": "dc95c1337e21e51c9801f1ca8444bcdf5baa03a5",
+      "bytes": 11219,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -5704,11 +5716,13 @@
       "source_sha256": "6cf24d7eaf8e0437267bd9eb40d0ee742a8a3be3f7da8e07ace29df3bc13cf53",
       "destination": "course/Projects/llm-wiki-graph/wiki/concepts/低軌衛星與通訊供應鏈.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/concepts/%E4%BD%8E%E8%BB%8C%E8%A1%9B%E6%98%9F%E8%88%87%E9%80%9A%E8%A8%8A%E4%BE%9B%E6%87%89%E9%8F%88.md",
-      "transformations": [],
-      "destination_sha256": "6cf24d7eaf8e0437267bd9eb40d0ee742a8a3be3f7da8e07ace29df3bc13cf53",
-      "destination_git_oid": "10e2c360b041285fb598398a0964893f22def1f6",
-      "bytes": 9441,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "785e43b52a5e98df632b83ba42d8f76e87eeec315747271d1c230ce459b35964",
+      "destination_git_oid": "e0df43633e25c7559d785bec348b407d0b564503",
+      "bytes": 9210,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -5719,11 +5733,13 @@
       "source_sha256": "8623a171a8d85f17dddd5bd3c86bda66f507bb0a47d0716ce3c4e7d8275d7e5f",
       "destination": "course/Projects/llm-wiki-graph/wiki/concepts/先進封裝與封測供應鏈.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/concepts/%E5%85%88%E9%80%B2%E5%B0%81%E8%A3%9D%E8%88%87%E5%B0%81%E6%B8%AC%E4%BE%9B%E6%87%89%E9%8F%88.md",
-      "transformations": [],
-      "destination_sha256": "8623a171a8d85f17dddd5bd3c86bda66f507bb0a47d0716ce3c4e7d8275d7e5f",
-      "destination_git_oid": "bcbb23ef4c71724d1fdb7c560d4019df088b5367",
-      "bytes": 9920,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "c029e501800b1932f8db8e9ab72cc321f9d397db73f9197e866d4440e8ce9e10",
+      "destination_git_oid": "344e822823b8ab755e3f93fbafe57359bd7b9831",
+      "bytes": 9689,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -5749,11 +5765,13 @@
       "source_sha256": "641adc1f340b33487ee604d68cc56e680dc16869f107a02688bf7828a5685012",
       "destination": "course/Projects/llm-wiki-graph/wiki/concepts/台積電資本支出與設備鏈.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/concepts/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%B3%87%E6%9C%AC%E6%94%AF%E5%87%BA%E8%88%87%E8%A8%AD%E5%82%99%E9%8F%88.md",
-      "transformations": [],
-      "destination_sha256": "641adc1f340b33487ee604d68cc56e680dc16869f107a02688bf7828a5685012",
-      "destination_git_oid": "20e6a7ea67761be8edd779640ea6c69eeb1cb693",
-      "bytes": 9876,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "8447824bf420fe1eb66d0a1521f0bdec6334a7a02e5d73da4b56a4156ea1baa2",
+      "destination_git_oid": "f414e4ad0960188c143ebd00fa2b2bfdb04921fa",
+      "bytes": 9645,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -5764,11 +5782,13 @@
       "source_sha256": "bb630256e29ea45342914838a30ed35f5c0076187358ddf7c126da447dc6c779",
       "destination": "course/Projects/llm-wiki-graph/wiki/concepts/台股反彈與風險管理.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/concepts/%E5%8F%B0%E8%82%A1%E5%8F%8D%E5%BD%88%E8%88%87%E9%A2%A8%E9%9A%AA%E7%AE%A1%E7%90%86.md",
-      "transformations": [],
-      "destination_sha256": "bb630256e29ea45342914838a30ed35f5c0076187358ddf7c126da447dc6c779",
-      "destination_git_oid": "61ddaea9b79291cd44745f4909dc239bb015092a",
-      "bytes": 9463,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "05027c324ad51aa2603d5084830f190e75ba7d162a6dd61203181089d7e063ee",
+      "destination_git_oid": "684e5926ebcaff07dcd93bddf6bde896c924be27",
+      "bytes": 9232,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -5779,11 +5799,13 @@
       "source_sha256": "93419cc899c3e1d98bf9902fbb664f1736448f89804a1937ad339e4dd2850727",
       "destination": "course/Projects/llm-wiki-graph/wiki/concepts/合約負債與訂單能見度.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/concepts/%E5%90%88%E7%B4%84%E8%B2%A0%E5%82%B5%E8%88%87%E8%A8%82%E5%96%AE%E8%83%BD%E8%A6%8B%E5%BA%A6.md",
-      "transformations": [],
-      "destination_sha256": "93419cc899c3e1d98bf9902fbb664f1736448f89804a1937ad339e4dd2850727",
-      "destination_git_oid": "553c3c14f2fac2fdba2b22e73b2911ec90c75321",
-      "bytes": 10128,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "a6e71763606739eb74a7de5022f8c719544ab1e92a6598067e5bc873ac85a98b",
+      "destination_git_oid": "e180640c28c7795d4e5910d04ac4048a3db7d3e4",
+      "bytes": 9897,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -5794,11 +5816,13 @@
       "source_sha256": "14425c1d91914597720f86440761b2c8148301ac3d8aefe5707b7244b38e9db5",
       "destination": "course/Projects/llm-wiki-graph/wiki/concepts/地緣政治與市場波動.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/concepts/%E5%9C%B0%E7%B7%A3%E6%94%BF%E6%B2%BB%E8%88%87%E5%B8%82%E5%A0%B4%E6%B3%A2%E5%8B%95.md",
-      "transformations": [],
-      "destination_sha256": "14425c1d91914597720f86440761b2c8148301ac3d8aefe5707b7244b38e9db5",
-      "destination_git_oid": "033c9a32bf6846d1e17098de0825b25733d1dbbc",
-      "bytes": 8382,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "33cd7a42ab4276a980e4a8d231bc4f8ced9fe57786a4907dc03730424124a361",
+      "destination_git_oid": "4e52120297ff06d2e29d74be0c1ff464f7848681",
+      "bytes": 8151,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -5854,11 +5878,13 @@
       "source_sha256": "2b128d3df919d31f5fa9a170c395d4722476571539f5b0cc87b01ec0bea75eb9",
       "destination": "course/Projects/llm-wiki-graph/wiki/concepts/市場輪動與資金風向.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/concepts/%E5%B8%82%E5%A0%B4%E8%BC%AA%E5%8B%95%E8%88%87%E8%B3%87%E9%87%91%E9%A2%A8%E5%90%91.md",
-      "transformations": [],
-      "destination_sha256": "2b128d3df919d31f5fa9a170c395d4722476571539f5b0cc87b01ec0bea75eb9",
-      "destination_git_oid": "af26c4003f6da47ba1d99dfe175ebcf6ab5822a2",
-      "bytes": 11256,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "5c5a7d5f22f97184fc8fd2fde0bcefff1331eed9a9045fb9646a720f2d4d6f3c",
+      "destination_git_oid": "837c637b0f454233c0f12ea48efe6e3aaebb9f84",
+      "bytes": 11025,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -5884,11 +5910,13 @@
       "source_sha256": "b2a5588d521d0cb95a5310f6db0ec7bfa8a17dd2322361c9d1f2d8b8cc8b3f19",
       "destination": "course/Projects/llm-wiki-graph/wiki/concepts/記憶體與 HBM 週期.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/concepts/%E8%A8%98%E6%86%B6%E9%AB%94%E8%88%87%20HBM%20%E9%80%B1%E6%9C%9F.md",
-      "transformations": [],
-      "destination_sha256": "b2a5588d521d0cb95a5310f6db0ec7bfa8a17dd2322361c9d1f2d8b8cc8b3f19",
-      "destination_git_oid": "3493ff0e93d0298379eebf0707daf77801d31dce",
-      "bytes": 7147,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "b636b99e861913297454e3b487e3e4cabda1318f216bc5947e12ee022a3ad2ac",
+      "destination_git_oid": "4ed95533704f2f290e680894a2de621972943f29",
+      "bytes": 6916,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -7339,11 +7367,13 @@
       "source_sha256": "22688455e20ba84d723c8cddc541bda79be6b3ad150991ea3e687bb266b2f232",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/8046.TW.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/8046.TW.md",
-      "transformations": [],
-      "destination_sha256": "22688455e20ba84d723c8cddc541bda79be6b3ad150991ea3e687bb266b2f232",
-      "destination_git_oid": "fe2bb8e72e748c8b18f03ece2b9fd1a5fbfcc1bd",
-      "bytes": 5243,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "ebe4a1e12cdf55e90f122fd9cd3ffdcb6b479ad88eedf35f9222811ba0e18e80",
+      "destination_git_oid": "9a4195464b56416880487dca62cdd3aacbd20035",
+      "bytes": 5012,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -7579,11 +7609,13 @@
       "source_sha256": "615348db2ce8173c1d584962d0ad19e27ffc4dca10750ec501903398fe6d1829",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/CPO.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/CPO.md",
-      "transformations": [],
-      "destination_sha256": "615348db2ce8173c1d584962d0ad19e27ffc4dca10750ec501903398fe6d1829",
-      "destination_git_oid": "4b4fa6204b442631bcbd154c55a7c0e5f5115e30",
-      "bytes": 7086,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "263477dab9c113654d35ebee22dd25f6705b57f7b2d48d7e1f1c499a912a0494",
+      "destination_git_oid": "a21243ce9fc9af8f66b853db29bba1814267b238",
+      "bytes": 6855,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -7624,11 +7656,13 @@
       "source_sha256": "98d14d67af2fe01b3c8da0fcc68ff46cf140ba532efd3907b2f3693d58dba0b1",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/CoWoS.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/CoWoS.md",
-      "transformations": [],
-      "destination_sha256": "98d14d67af2fe01b3c8da0fcc68ff46cf140ba532efd3907b2f3693d58dba0b1",
-      "destination_git_oid": "c137e65f670ac0c786511c2367ebbb0caa8e4986",
-      "bytes": 4763,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "39c666be091bc888509d5e9c360748d19efe5de3b699f14ac7302228c5ae548e",
+      "destination_git_oid": "9eb69a105887db247297a94abda6133243482751",
+      "bytes": 4532,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -7654,11 +7688,13 @@
       "source_sha256": "d819721e22e15190ab0a7cf709947416fc64df02895f465949dceccaaf6291fe",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/IET-KY.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/IET-KY.md",
-      "transformations": [],
-      "destination_sha256": "d819721e22e15190ab0a7cf709947416fc64df02895f465949dceccaaf6291fe",
-      "destination_git_oid": "553d8c085e636220bb680693a353c486be224e5c",
-      "bytes": 2752,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "127e5cd353ec032820c2c3c48ed20bba54fd86c1482accaaebb7757ba874256e",
+      "destination_git_oid": "6d5fac9fedb20616810d7b8bf665562cc864c985",
+      "bytes": 2521,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -7774,11 +7810,13 @@
       "source_sha256": "2e336b74d0d825afcde411ed7a6d14d9a0cd532c38ca849dd13121e07528b6a6",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/PCB.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/PCB.md",
-      "transformations": [],
-      "destination_sha256": "2e336b74d0d825afcde411ed7a6d14d9a0cd532c38ca849dd13121e07528b6a6",
-      "destination_git_oid": "a0323514931bd0a5318c3e5f0ef82abe2a060999",
-      "bytes": 6659,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "59c279a5567cb90e4198387c7b8a9d11e92dc486e105f81480339c3a6fb6dad6",
+      "destination_git_oid": "e511fd24f5d54c611a8459406cfd7ab49d0b0ca7",
+      "bytes": 6428,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -7879,11 +7917,13 @@
       "source_sha256": "c60f85dcbdde0a6739b156e9df875ceabe7d01564692ccef1260d74ec5351d68",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/京元電.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E4%BA%AC%E5%85%83%E9%9B%BB.md",
-      "transformations": [],
-      "destination_sha256": "c60f85dcbdde0a6739b156e9df875ceabe7d01564692ccef1260d74ec5351d68",
-      "destination_git_oid": "739f0e6bb3881f8d56442fbca2b73c7cd04913c8",
-      "bytes": 2263,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "05a08ee8b7c09dc5ecc0c820816655fca4f00a9bc20d3f00080c81d2ac851c96",
+      "destination_git_oid": "7744bc8c34021f11a841f6559b2ae7e823d28ad5",
+      "bytes": 2032,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -7909,11 +7949,13 @@
       "source_sha256": "76b359775a0180e7544e749c1fadb41a902f0c2a849f4987f90204edfa105cf6",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/低軌衛星.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E4%BD%8E%E8%BB%8C%E8%A1%9B%E6%98%9F.md",
-      "transformations": [],
-      "destination_sha256": "76b359775a0180e7544e749c1fadb41a902f0c2a849f4987f90204edfa105cf6",
-      "destination_git_oid": "0322b7b0540604402fdb82446e66223da3ac38c2",
-      "bytes": 11064,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "b8f3cace66ed7892a6947c20e3313ca952ec38dc12c3d53cf0c20bdaedcbbc07",
+      "destination_git_oid": "ab81993c91c77603f6645f06f033a460b490de8a",
+      "bytes": 10833,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -7924,11 +7966,13 @@
       "source_sha256": "e07dd508d96cd68ddc64acbce907f49a395649998a6c9cf913fdf3f7ff1d699a",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/信錦.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E4%BF%A1%E9%8C%A6.md",
-      "transformations": [],
-      "destination_sha256": "e07dd508d96cd68ddc64acbce907f49a395649998a6c9cf913fdf3f7ff1d699a",
-      "destination_git_oid": "08b291d3513e0104aa60b9168018563963da41a7",
-      "bytes": 3970,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "bfbdfb3ee9729db12c676b95f241bd91ae0cc86b894d974c182ac47d919fda26",
+      "destination_git_oid": "51a810f1e203aca4e7229b01406bd3798ad0042a",
+      "bytes": 3739,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -7939,11 +7983,13 @@
       "source_sha256": "772747f4ae4a159413e9b786272265869b4fe4b331b72e8047dff88b0580b671",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/億光.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E5%84%84%E5%85%89.md",
-      "transformations": [],
-      "destination_sha256": "772747f4ae4a159413e9b786272265869b4fe4b331b72e8047dff88b0580b671",
-      "destination_git_oid": "91e622c959e4b60e825997e6648600b8a0cdc69e",
-      "bytes": 2249,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "cd0b6ebf2de7a889d5e3e61cab7c1c183db1c4b86b978b3d28af64f348d58807",
+      "destination_git_oid": "e604ffa5127c0266b44bfd48118aef0a7f5877c0",
+      "bytes": 2018,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -8029,11 +8075,13 @@
       "source_sha256": "e38e89da42b9428be141b3d13356dd4080ea3a6672e661003ff0a2354dc3e549",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/光聖.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E5%85%89%E8%81%96.md",
-      "transformations": [],
-      "destination_sha256": "e38e89da42b9428be141b3d13356dd4080ea3a6672e661003ff0a2354dc3e549",
-      "destination_git_oid": "a92e955486555ba03b46f624786c860e27a25209",
-      "bytes": 2811,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "18e6cd1df1bb28c25da0f4fca96ddd735173ffa74c5686be982c195905a478b7",
+      "destination_git_oid": "0cc77e9d0c4adece3360a60204e76d5edb437e33",
+      "bytes": 2580,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -8059,11 +8107,13 @@
       "source_sha256": "ed91030ed697aec5ede18703563c9bcd34a791b7c1bdafed706e02dfb636d5f0",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/創建.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E5%89%B5%E5%BB%BA.md",
-      "transformations": [],
-      "destination_sha256": "ed91030ed697aec5ede18703563c9bcd34a791b7c1bdafed706e02dfb636d5f0",
-      "destination_git_oid": "3bc5156975999142224ea69b3e4c172bec94e520",
-      "bytes": 3513,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "7829ab0048ffaed6da78601f3f29660cba1924d1ac1fcd285308d33936a3083f",
+      "destination_git_oid": "f706b3b8d324045d01e04bb295d5c9e6169c27f5",
+      "bytes": 3282,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -8104,11 +8154,13 @@
       "source_sha256": "f1f48c06ada788ac76707f43586cbe455d0e062d6a06207491e63dededc028c9",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/友達.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E5%8F%8B%E9%81%94.md",
-      "transformations": [],
-      "destination_sha256": "f1f48c06ada788ac76707f43586cbe455d0e062d6a06207491e63dededc028c9",
-      "destination_git_oid": "b7c27433581cb621bf0e65b0990a19cddbc698ee",
-      "bytes": 3599,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "632bc35af34040386b23c546d8d4f75bd48edf7bba82e8326935fbc7e9984f08",
+      "destination_git_oid": "4466f29e5f658d1cb4e77e44df76a5cbc453616f",
+      "bytes": 3368,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -8164,11 +8216,13 @@
       "source_sha256": "27894e4529819d996aaee88a7faef19faea815ff34d5aeb7f86a869a8fd6a91f",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/台積電.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E5%8F%B0%E7%A9%8D%E9%9B%BB.md",
-      "transformations": [],
-      "destination_sha256": "27894e4529819d996aaee88a7faef19faea815ff34d5aeb7f86a869a8fd6a91f",
-      "destination_git_oid": "6cf82835051dd4338cd7c275570f47bf7ce67958",
-      "bytes": 11777,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "d22311711d1fb97697e439a1888e13d058a28ae6a642be57ae9c9419a87eed85",
+      "destination_git_oid": "ead724e9f0524763d09d9b58c7d36bd6940be94d",
+      "bytes": 11546,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -8224,11 +8278,13 @@
       "source_sha256": "cb4c9359f30e7261f0d41de7e564a9efc47019739ff4ad5fab088ea08cb6d453",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/大成.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E5%A4%A7%E6%88%90.md",
-      "transformations": [],
-      "destination_sha256": "cb4c9359f30e7261f0d41de7e564a9efc47019739ff4ad5fab088ea08cb6d453",
-      "destination_git_oid": "5e7bb43bbe54e0d741eead0ff8850cbe99316acc",
-      "bytes": 2888,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "521bc5d0b9a247b7f834053c6ab1f05ebc2a4756bd301d8d4f5b2bdd0fbeb4f0",
+      "destination_git_oid": "51b3fd88765e310ba8110b33ecb536c0421327fc",
+      "bytes": 2657,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -8284,11 +8340,13 @@
       "source_sha256": "940aae3473e291424393cb5ae382b2f959221f2f672fae5c87f2d3df925f05f0",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/宏齊.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E5%AE%8F%E9%BD%8A.md",
-      "transformations": [],
-      "destination_sha256": "940aae3473e291424393cb5ae382b2f959221f2f672fae5c87f2d3df925f05f0",
-      "destination_git_oid": "3c032460a2db7922a28becebf5b8e7d749843761",
-      "bytes": 3576,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "7ffa392e6d85c02fb2c47b9bf8217566e26cea6799cd440346f552fce0b3387d",
+      "destination_git_oid": "b77702e176a8a3ddb059146137874424ce7a3f64",
+      "bytes": 3345,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -8314,11 +8372,13 @@
       "source_sha256": "678c2b8fc3137acbdc9d807e62ed0db92b6f49145ad4c11f59ffd195775ecc9c",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/富采.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E5%AF%8C%E9%87%87.md",
-      "transformations": [],
-      "destination_sha256": "678c2b8fc3137acbdc9d807e62ed0db92b6f49145ad4c11f59ffd195775ecc9c",
-      "destination_git_oid": "dd565921c23e4dbc59e05110b39e105f69ea375e",
-      "bytes": 3576,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "22d7ecf4ee7d22c17825fb04620d0f42ab44e45af92709fa2b63ec3427153d98",
+      "destination_git_oid": "a56660815d8c97d24f28ed231b1b24e4fd002f6c",
+      "bytes": 3345,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -8329,11 +8389,13 @@
       "source_sha256": "ce8fb1ed4ca1aad14e79e9caa34e9a8d2e7f46b7d26c53a45e9e4fd99bed1a16",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/川普.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E5%B7%9D%E6%99%AE.md",
-      "transformations": [],
-      "destination_sha256": "ce8fb1ed4ca1aad14e79e9caa34e9a8d2e7f46b7d26c53a45e9e4fd99bed1a16",
-      "destination_git_oid": "447d4af13c31e803170d68bfec402a421e2d3293",
-      "bytes": 11298,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "88103ce88ea26b6e892760e9feb55804161de3d90b15ab9359a3be12f4829e91",
+      "destination_git_oid": "25283a489b9281fe087454af08e39ebd20342554",
+      "bytes": 11067,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -8404,11 +8466,13 @@
       "source_sha256": "1d2e352fc80f030026855758407fad849af0a863a9d858d88053dda6166b3518",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/強茂.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E5%BC%B7%E8%8C%82.md",
-      "transformations": [],
-      "destination_sha256": "1d2e352fc80f030026855758407fad849af0a863a9d858d88053dda6166b3518",
-      "destination_git_oid": "21faf87ce4e8b0384373a2915ae7863456bebf05",
-      "bytes": 3505,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "d4981d62fb912cc326a516f80969cb416b6ab1cec0bb0edd9ed44bfce07b533d",
+      "destination_git_oid": "afa1ec57047881350e4a3bea1eb994cc697142ab",
+      "bytes": 3274,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -8464,11 +8528,13 @@
       "source_sha256": "aae67d434d2d0754d9a54e5c0045c49e2b48678f804936f09444aaec898446c4",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/日月光投控.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E6%97%A5%E6%9C%88%E5%85%89%E6%8A%95%E6%8E%A7.md",
-      "transformations": [],
-      "destination_sha256": "aae67d434d2d0754d9a54e5c0045c49e2b48678f804936f09444aaec898446c4",
-      "destination_git_oid": "4d69801e83e310f658fce8e67f479159d1289ed8",
-      "bytes": 3823,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "bc19e1aa1d7afb847b7a633fa15fa5e212272a2be9a89a10dad45adc1abd9830",
+      "destination_git_oid": "cc8109c50f113e164265e90305c16ba5ecfef65a",
+      "bytes": 3592,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -8554,11 +8620,13 @@
       "source_sha256": "bc1d9d032871a33c9eb7da4d16426bb8f5d35730bd36a6d3e6ba6388943252de",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/李兆華.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E6%9D%8E%E5%85%86%E8%8F%AF.md",
-      "transformations": [],
-      "destination_sha256": "bc1d9d032871a33c9eb7da4d16426bb8f5d35730bd36a6d3e6ba6388943252de",
-      "destination_git_oid": "c39dc0bde05ccd5df977ff4caadabf1f28273385",
-      "bytes": 9477,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "b6cde924e6763bb10d9f155e1d3aa0a9e0c93ec6cff3c4ea2319a7ab48ac8b10",
+      "destination_git_oid": "1be3a49d3e93b23d7acfe50ccb301c08e3235689",
+      "bytes": 9246,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -8614,11 +8682,13 @@
       "source_sha256": "f33e1ac33a3479514915ac21f610ecde8b5136222b5db91e8ed5cea7a992537d",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/波若威.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E6%B3%A2%E8%8B%A5%E5%A8%81.md",
-      "transformations": [],
-      "destination_sha256": "f33e1ac33a3479514915ac21f610ecde8b5136222b5db91e8ed5cea7a992537d",
-      "destination_git_oid": "fb355f678bba402d7b484533f5ea0b7dcaea9535",
-      "bytes": 2817,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "f7f5b58e48e967233f114c67e6e5576db774b62569929eef9662f55b764966ed",
+      "destination_git_oid": "3bd5a343ae1c949b28f0831eb59e94cbdab81b42",
+      "bytes": 2586,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -8719,11 +8789,13 @@
       "source_sha256": "19298a2c55d23e6cb99f32e603e08f9859407d086ff9f64d48f6a3d7b509ec69",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/理財達人秀 EBCmoneyshow.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E7%90%86%E8%B2%A1%E9%81%94%E4%BA%BA%E7%A7%80%20EBCmoneyshow.md",
-      "transformations": [],
-      "destination_sha256": "19298a2c55d23e6cb99f32e603e08f9859407d086ff9f64d48f6a3d7b509ec69",
-      "destination_git_oid": "ca4ca11143a2edd693fe8b884cdfada59b3fcd7b",
-      "bytes": 9477,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "ce0a2354177b75f9a3b1ff256ca57b25a4d55c6649371dbd293e5557033bb59f",
+      "destination_git_oid": "12d50323b7e345ffb9af0ed15443dffb3ec6d77e",
+      "bytes": 9246,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -8764,11 +8836,13 @@
       "source_sha256": "8fa389b8c10a12c703d6206e6afb08cdc520ca825538b4e4b08754b9152c0abf",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/矽光子.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E7%9F%BD%E5%85%89%E5%AD%90.md",
-      "transformations": [],
-      "destination_sha256": "8fa389b8c10a12c703d6206e6afb08cdc520ca825538b4e4b08754b9152c0abf",
-      "destination_git_oid": "0ecb4026387e0e947299585a7528c31f2d7f47a8",
-      "bytes": 10216,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "e8518ceb4213e917d3a5d9e324286ae9872cbe7d503aecbef41b691ca358a0dc",
+      "destination_git_oid": "3855fa4973ad1370144ac74ed9bf5dce1698331b",
+      "bytes": 9985,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -8779,11 +8853,13 @@
       "source_sha256": "d6beaa47c1a32fae1abe6db76b431d710da1bb7ff1f0e5e18a896bd5010228fd",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/矽格.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E7%9F%BD%E6%A0%BC.md",
-      "transformations": [],
-      "destination_sha256": "d6beaa47c1a32fae1abe6db76b431d710da1bb7ff1f0e5e18a896bd5010228fd",
-      "destination_git_oid": "a123d45645a6f745edfc645c8d34fd430dc61401",
-      "bytes": 2755,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "83fa491efdc22bd6dfe2217b4004801f120b880fc56953d15adb99056c35ea26",
+      "destination_git_oid": "9d58f2334f3bdf1f736b196acb703195b94ed342",
+      "bytes": 2524,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -8824,11 +8900,13 @@
       "source_sha256": "3fc4955a8afa8b976b12aa8e1f862f70cfe02df4358c67e75b73420f6c427ae5",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/精彩科.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E7%B2%BE%E5%BD%A9%E7%A7%91.md",
-      "transformations": [],
-      "destination_sha256": "3fc4955a8afa8b976b12aa8e1f862f70cfe02df4358c67e75b73420f6c427ae5",
-      "destination_git_oid": "c3049ea327ee21fac9ef9c03c897b30648b4831d",
-      "bytes": 2313,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "1ba7328c5dfd1e8172eefe94c33a35f7580279a38cc51f19d730ccbbae1889aa",
+      "destination_git_oid": "ac45f1fdf3438aa812684d04c0d0da70900f08bd",
+      "bytes": 2082,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -8944,11 +9022,13 @@
       "source_sha256": "9acafdcd18efaafafbdfd095b232b609ff39d6e1871bdd513fddc37a76d70b1c",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/翔名.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E7%BF%94%E5%90%8D.md",
-      "transformations": [],
-      "destination_sha256": "9acafdcd18efaafafbdfd095b232b609ff39d6e1871bdd513fddc37a76d70b1c",
-      "destination_git_oid": "8fea855db72b04ff2e68471de2536cce7bae7f50",
-      "bytes": 3083,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "a16a050add0897de68a48037ec645774daf81bf424192b9cdd841c1f48a1bec4",
+      "destination_git_oid": "4014a8fda1068e37c8d553dc93ed9cb61f1a755e",
+      "bytes": 2852,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -8959,11 +9039,13 @@
       "source_sha256": "3d30a58265cde80f62ceb31a4e8da852de39516d8ea1fc81f0cccb3cb3ac094b",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/聖暉.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E8%81%96%E6%9A%89.md",
-      "transformations": [],
-      "destination_sha256": "3d30a58265cde80f62ceb31a4e8da852de39516d8ea1fc81f0cccb3cb3ac094b",
-      "destination_git_oid": "df90df3a027958c5a89515cd8b9d5c4683b24c8d",
-      "bytes": 3521,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "c1da5ee3fd1a9dede49c6d8d65d3f741b32d887fc416792e9651d285395c6786",
+      "destination_git_oid": "ac1ff0fb0b8926422a3b3809a1afba08986a95d7",
+      "bytes": 3290,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -8974,11 +9056,13 @@
       "source_sha256": "9c8f4ff0ab87df7805c886837fc4b2992577d0e0d72f44755cf8f40f2b37433d",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/聯亞.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E8%81%AF%E4%BA%9E.md",
-      "transformations": [],
-      "destination_sha256": "9c8f4ff0ab87df7805c886837fc4b2992577d0e0d72f44755cf8f40f2b37433d",
-      "destination_git_oid": "10081670e72c308d892637b5e98276901ef6a870",
-      "bytes": 4675,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "f21dc19f8926b61aee790c4e3098373a009a768962d080037b942e60a5f7c827",
+      "destination_git_oid": "eea91a3827deefa63200d8cebc4fc84d63526a40",
+      "bytes": 4444,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -9154,11 +9238,13 @@
       "source_sha256": "f2c5e17156826fa59708000bc09618a2da0deaa0742ef77300b7a89832b3a4ba",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/辛耘.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E8%BE%9B%E8%80%98.md",
-      "transformations": [],
-      "destination_sha256": "f2c5e17156826fa59708000bc09618a2da0deaa0742ef77300b7a89832b3a4ba",
-      "destination_git_oid": "f614a3d527c9b8d3b566e0fc2be22f079fedeef6",
-      "bytes": 2307,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "28e19e6f639f684cc3c15c7b7bd850b127c48cd4b9216edf994fc2c010f83e29",
+      "destination_git_oid": "251bd35865f26292b3751889e41313e6a011b186",
+      "bytes": 2076,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -9214,11 +9300,13 @@
       "source_sha256": "b741d58fc2413f588c490721f083ce97b20bdd8b888e6cdbbc54716f02ce5ed2",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/長榮航.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E9%95%B7%E6%A6%AE%E8%88%AA.md",
-      "transformations": [],
-      "destination_sha256": "b741d58fc2413f588c490721f083ce97b20bdd8b888e6cdbbc54716f02ce5ed2",
-      "destination_git_oid": "e9cf28ed634abbec5a04257f4051a3da7634897b",
-      "bytes": 2952,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "8357da966d4be6a2d64b0ad39486a6732086599c4f71a0cef8091dbf02028789",
+      "destination_git_oid": "2deaa2395973029b2587b149e3cf29560f1645c3",
+      "bytes": 2721,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -9229,11 +9317,13 @@
       "source_sha256": "4ea4ce9025a9dc325248dfb2275154dcc0364d86bb146e72511451181e103167",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/陳唯泰.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E9%99%B3%E5%94%AF%E6%B3%B0.md",
-      "transformations": [],
-      "destination_sha256": "4ea4ce9025a9dc325248dfb2275154dcc0364d86bb146e72511451181e103167",
-      "destination_git_oid": "d9a0b0b468f14f8ef97ac19aab0da79fdabec26b",
-      "bytes": 8762,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "8d848ce0445b602fd33ad27aad33c47f92c3dee51419b1c9f12032ab843fc11e",
+      "destination_git_oid": "cf43107f5943e1420357174da8adc9350e38f919",
+      "bytes": 8531,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -9244,11 +9334,13 @@
       "source_sha256": "8b45577dc31221af2d16623ad2c3fcbaafa41dec83ec1f0a7854036e1cbfa3d7",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/陳威良.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E9%99%B3%E5%A8%81%E8%89%AF.md",
-      "transformations": [],
-      "destination_sha256": "8b45577dc31221af2d16623ad2c3fcbaafa41dec83ec1f0a7854036e1cbfa3d7",
-      "destination_git_oid": "81b00ea26846c560f210e692fe9c058c99ea8d7d",
-      "bytes": 9153,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "d8662f7d4a4c92582ad765926c1cf2d70d3ab70bf4775a027553784c95900ff2",
+      "destination_git_oid": "2a6feca3cc1c1b4f0441f3f45a4fa370bba0d769",
+      "bytes": 8922,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -9259,11 +9351,13 @@
       "source_sha256": "e1c846b628f2ecb6dedc4b75d25fde35e57fa326ed101a09aa4834e4f5112be7",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/頎邦.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E9%A0%8E%E9%82%A6.md",
-      "transformations": [],
-      "destination_sha256": "e1c846b628f2ecb6dedc4b75d25fde35e57fa326ed101a09aa4834e4f5112be7",
-      "destination_git_oid": "d4e7c633e5e65eb5666ed1f06c4b24621b1ba35c",
-      "bytes": 3841,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "3d67e6edec7f1553d73b556ed664990619510c2417834017e8c03057cf53dcbc",
+      "destination_git_oid": "ce7e6cf3c1738c310535007777577cc8ebec517d",
+      "bytes": 3610,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -9304,11 +9398,13 @@
       "source_sha256": "c9c7fb36b638e3a7c2a30d63501c40b23d29841e06a66fd79cec52c12f14896b",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/黃豐凱.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E9%BB%83%E8%B1%90%E5%87%B1.md",
-      "transformations": [],
-      "destination_sha256": "c9c7fb36b638e3a7c2a30d63501c40b23d29841e06a66fd79cec52c12f14896b",
-      "destination_git_oid": "ae4dd4b9cef93a480407743b475af1ced2760fd5",
-      "bytes": 10225,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "e6e5f32f5f114eaa7085cadd09dadb449a78fe30c7f5246ae41aaaba0b88c8bc",
+      "destination_git_oid": "791d56367011f7ffd97ef6c4a111d5c533fe1dfa",
+      "bytes": 9994,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -9319,11 +9415,13 @@
       "source_sha256": "d5b1c1687fca623fb2124c499ac393fa269cc2bc5557f98037e96e7577bfe078",
       "destination": "course/Projects/llm-wiki-graph/wiki/entities/鼎元.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/entities/%E9%BC%8E%E5%85%83.md",
-      "transformations": [],
-      "destination_sha256": "d5b1c1687fca623fb2124c499ac393fa269cc2bc5557f98037e96e7577bfe078",
-      "destination_git_oid": "5ca471bd2cb2f89da0b6656f2040e7da24ddd640",
-      "bytes": 2971,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "c8b99afd0b6d45ef62de3f1190095d1d1c7bacabcdfc69fce0c1e813d7f6d4ea",
+      "destination_git_oid": "1769ef37fff723d4179ce07839146b41c8ec272a",
+      "bytes": 2740,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -9364,11 +9462,13 @@
       "source_sha256": "4e1a1d143bc99561cbda4987872e9504bf1b562d034d1fad46274ea48aa4d5eb",
       "destination": "course/Projects/llm-wiki-graph/wiki/log.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/log.md",
-      "transformations": [],
-      "destination_sha256": "4e1a1d143bc99561cbda4987872e9504bf1b562d034d1fad46274ea48aa4d5eb",
-      "destination_git_oid": "43f8bf81b137a28b4eb78316e8cefe05829a8023",
-      "bytes": 16990,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "c708461442de344d920f5f3c1e3e20e43b8fb7c22ca2c8ed55e8f7960198aaf1",
+      "destination_git_oid": "55691af0fc6fd6993bb109b610f60f377683bf19",
+      "bytes": 16759,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -9647,13 +9747,16 @@
       "source_git_oid": "792494128e05024e1b47a7365cf8925d256b9460",
       "source_mode": "100644",
       "source_sha256": "410e276c27fae0c165458d8d90bdfa07020b42ac7f4c23cc83123598faf3376b",
-      "destination": "course/Projects/llm-wiki-graph/wiki/sources/2026-04-02_理財達人秀_EBCmoneyshow__理財達人秀_川普變驚嚇_低軌封測CPO壓不住_節後搶反彈_抄投信答案_波段配短線_PCB雙面賺_台積電設備_合約負債挖寶__李兆華_黃豐凱_陳唯泰_陳威良20260402_電視完整版_.md",
+      "destination": "course/Projects/llm-wiki-graph/wiki/sources/2026-04-02_EBCmoneyshow_full.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/sources/2026-04-02_%E7%90%86%E8%B2%A1%E9%81%94%E4%BA%BA%E7%A7%80_EBCmoneyshow__%E7%90%86%E8%B2%A1%E9%81%94%E4%BA%BA%E7%A7%80_%E5%B7%9D%E6%99%AE%E8%AE%8A%E9%A9%9A%E5%9A%87_%E4%BD%8E%E8%BB%8C%E5%B0%81%E6%B8%ACCPO%E5%A3%93%E4%B8%8D%E4%BD%8F_%E7%AF%80%E5%BE%8C%E6%90%B6%E5%8F%8D%E5%BD%88_%E6%8A%84%E6%8A%95%E4%BF%A1%E7%AD%94%E6%A1%88_%E6%B3%A2%E6%AE%B5%E9%85%8D%E7%9F%AD%E7%B7%9A_PCB%E9%9B%99%E9%9D%A2%E8%B3%BA_%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%A8%AD%E5%82%99_%E5%90%88%E7%B4%84%E8%B2%A0%E5%82%B5%E6%8C%96%E5%AF%B6__%E6%9D%8E%E5%85%86%E8%8F%AF_%E9%BB%83%E8%B1%90%E5%87%B1_%E9%99%B3%E5%94%AF%E6%B3%B0_%E9%99%B3%E5%A8%81%E8%89%AF20260402_%E9%9B%BB%E8%A6%96%E5%AE%8C%E6%95%B4%E7%89%88_.md",
-      "transformations": [],
-      "destination_sha256": "410e276c27fae0c165458d8d90bdfa07020b42ac7f4c23cc83123598faf3376b",
-      "destination_git_oid": "792494128e05024e1b47a7365cf8925d256b9460",
-      "bytes": 6375,
-      "kind": "copy"
+      "transformations": [
+        "portable-destination-name",
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "fd9f8f56c943471d66358d81946e5c955d60bfd5d77b18c9041fcdb52c71a2f9",
+      "destination_git_oid": "7dc2ecd22c0d6e4466a586e207a97815ffa3a6c4",
+      "bytes": 6144,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -9829,11 +9932,13 @@
       "source_sha256": "a0f32031b491fce26b366d335528a81eea6188d7de167d568638e86bdd8c8f15",
       "destination": "course/Projects/llm-wiki-graph/wiki/synthesis/2026Q1市場共識與分歧.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/synthesis/2026Q1%E5%B8%82%E5%A0%B4%E5%85%B1%E8%AD%98%E8%88%87%E5%88%86%E6%AD%A7.md",
-      "transformations": [],
-      "destination_sha256": "a0f32031b491fce26b366d335528a81eea6188d7de167d568638e86bdd8c8f15",
-      "destination_git_oid": "9fa2eceb2ce41437173f6ae7333180b835fd1c09",
-      "bytes": 4536,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "f2289d7e3da2323d2296692dbc224affc0a94439394ffcafee5d20678b3d9715",
+      "destination_git_oid": "bce6d06125e64d5df09aef80097779cded07d691",
+      "bytes": 4305,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -9844,11 +9949,13 @@
       "source_sha256": "e18e8f95eef4d8b4a55790a6dcd8de45ec01fa92e5806996e3a9c51c023245a0",
       "destination": "course/Projects/llm-wiki-graph/wiki/synthesis/AI供應鏈投資脈絡.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/synthesis/AI%E4%BE%9B%E6%87%89%E9%8F%88%E6%8A%95%E8%B3%87%E8%84%88%E7%B5%A1.md",
-      "transformations": [],
-      "destination_sha256": "e18e8f95eef4d8b4a55790a6dcd8de45ec01fa92e5806996e3a9c51c023245a0",
-      "destination_git_oid": "2c3e841d67394500f5491cfc9b1943867db43722",
-      "bytes": 4653,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "ceef75dbd295b4513dd56d8ce77221a7ba125ef5a4ba4c84f02bf32fdc0979d3",
+      "destination_git_oid": "5dcc0fc46726423648ec888d163a388a2b3b5d1c",
+      "bytes": 4422,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -9859,11 +9966,13 @@
       "source_sha256": "5443aebe49e0fbe0b6abf1c2c35def0533730013da7b20e939d1b47ee072ef2d",
       "destination": "course/Projects/llm-wiki-graph/wiki/synthesis/交易心法彙整.md",
       "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/llm-wiki-graph/wiki/synthesis/%E4%BA%A4%E6%98%93%E5%BF%83%E6%B3%95%E5%BD%99%E6%95%B4.md",
-      "transformations": [],
-      "destination_sha256": "5443aebe49e0fbe0b6abf1c2c35def0533730013da7b20e939d1b47ee072ef2d",
-      "destination_git_oid": "69a96c5952d409eb9692bda935bfa2a11200ea84",
-      "bytes": 4280,
-      "kind": "copy"
+      "transformations": [
+        "portable-wiki-reference"
+      ],
+      "destination_sha256": "929ebcdc2d7f195b09f59a5192d075a60c38fa5f722f56291392e28a34e34038",
+      "destination_git_oid": "efeb804136fa386453ba2753ec4ba9c7f65ecfed",
+      "bytes": 4049,
+      "kind": "adapted"
     },
     {
       "source_repo": "claude-course-code",
@@ -30648,7 +30757,7 @@
   ],
   "summary": {
     "source_files": 1784,
-    "source_bytes": 20946427,
+    "source_bytes": 20934184,
     "by_source": {
       "claude-course-code": 1466,
       "claude-code-best-practice": 110,
@@ -30656,10 +30765,10 @@
       "claude-howto-zh-TW": 117,
       "matt-flow-mods": 32
     },
-    "link_rewrites": 521,
+    "link_rewrites": 574,
     "original_link_issues": 36,
-    "copy": 1730,
-    "adapted": 54
+    "copy": 1677,
+    "adapted": 107
   },
   "supplemental_files": [
     {

@@ -1,0 +1,22 @@
+{
+  "scenario": "missing",
+  "split": "eval",
+  "has_event": true,
+  "event_start_s": 30,
+  "t_true_45_s": 80,
+  "interference": [],
+  "missing_s": [
+    50,
+    51,
+    86,
+    87,
+    140
+  ],
+  "params": {
+    "base_c": 40.0,
+    "slope_c_per_s": 0.1,
+    "plateau_c": 52.0,
+    "sigma_c": 0.3,
+    "seed": 20204
+  }
+}

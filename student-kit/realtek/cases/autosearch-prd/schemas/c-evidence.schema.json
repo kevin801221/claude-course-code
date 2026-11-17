@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "workshop-bc/c-evidence/1.0",
+  "title": "C 產品證據登錄 evidence.json（schema_version 1.0）",
+  "type": "object",
+  "required": ["schema_version", "evidence"],
+  "properties": {
+    "schema_version": {"type": "string", "enum": ["1.0"]},
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["evidence_id", "evidence_kind", "decision_status", "title", "claim", "url_or_path"],
+        "properties": {
+          "evidence_id": {"type": "string"},
+          "evidence_kind": {"type": "string", "enum": ["public_spec", "user_provided", "teaching_assumption", "supplier_suggestion", "b_measurement"]},
+          "decision_status": {"type": "string", "enum": ["proposed", "approved", "unresolved", "rejected"]},
+          "title": {"type": "string"},
+          "claim": {"type": "string"},
+          "url_or_path": {"type": "string"},
+          "conflicts_with": {"type": "array", "items": {"type": "string"}},
+          "value": {"type": ["number", "null"]},
+          "unit": {"type": "string"},
+          "b_trace": {
+            "type": "object",
+            "required": ["run_id", "artifact_path", "artifact_sha256", "row_locator", "metrics_line", "scenario", "limitations"]
+          }
+        }
+      }
+    }
+  }
+}

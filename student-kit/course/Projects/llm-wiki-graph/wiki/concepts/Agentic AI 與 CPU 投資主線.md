@@ -4,7 +4,7 @@ type: concept
 tags: [AI, CPU, 半導體, 投資主線]
 created: 2026-04-07
 updated: 2026-04-07
-sources: [2023-10-27_財經_Podcast_財經_Podcast_EPXXX.json, 2026-03-18_Gooaye_股癌_EP645____.json, 2026-03-21_Gooaye_股癌_EP646____.json, 2026-03-25_Gooaye_股癌_EP647____.json, 2026-03-28_Gooaye_股癌_EP648____.json, 2026-04-01_理財達人秀_EBCmoneyshow__理財達人秀_昨天不敢買_今天不敢追__還有機會_找低檔CPO_PCB_李兆華_王建文_20260401_part2.json, 2026-04-02_理財達人秀_EBCmoneyshow__理財達人秀_AI硬體利空__曲博追真相__輝達新神兵_老AI最補__李兆華_曲建仲_20260401_part6.json, 2026-04-02_理財達人秀_EBCmoneyshow__理財達人秀_川普變驚嚇_低軌封測CPO壓不住_節後搶反彈_抄投信答案_波段配短線_PCB雙面賺_台積電設備_合約負債挖寶_.json, 2026-04-02_理財達人秀_EBCmoneyshow__理財達人秀_川普變驚嚇_低軌封測CPO壓不住_節後搶反彈_抄投信答案_波段配短線_PCB雙面賺_台積電設備_合約負債挖寶__李兆華_黃豐凱_陳唯泰_陳威良20260402_電視完整版_.json, 2026-04-02_理財達人秀_EBCmoneyshow__理財達人秀_川普變驚嚇_先蹲跳更高_壓不住_鎖低軌_封測_CPO_李兆華_黃豐凱_20260402_part1.json, 2026-04-04_Gooaye_股癌_EP650____.json]
+sources: [2023-10-27_財經_Podcast_財經_Podcast_EPXXX.json, 2026-03-18_Gooaye_股癌_EP645____.json, 2026-03-21_Gooaye_股癌_EP646____.json, 2026-03-25_Gooaye_股癌_EP647____.json, 2026-03-28_Gooaye_股癌_EP648____.json, 2026-04-01_理財達人秀_EBCmoneyshow__理財達人秀_昨天不敢買_今天不敢追__還有機會_找低檔CPO_PCB_李兆華_王建文_20260401_part2.json, 2026-04-02_理財達人秀_EBCmoneyshow__理財達人秀_AI硬體利空__曲博追真相__輝達新神兵_老AI最補__李兆華_曲建仲_20260401_part6.json, 2026-04-02_理財達人秀_EBCmoneyshow__理財達人秀_川普變驚嚇_低軌封測CPO壓不住_節後搶反彈_抄投信答案_波段配短線_PCB雙面賺_台積電設備_合約負債挖寶_.json, 2026-04-02_EBCmoneyshow_full.json, 2026-04-02_理財達人秀_EBCmoneyshow__理財達人秀_川普變驚嚇_先蹲跳更高_壓不住_鎖低軌_封測_CPO_李兆華_黃豐凱_20260402_part1.json, 2026-04-04_Gooaye_股癌_EP650____.json]
 ---
 
 # Agentic AI 與 CPU 投資主線

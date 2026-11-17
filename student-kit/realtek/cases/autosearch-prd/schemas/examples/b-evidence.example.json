@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "run_id": "b-20261116T152026Z-0d06",
+  "status": "succeeded",
+  "dataset_kind": "synthetic",
+  "protocol_sha256": "b857cf9b5b49c36f61e341d12d1b12a27419bbb6a9d819ce3b2482f2a4c27711",
+  "error": null,
+  "artifacts": [
+    {
+      "path": "metrics.csv",
+      "sha256": "31d1095d010d5da8922bf73c315181cf82f12509a32020635151969604538e7a"
+    },
+    {
+      "path": "protocol.json",
+      "sha256": "b857cf9b5b49c36f61e341d12d1b12a27419bbb6a9d819ce3b2482f2a4c27711"
+    }
+  ],
+  "claims": [
+    {
+      "evidence_id": "B-E041",
+      "statement": "[合成資料] sma 於 eval/sustained_rise：detection_latency_s = 5 s",
+      "metric": "detection_latency_s",
+      "value": 5.0,
+      "unit": "s",
+      "scenario": "sustained_rise",
+      "candidate": "sma",
+      "split": "eval",
+      "artifact_path": "metrics.csv",
+      "row_locator": "split=eval;candidate=sma;scenario=sustained_rise;metric=detection_latency_s",
+      "limitations": "合成資料（dataset_kind=synthetic；數值為本次實際輸出，不是編造）；單一固定種子、每情境 180 筆；教案預設參數，不是量產門檻；不代表目標硬體或真實設備表現。"
+    },
+    {
+      "evidence_id": "B-E047",
+      "statement": "[合成資料] ema 於 eval/sustained_rise：detection_latency_s = 5 s",
+      "metric": "detection_latency_s",
+      "value": 5.0,
+      "unit": "s",
+      "scenario": "sustained_rise",
+      "candidate": "ema",
+      "split": "eval",
+      "artifact_path": "metrics.csv",
+      "row_locator": "split=eval;candidate=ema;scenario=sustained_rise;metric=detection_latency_s",
+      "limitations": "合成資料（dataset_kind=synthetic；數值為本次實際輸出，不是編造）；單一固定種子、每情境 180 筆；教案預設參數，不是量產門檻；不代表目標硬體或真實設備表現。"
+    }
+  ],
+  "_note": "範例：節錄自一次實際離線 run 的 evidence.json（僅保留部分 artifacts/claims）"
+}
