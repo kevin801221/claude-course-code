@@ -74,7 +74,7 @@ Superpowers 的核心哲學是：**「把軟體工程的最佳實踐，轉化為
    * **Cursor** 期待的是 `additional_context` 欄位（蛇形命名法）。
    * **Claude Code** 期待的是 `hookSpecificOutput.additionalContext`（嵌套駝峰命名法）。
    * **Copilot CLI** 或其他標準 SDK 期待的是 `additionalContext`（頂層駝峰命名法）。
-   
+
    腳本會偵測環境變數（如 `CURSOR_PLUGIN_ROOT` 或 `CLAUDE_PLUGIN_ROOT`），並輸出對應平台所消費的 JSON 結構。例如，在 Cursor 下它會輸出：
    ```json
    {

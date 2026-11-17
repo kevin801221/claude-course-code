@@ -57,7 +57,7 @@ cd /path/to/my-agent-project
 ...
 ```
 
-### 2. **生成實作計畫** 
+### 2. **生成實作計畫**
 ```bash
 /generate-pydantic-ai-prp PRPs/INITIAL.md
 ```

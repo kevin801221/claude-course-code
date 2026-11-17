@@ -591,7 +591,9 @@ def create_cover_image(
         subtitle_font = load_font(config.subtitle_font_paths, 24, logger)
 
         # Add logo if available
-        logo_path = config.logo_path or (config.root_path / "claude-code-tutorial-logo.png")
+        logo_path = config.logo_path or (
+            config.root_path / "claude-code-tutorial-logo.png"
+        )
         if logo_path.exists():
             _add_logo_to_cover(cover, logo_path, config, logger)
         else:
@@ -1084,9 +1086,21 @@ def main() -> int:
     # Each entry: (source root, default output filename, title)
     lang_map: dict[str, tuple[Path, str, str]] = {
         "en": (repo_root, "claude-code-tutorial-guide.epub", EPUBConfig.en_title),
-        "vi": (repo_root / "vi", "claude-code-tutorial-guide-vi.epub", EPUBConfig.vi_title),
-        "zh": (repo_root / "zh", "claude-code-tutorial-guide-zh.epub", EPUBConfig.zh_title),
-        "ja": (repo_root / "ja", "claude-code-tutorial-guide-ja.epub", EPUBConfig.ja_title),
+        "vi": (
+            repo_root / "vi",
+            "claude-code-tutorial-guide-vi.epub",
+            EPUBConfig.vi_title,
+        ),
+        "zh": (
+            repo_root / "zh",
+            "claude-code-tutorial-guide-zh.epub",
+            EPUBConfig.zh_title,
+        ),
+        "ja": (
+            repo_root / "ja",
+            "claude-code-tutorial-guide-ja.epub",
+            EPUBConfig.ja_title,
+        ),
     }
     root, default_output_name, title = lang_map[args.lang]
     output = args.output or (repo_root / default_output_name)

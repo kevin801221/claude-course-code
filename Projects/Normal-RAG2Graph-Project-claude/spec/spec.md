@@ -11,15 +11,15 @@
 ## 2. 系統資料流與架構設計 (Data Flow & Architecture)
 
 ### 2.1 資料模型 (Data Models)
-- **Document**: `{ id: string, name: string, time: string, status: "Indexed" | "Processing" | "Failed" }` 
+- **Document**: `{ id: string, name: string, time: string, status: "Indexed" | "Processing" | "Failed" }`
   前端展示文件使用，對應後端關聯資料（含 `doc_id`, `filename`, `uploaded_at` 等）。
-- **Job**: `{ job_id: string, status: "parsing" | "chunking" | "vectorizing" | "completed" }` 
+- **Job**: `{ job_id: string, status: "parsing" | "chunking" | "vectorizing" | "completed" }`
   追蹤文件背景處理階段的任務模型。
-- **RetrievedChunk**: `{ id: string, source: string, score: number, text: string }` 
+- **RetrievedChunk**: `{ id: string, source: string, score: number, text: string }`
   檢索結果的文字切塊模型，`id` 映射到唯一的 `chunk_id`。
-- **QueryRequest**: `{ query: string, mode?: "vector" | "hybrid" }` 
+- **QueryRequest**: `{ query: string, mode?: "vector" | "hybrid" }`
   前端送出提問的要求模型。
-- **ChatResponse**: `{ answer: string, chunks: RetrievedChunk[] }` 
+- **ChatResponse**: `{ answer: string, chunks: RetrievedChunk[] }`
   後端回傳的最終生成答案與參考片段，強綁定 `chunk_id`。
 
 ### 2.2 ChromaDB Collection 設計

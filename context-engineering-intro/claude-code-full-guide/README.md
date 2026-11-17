@@ -447,7 +447,7 @@ gh repo list
 允許 Claude Code 執行任何操作，同時透過容器化保持安全性。這使得能夠進行快速開發，而不會對您的主機造成破壞性行為。
 
 **前提條件：**
-- 安裝 [Docker](https://www.docker.com/) 
+- 安裝 [Docker](https://www.docker.com/)
 - VS Code (或相容的編輯器)
 
 **安全性功能：**

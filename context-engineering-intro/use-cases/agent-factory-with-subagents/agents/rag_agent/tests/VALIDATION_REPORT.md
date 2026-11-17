@@ -134,7 +134,7 @@ tests/
 
 ### ✅ REQ-006: Success Criteria (PASSED)
 
-**Search Accuracy** 
+**Search Accuracy**
 - ✅ Results consistently exceed 0.7 similarity threshold
 - ✅ Proper ranking and relevance scoring
 - ✅ Quality filtering and validation
@@ -165,7 +165,7 @@ tests/
 - ✅ Secure database query parameterization
 - ✅ No sensitive data logging in implementation
 
-**Input Sanitization** 
+**Input Sanitization**
 - ✅ SQL injection prevention via parameterized queries
 - ✅ Query length limits enforced
 - ✅ Malicious input handling without crashes

@@ -35,13 +35,23 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '22'
 
       - name: Install markdownlint-cli
-        run: npm install -g markdownlint-cli
+        run: npm install -g markdownlint-cli@0.50.0
 
       - name: Run Markdown Linter
-        run: markdownlint '**/*.md' --ignore node_modules --ignore .venv --config .markdownlint.json
+        run: |
+          markdownlint '**/*.md' --config .markdownlint.json \
+            --ignore node_modules --ignore .venv \
+            --ignore student-kit/course --ignore student-kit/references
+          markdownlint student-kit/references/english-workflows/README.md --config .markdownlint.json
+
+      # Preserve the exact classroom source snapshots shipped in the verified ZIP.
+      - name: Verify student kit references and source snapshot checksums
+        run: |
+          python3 student-kit/scripts/check-kit.py
+          python3 student-kit/scripts/check-full-course.py
 
   link-check:
     name: Check Links
@@ -70,10 +80,10 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '22'
 
       - name: Install mermaid CLI
-        run: npm install -g @mermaid-js/mermaid-cli
+        run: npm install -g @mermaid-js/mermaid-cli@12.2.0
 
       - name: Setup Python
         uses: actions/setup-python@v4

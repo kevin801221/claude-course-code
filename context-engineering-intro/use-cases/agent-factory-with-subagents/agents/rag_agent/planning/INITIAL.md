@@ -6,7 +6,7 @@ A simple yet powerful semantic search agent that leverages PGVector to provide i
 ## Agent Classification
 - **Type**: Tool-Enabled Agent with structured output capabilities
 - **Complexity**: Medium
-- **Priority Features**: 
+- **Priority Features**:
   1. Semantic search with embeddings
   2. Intelligent search type selection
   3. Search result summarization
@@ -33,7 +33,7 @@ A simple yet powerful semantic search agent that leverages PGVector to provide i
    - **Acceptance Criteria**: Provide meaningful summaries with proper source references
 
 ### Input/Output Specifications
-- **Input Types**: 
+- **Input Types**:
   - Natural language queries via CLI
   - Optional search type specification ("semantic", "hybrid", or auto-detect)
   - Optional result limit (default: 10)

@@ -1,7 +1,7 @@
 # 在週末內精通 Claude Code 完整教學
 
 > 🚀 從基礎到高階：結合 10 大系統化理論模組、多 Agent 協作產線、原生 Agent Teams 與真實工業級專案的旗艦級教學庫。
-> 
+>
 > 由 [@kevin801221](https://github.com/kevin801221) 精心打造與繁體中文化整理
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)

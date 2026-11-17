@@ -13,6 +13,33 @@ from pathlib import Path
 IGNORE_DIRS = {".venv", "node_modules", ".git", "blog-posts", ".agents"}
 
 
+def mermaid_blocks(markdown: str):
+    """Yield Mermaid fences without treating literal fences in code examples as diagrams."""
+    fence = ""
+    diagram = False
+    lines: list[str] = []
+    for line in markdown.splitlines(keepends=True):
+        # Quoted diagrams have Markdown's quote marker at the start of every line.
+        content = re.sub(r"^(?:[ \t]*> ?)+", "", line)
+        match = re.match(r"^[ \t]*(`{3,}|~{3,})([^\n]*)", content)
+        if not fence:
+            if match:
+                fence, info = match.groups()
+                diagram = info.strip().lower() == "mermaid"
+                lines = []
+        elif (
+            match
+            and match[1][0] == fence[0]
+            and len(match[1]) >= len(fence)
+            and not match[2].strip()
+        ):
+            if diagram:
+                yield "".join(lines)
+            fence = ""
+        elif diagram:
+            lines.append(content)
+
+
 def main() -> int:
     if not shutil.which("mmdc"):
         print(
@@ -22,6 +49,7 @@ def main() -> int:
 
     errors = []
     checked = 0
+    rendered: set[str] = set()
 
     # On GitHub Actions Linux runners, Chrome/Puppeteer requires --no-sandbox.
     # Write a temporary puppeteer config when MERMAID_PUPPETEER_NO_SANDBOX is set.
@@ -44,8 +72,11 @@ def main() -> int:
     try:
         for file_path in md_files:
             content = file_path.read_text()
-            blocks = re.findall(r"```mermaid\n(.*?)```", content, re.DOTALL)
+            blocks = mermaid_blocks(content)
             for i, block in enumerate(blocks):
+                if block in rendered:
+                    checked += 1
+                    continue
                 with tempfile.NamedTemporaryFile(
                     suffix=".mmd", mode="w", delete=False
                 ) as tmp:
@@ -64,6 +95,7 @@ def main() -> int:
                             f"{file_path} (block {i + 1}): {result.stderr.strip()}"
                         )
                     else:
+                        rendered.add(block)
                         checked += 1
                 finally:
                     Path(tmp_path).unlink(missing_ok=True)

@@ -50,9 +50,9 @@
 **改講這個情境**：
 
 > 「假設我下週要 demo 給投資人一個叫 TimeTrace 的 SaaS——簡單來說是 Toggl 的競品，但加了 AI 自動分類。我只有一個下午。
-> 
+>
 > 過去你會怎麼做？打開 Notion 寫需求？開 Figma 畫圖？clone 一個 Next.js template？
-> 
+>
 > 今天我要示範另一條路：**讓 Claude Code 同時派 4 個 agent 並行幫我做 spike，把流程沉澱成 skill，連到 GitNexus 跟 Postgres 抓真實資料、用 hooks 擋我 commit 錯東西、最後用 Pencil 設計 UI 再切版回來。**一個下午做完。」
 
 > **教學金句 #2**：「不是 LLM 變強，是你**指揮 LLM 的方式**變了。」

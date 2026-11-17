@@ -181,7 +181,7 @@ OpenCode 使用其特有的插件安裝機制；即使你已經在其他環境�
 - **systematic-debugging** - 四階段根因分析法（包含根因追踪 root-cause-tracing、深度防禦 defense-in-depth、以及條件式等待 condition-based-waiting 技術）
 - **verification-before-completion** - 確保問題確實已被修復
 
-**協作 (Collaboration)** 
+**協作 (Collaboration)**
 - **brainstorming** - 蘇格拉底式的設計細化流程
 - **writing-plans** - 詳細的實作計畫撰寫
 - **executing-plans** - 帶有檢查點的批次計畫執行

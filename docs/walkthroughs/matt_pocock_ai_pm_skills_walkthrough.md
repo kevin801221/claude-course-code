@@ -139,14 +139,14 @@ npx skills@latest add mattpocock/skills
 
 `/pr` 強制要求產出三大塊結構化證據：
 
-```markdown
+````markdown
 # PR: 新增使用者導覽系統
 
 ## 1. 架構摘要圖（Diagram）
 ```mermaid
 graph LR
   User -->|Request| NavbarUI
-  NavbarUI -->|Fetch| ApiNav[/api/nav]
+  NavbarUI -->|Fetch| ApiNav["/api/nav"]
   ApiNav --> DB[(User Prefs)]
 ```
 
@@ -161,7 +161,7 @@ graph LR
 ## 3. 風險分級（門的類型）
 - 🚪 **雙向門（Two-Way Door）**：UI 樣式與按鈕排列（隨時可透過 CSS 調整回滾）。
 - 🚨 **單向門（One-Way Door）**：DB Schema 新增 `nav_preferences` 欄位（不可逆遷移，請資深架構師重點審查此處）。
-```
+````
 
 ### 三層防線架構
 1. **第一層（機械防線）**：CI / Pre-commit Hook / Linter 自動通過。
