@@ -4,7 +4,6 @@
 用法: /prp-mcp-create path/to/prp.md
 用法範例: /prp-mcp-create weather-server "具備 API 整合的天氣數據 MCP 伺服器"
 用法範例: /prp-mcp-create file-manager "鏡像 Task Master MCP 的檔案管理 MCP 伺服器"
-```
 ---
 
 # 建立 MCP 伺服器 PRP (Create MCP Server PRP)

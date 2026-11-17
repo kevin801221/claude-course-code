@@ -84,7 +84,7 @@
 
 ## 🧠 Skill 1: `brainstorming`（25 分鐘，全程最重要）
 
-🔗 https://github.com/obra/superpowers/tree/main/superpowers/skills/brainstorming
+🔗 https://github.com/obra/superpowers/tree/main/skills/brainstorming
 
 ### 是什麼？
 
@@ -202,7 +202,7 @@ Using brainstorming to explore user intent and requirements
 
 ## 📋 Skill 2: `writing-plans`（25 分鐘）
 
-🔗 https://github.com/obra/superpowers/tree/main/superpowers/skills/writing-plans
+🔗 https://github.com/obra/superpowers/tree/main/skills/writing-plans
 
 ### 是什麼？
 
@@ -314,7 +314,7 @@ brainstorm 的結論我已經確認。用 writing-plans skill 寫成詳細計畫
 
 ## ⚙️ Skill 3: `subagent-driven-development`（30 分鐘，本場高潮）
 
-🔗 https://github.com/obra/superpowers/tree/main/superpowers/skills/subagent-driven-development
+🔗 https://github.com/obra/superpowers/tree/main/skills/subagent-driven-development
 
 ### 是什麼？
 
@@ -648,9 +648,9 @@ plan review 完。用 subagent-driven-development 執行。
 
 - 🔗 [Superpowers GitHub](https://github.com/obra/superpowers)
 - 🔗 [Anthropic Skills GitHub](https://github.com/anthropics/skills)
-- 🔗 brainstorming skill 原始檔：https://github.com/obra/superpowers/tree/main/superpowers/skills/brainstorming
-- 🔗 writing-plans skill 原始檔：https://github.com/obra/superpowers/tree/main/superpowers/skills/writing-plans
-- 🔗 subagent-driven-development 原始檔：https://github.com/obra/superpowers/tree/main/superpowers/skills/subagent-driven-development
+- 🔗 brainstorming skill 原始檔：https://github.com/obra/superpowers/tree/main/skills/brainstorming
+- 🔗 writing-plans skill 原始檔：https://github.com/obra/superpowers/tree/main/skills/writing-plans
+- 🔗 subagent-driven-development 原始檔：https://github.com/obra/superpowers/tree/main/skills/subagent-driven-development
 - 🔗 docx skill 原始檔：https://github.com/anthropics/skills/tree/main/skills/docx
 
 ---

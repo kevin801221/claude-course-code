@@ -59,7 +59,7 @@ python -m ingestion.ingest --documents documents/
 - `LLM_PROVIDER`：提供者名稱 (openai, anthropic, ollama 等)。
 - `LLM_API_KEY`：您的 LLM 提供者 API 金鑰。
 - `LLM_MODEL`：要使用的模型 (例如：gpt-4.1-mini, gemini-2.5-flash)。
-- `LLM_BASE_URL`：API 基礎 URL (預設：https://api.openai.com/v1)。
+- `LLM_BASE_URL`：API 基礎 URL (預設：`https://api.openai.com/v1`)。
 - `EMBEDDING_MODEL`：要使用的嵌入模型 (例如：text-embedding-3-small, text-embedding-3-large)。
 
 ## 使用方式 (Usage)

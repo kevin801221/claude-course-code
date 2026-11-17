@@ -1,5 +1,6 @@
 ### Example usage of the Anthropic API for Claude (model and API key are both environment variables)
 
+```typescript
 const response = await fetch('https://api.anthropic.com/v1/messages', {
 method: 'POST',
 headers: {
@@ -26,3 +27,4 @@ const content = (result as any).content[0].text;
 
 // Parse the JSON response
 const aiTasks = JSON.parse(content);
+```

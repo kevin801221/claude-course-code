@@ -12,7 +12,7 @@ allowed-tools: Bash(git status:*), Bash(git diff:*), Bash(git log:*), Bash(pytes
 2. **產出結構化 PR 內容**：
    依據下方格式輸出：
 
-```markdown
+````markdown
 # PR: <動詞開頭的清晰簡述>
 
 ## 1. 系統架構變更摘要（Mermaid Diagram）
@@ -32,4 +32,4 @@ allowed-tools: Bash(git status:*), Bash(git diff:*), Bash(git log:*), Bash(pytes
 - 🚨 **單向門變更（One-Way Door，高風險/架構不可逆，請重點審查）**：
   - <例如 DB Schema 遷移、API 契約破壞性修改、核心權限架構重構>
   - **回滾預案（Rollback Plan）**：<若發生問題如何快速退回>
-```
+````

@@ -104,7 +104,7 @@ claude --version          # 要支援 plugin
 - 🔗 Hooks 心智模型教案:[`../docs/walkthroughs/hook_walkthrough.md`](../docs/walkthroughs/hook_walkthrough.md)
 - 🔗 Part 9 實戰 hook 範例:[`../Projects/04-pomodoro/`](../Projects/04-pomodoro/README.md)
 - 🔗 原始技術出處(Geoffrey Huntley):https://ghuntley.com/ralph/
-- 🔗 官方原始 plugin:https://github.com/anthropics/claude-code/tree/main/plugins/ralph-wiggum
+- 🔗 官方原始 plugin:https://github.com/anthropics/claude-code/tree/08c6a4f5121ae140d3c1b5c96e3e5ae53587b54b/plugins/ralph-wiggum
 
 ---
 

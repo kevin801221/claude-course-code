@@ -3,10 +3,19 @@
 
 import re
 import sys
+import time
 import urllib.error
 import urllib.request
+from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
+from urllib.parse import quote, urldefrag, urlsplit, urlunsplit
+
+from check_markdown_prose import (
+    MARKDOWN_TARGET,
+    frozen_student_snapshot,
+    markdown_prose,
+)
 
 IGNORE_DIRS = {
     ".venv",
@@ -63,61 +72,106 @@ def is_skipped(url: str) -> bool:
     return any(pattern in url for pattern in SKIP_URL_PATTERNS)
 
 
+# These two published source references are instructor-only. The runnable student
+# materials and public download are checked separately with all other public URLs.
+PRIVATE_SOURCES = {
+    "https://github.com/kevin801221/autosearch-PRD-claudecode",
+    "https://github.com/kevin801221/autosearch-PRD-claudecode/tree/f0e10cef442c46cef9eebda4831225374cc4fbd7",
+}
+
+
+def external_urls(text: str) -> set[str]:
+    prose, _ = markdown_prose(text)
+    urls = {m[1] or m[2] for m in MARKDOWN_TARGET.finditer(prose)}
+    # Also check bare student-facing URLs. Extract Markdown targets first to
+    # preserve Unicode paths and legit trailing underscores in repository names.
+    for candidate in URL_RE.findall(MARKDOWN_TARGET.sub(" ", prose)):
+        raw = candidate.rstrip(">*`':.,;")
+        while raw.endswith(")") and raw.count(")") > raw.count("("):
+            raw = raw[:-1]
+        urls.add(raw)
+    result = set()
+    for value in urls:
+        if not value.startswith(("https://", "http://")):
+            continue
+        parts = urlsplit(urldefrag(value)[0])
+        if not parts.hostname or "." not in parts.hostname:
+            continue
+        result.add(
+            urlunsplit(
+                (
+                    parts.scheme,
+                    parts.netloc,
+                    quote(parts.path, safe="/%:@!$&'()*+,;=-._~"),
+                    quote(parts.query, safe="=&%:@!$'()*+,;/?-._~"),
+                    "",
+                )
+            )
+        )
+    return result
+
+
 def check_url(url: str) -> tuple[str, bool, str]:
     if is_skipped(url):
         return url, True, "skipped"
-    try:
-        req = urllib.request.Request(
-            url, headers={"User-Agent": "Mozilla/5.0"}, method="HEAD"
-        )
-        with urllib.request.urlopen(req, timeout=TIMEOUT):  # nosec B310
-            return url, True, "ok"
-    except urllib.error.HTTPError as e:
-        # 403/429 often means the server is up but blocks bots — treat as ok
-        if e.code in (401, 403, 405, 429):
-            return url, True, f"http {e.code} (ignored)"
-        return url, False, f"HTTP {e.code}"
-    except Exception as e:
-        return url, False, str(e)
+    method = "HEAD"
+    for attempt in range(3):
+        try:
+            headers = {"User-Agent": "Mozilla/5.0"}
+            if method == "GET":
+                headers["Range"] = "bytes=0-0"
+            req = urllib.request.Request(url, headers=headers, method=method)
+            with urllib.request.urlopen(req, timeout=TIMEOUT):  # nosec B310
+                return url, True, "ok"
+        except urllib.error.HTTPError as error:
+            if error.code in (401, 403) or (error.code == 429 and attempt == 2):
+                return url, True, "access restricted"
+            reason = f"HTTP {error.code}"
+            if method == "HEAD" and error.code in (404, 405):
+                method = "GET"
+            elif error.code not in (408, 429, 500, 502, 503, 504):
+                break
+        except (OSError, ValueError) as error:
+            reason = str(error)
+        if attempt < 2:
+            time.sleep(attempt + 1)
+    return url, False, reason
 
 
 def main(strict: bool = False) -> int:
     urls: dict[str, list[str]] = {}  # url -> [file, ...]
 
+    private_references = set()
     md_files = [
         f
         for f in Path().rglob("*.md")
         if not any(part in IGNORE_DIRS for part in f.parts)
+        and not frozen_student_snapshot(f)
     ]
 
     for file_path in md_files:
         content = file_path.read_text()
-        for raw_url in URL_RE.findall(content):
-            # Strip trailing Markdown/punctuation characters the regex may over-capture
-            # from link syntax like [text](https://url/) or **https://url)**
-            clean_url = raw_url.rstrip(")>*_`':.,;").split("#")[0]
-            # Skip bare-hostname partials. URL_RE stops at backslashes, so a
-            # regex string inside a JSON config example like
-            # "footerLinksRegexes": ["https://jira\\.example\\.com/.*"] is
-            # captured as just "https://jira" — a hostname with no dot that is
-            # not a resolvable URL but a truncated pattern. Real public URLs
-            # have a dotted host; localhost-style single-label hosts are in
-            # SKIP_DOMAINS already, so dropping dotless hosts here loses no
-            # genuine link coverage.
-            host = clean_url.split("/", 3)[2] if "://" in clean_url else ""
-            if host and "." not in host.split(":", 1)[0]:
+        for url in external_urls(content):
+            if url in PRIVATE_SOURCES:
+                private_references.add(url)
                 continue
-            urls.setdefault(clean_url, []).append(str(file_path))
+            urls.setdefault(url, []).append(str(file_path))
 
+    if private_references:
+        print("Access required for these instructor-only sources:")
+        for private_url in sorted(private_references):
+            print(f"  - {private_url}")
     if not urls:
         print("✅ No external URLs found")
         return 0
 
     errors: list[str] = []
+    statuses: Counter[str] = Counter()
     with ThreadPoolExecutor(max_workers=10) as pool:
         futures = {pool.submit(check_url, url): url for url in urls}
         for future in as_completed(futures):
             url, ok, reason = future.result()
+            statuses[reason] += 1
             if not ok:
                 errors.extend(f"{f}: dead link → {url} ({reason})" for f in urls[url])
 
@@ -129,7 +183,10 @@ def main(strict: bool = False) -> int:
         # Set LINK_CHECK_STRICT=1 (as CI does) to enforce failures.
         return 1 if strict else 0
 
-    print(f"✅ All external URLs reachable ({len(urls)} checked)")
+    print(
+        f"✅ No broken public links found: {statuses['ok']} reachable, "
+        f"{statuses['access restricted']} access/rate-limited, {statuses['skipped']} configured exclusions."
+    )
     return 0
 
 

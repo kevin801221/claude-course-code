@@ -100,7 +100,7 @@ Claude Code 完整教學 專案的安全性對我們來說很重要。本文件�
 
 **針對敏感的安全性問題，請使用 GitHub 的私密漏洞回報功能：**
 
-1. 造訪：https://github.com/kevin801221/claude-code-tutorial/security/advisories
+1. 造訪：https://github.com/kevin801221/claude-course-code/security/advisories
 2. 點選「Report a vulnerability」
 3. 填寫漏洞詳細資訊
 4. 內容須包含：
@@ -303,7 +303,7 @@ pip-audit
 
 ## 安全性公告存檔
 
-過去的安全性公告可在 [GitHub Security Advisories](https://github.com/kevin801221/claude-code-tutorial/security/advisories) 分頁中查看。
+過去的安全性公告可在 [GitHub Security Advisories](https://github.com/kevin801221/claude-course-code/security/advisories) 分頁中查看。
 
 ## 聯絡方式
 

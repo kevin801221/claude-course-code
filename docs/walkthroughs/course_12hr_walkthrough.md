@@ -924,7 +924,7 @@ A：CLI flag 跟 plugin 規格穩定。核心觀念（agent/skill/hook/MCP）是
 本 repo 必看：
 ├── WALKTHROUGH.md                                  ← 各時長配置（4h/7h/2h）
 ├── docs/walkthroughs/course_12hr_walkthrough.md    ← 你正在讀的這份
-├── Claude_Code_建構指南.md                          ← 1559 行完整 reference
+├── QUICK_REFERENCE.md                              ← 指令與功能速查
 └── Projects/README.md                              ← 8 個 Project 總覽
 
 官方：
@@ -949,7 +949,7 @@ A：CLI flag 跟 plugin 規格穩定。核心觀念（agent/skill/hook/MCP）是
 ## 進階閱讀
 
 - 🔗 [WALKTHROUGH.md](../../WALKTHROUGH.md) — 12h 作戰指揮譜・鳥瞰版（Part×Hour 全景表 + 各刀卡點 + 砍場順序），帶課時主看
-- 🔗 [Claude_Code_建構指南.md](../../Claude_Code_建構指南.md) — 1559 行完整 reference
+- 🔗 [Claude Code 功能速查](../../QUICK_REFERENCE.md) — 指令與功能參考
 - 🔗 [Projects/README.md](../../Projects/README.md) — 8 個 Projects 總覽
 - 🔗 [agent_group_projects/computer-vision-wafer-detection/WALKTHROUGH.md](../../agent_group_projects/computer-vision-wafer-detection/WALKTHROUGH.md) — Hour 6 + Hour 12 用到的 wafer 案例 20K 字講師版
 - 🔗 [important-plugins/superpowers_walkthrough.md](../../important-plugins/superpowers_walkthrough.md) — Hour 10 superpowers 14 招導覽

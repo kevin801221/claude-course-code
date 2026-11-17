@@ -55,7 +55,7 @@ color: blue
 
 在 `agents/[agent_name]/planning/INITIAL.md` 中建立一個簡單、專注的 INITIAL.md 檔案，內容包括：
 
-```markdown
+````markdown
 # [代理人名稱] - 簡單需求
 
 ## 代理人的作用
@@ -99,7 +99,7 @@ LLM_API_KEY=您的 API 金鑰
 ---
 生成日期: [日期]
 注意: 這是一個 MVP。在基礎代理人運作後，可以新增額外功能。
-```
+````
 
 ## 自主工作協定
 

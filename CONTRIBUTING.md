@@ -54,8 +54,8 @@ Claude Code 完整教學 是一份以視覺化、範例導向的方式介紹 Cla
 
 ### 1. Fork 並複製（clone）
 ```bash
-git clone https://github.com/kevin801221/claude-code-tutorial.git
-cd claude-code-tutorial
+git clone https://github.com/kevin801221/claude-course-code.git
+cd claude-course-code
 ```
 
 ### 2. 建立分支

@@ -104,7 +104,7 @@ claude --version
 ## 進階閱讀
 - 🔗 Part 7 sub-agent 實戰:[`../Projects/02-recipe-genie/`](../Projects/02-recipe-genie/README.md)
 - 🔗 自家多 agent 團隊範例:[`../agent_group_projects/stock-groups-skills/`](../agent_group_projects/stock-groups-skills/README.md) ・ [`../agent_group_projects/computer-vision-wafer-detection/`](../agent_group_projects/computer-vision-wafer-detection/WALKTHROUGH.md)
-- 🔗 官方原始 plugin:https://github.com/anthropics/claude-code/tree/main/plugins/pr-review-toolkit
+- 🔗 官方原始 plugin:https://github.com/anthropics/claude-code/tree/08c6a4f5121ae140d3c1b5c96e3e5ae53587b54b/plugins/pr-review-toolkit
 
 ---
 

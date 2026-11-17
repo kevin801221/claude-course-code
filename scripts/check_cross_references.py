@@ -4,6 +4,13 @@
 import re
 import sys
 from pathlib import Path
+from urllib.parse import unquote, urlsplit
+
+from check_markdown_prose import (
+    MARKDOWN_TARGET,
+    frozen_student_snapshot,
+    markdown_prose,
+)
 
 IGNORE_DIRS = {
     ".venv",
@@ -22,6 +29,7 @@ def iter_md_files():
         if (
             not any(part in IGNORE_DIRS for part in f.parts)
             and f.name not in IGNORE_FILES
+            and not frozen_student_snapshot(f)
         ):
             yield f
 
@@ -50,15 +58,6 @@ def heading_to_anchor(heading: str) -> str:
     return anchor.rstrip("-")
 
 
-def strip_code_blocks(content: str) -> str:
-    """Remove fenced code blocks and inline code spans to avoid scanning example links."""
-    # Strip fenced code blocks (``` ... ```)
-    content = re.sub(r"```[^\n]*\n.*?```", "", content, flags=re.DOTALL)
-    # Strip inline code spans (` ... `)
-    content = re.sub(r"`[^`\n]+`", "", content)
-    return content
-
-
 def main() -> int:
     errors: list[str] = []
     repo_root = Path().resolve()
@@ -67,10 +66,14 @@ def main() -> int:
         content = file_path.read_text(encoding="utf-8")
         # Strip code blocks before scanning for links/anchors to avoid false positives
         # from documentation examples inside code fences.
-        scannable = strip_code_blocks(content)
+        scannable, unclosed = markdown_prose(content)
 
         # Relative .md links must resolve and must stay within the repo root
-        for link_path in re.findall(r"\[[^\]]+\]\(([^)#]+\.md)[^)]*\)", scannable):
+        for match in MARKDOWN_TARGET.finditer(scannable):
+            target = urlsplit(match[1] or match[2])
+            if target.scheme or target.netloc or not target.path.endswith(".md"):
+                continue
+            link_path = unquote(target.path)
             resolved = (file_path.parent / link_path).resolve()
             if not resolved.is_relative_to(repo_root):
                 continue
@@ -89,7 +92,7 @@ def main() -> int:
             )
 
         # Unmatched code fences (only count fences at start of line)
-        if len(re.findall(r"^```", content, re.MULTILINE)) % 2 != 0:
+        if unclosed:
             errors.append(f"{file_path}: unmatched code fences")
 
     # All numbered lesson dirs must have README.md

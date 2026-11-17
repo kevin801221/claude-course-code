@@ -59,3 +59,11 @@ def test_numbered_lesson_dir_missing_readme_is_reported(
 
     assert check_cross_references.main() == 1
     assert "01-intro: missing README.md" in capsys.readouterr().out
+
+
+def test_encoded_local_path_and_absolute_web_link(repo: Path) -> None:
+    (repo / "教案.md").write_text("# 教案")
+    (repo / "README.md").write_text(
+        "[本地](%E6%95%99%E6%A1%88.md) [網路](https://example.org/missing-here.md)"
+    )
+    assert check_cross_references.main() == 0

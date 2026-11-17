@@ -1488,7 +1488,7 @@ ROBOFLOW_API_KEY → data  → data/raw/
 
 - [ ] **Step 4: 寫 `examples/wafer/README.md`**
 
-```markdown
+````markdown
 # Wafer Showcase
 
 內建範例：半導體晶圓圖瑕疵偵測（WM-811K，YOLOv8n，Mac MPS）。
@@ -1510,7 +1510,7 @@ uv run autocv all -c configs/wafer.yaml --yes
 | Recall | 0.9968 |
 
 成果視覺化見 [`docs/results/summary.md`](../../docs/results/summary.md)。
-```
+````
 
 - [ ] **Step 5: Commit**
 

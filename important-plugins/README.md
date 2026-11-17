@@ -11,8 +11,8 @@
 | Plugin | 教什麼 pillar | 一句話 | 作者 / 出處 |
 |---|---|---|---|
 | [`superpowers/`](superpowers/README.md) | **Skills**(Part 8) | 一整套工作流 skill(TDD、brainstorming、寫計畫、用 worktree…),含 marketplace | Jesse Vincent ・ [obra/superpowers](https://github.com/obra/superpowers) |
-| [`ralph-wiggum/`](ralph-wiggum/README.md) | **Hooks**(Part 9) | 用一個 Stop hook 讓 Claude 不准下班,自動迭代到測試全綠 | Anthropic 官方 ・ [anthropics/claude-code](https://github.com/anthropics/claude-code/tree/main/plugins/ralph-wiggum) |
-| [`pr-review-toolkit/`](pr-review-toolkit/README.md) | **Sub-agents**(Part 7) | 6 個各盯一面的 review agent + 一鍵調度,示範「plugin 打包一整隊 agent」 | Anthropic 官方 ・ [anthropics/claude-code](https://github.com/anthropics/claude-code/tree/main/plugins/pr-review-toolkit) |
+| [`ralph-wiggum/`](ralph-wiggum/README.md) | **Hooks**(Part 9) | 用一個 Stop hook 讓 Claude 不准下班,自動迭代到測試全綠 | Anthropic 官方 ・ [anthropics/claude-code](https://github.com/anthropics/claude-code/tree/08c6a4f5121ae140d3c1b5c96e3e5ae53587b54b/plugins/ralph-wiggum) |
+| [`pr-review-toolkit/`](pr-review-toolkit/README.md) | **Sub-agents**(Part 7) | 6 個各盯一面的 review agent + 一鍵調度,示範「plugin 打包一整隊 agent」 | Anthropic 官方 ・ [anthropics/claude-code](https://github.com/anthropics/claude-code/tree/08c6a4f5121ae140d3c1b5c96e3e5ae53587b54b/plugins/pr-review-toolkit) |
 
 ## 配套:用 plugin 做出來的實作專案
 

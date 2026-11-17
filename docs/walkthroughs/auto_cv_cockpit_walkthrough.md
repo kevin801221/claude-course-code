@@ -396,11 +396,11 @@ uv run autocv ui
 - 🔗 [autocv 第一輪 plan](../superpowers/plans/2026-05-19-auto-cv-train-inference-optimization.md)
 - 🔗 [cockpit 第二輪 spec](../superpowers/specs/2026-05-19-autocv-ui-cockpit-design.md)
 - 🔗 [cockpit 第二輪 plan](../superpowers/plans/2026-05-19-autocv-ui-cockpit.md)
-- 🔗 [superpowers brainstorming skill 原始檔](https://github.com/.../superpowers/skills/brainstorming)
+- 🔗 [superpowers brainstorming skill 原始檔](https://github.com/obra/superpowers/tree/main/skills/brainstorming)
 
 ---
 
 _Last updated: 2026-05-21_
 _Maintainer: Kevin (kevin@legalsign.ai)_
 _配套教材（同目錄）：course_12hr_walkthrough.md（總帶課譜）、four_skills_walkthrough.md（四技能組合）、agent_team_walkthrough.md（多 agent 真實案例）_
-_專案實戰案例：https://github.com/kevin801221/auto-cv-train-optimization-claude_code_
+[專案實戰案例](https://github.com/kevin801221/auto-cv-train-optimization-claude_code)

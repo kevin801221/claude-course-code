@@ -891,8 +891,8 @@ chmod +x ~/.claude/skills/my-skill/scripts/*.py
 - **完整帶課手冊**：詳見 [`docs/walkthroughs/matt_pocock_ai_pm_skills_walkthrough.md`](../docs/walkthroughs/matt_pocock_ai_pm_skills_walkthrough.md)。
 
 ### 2. Kevin 推薦技能與管理工具
-- **[kevin801221/skills](https://github.com/kevin801221/skills)** — 包含 `logo-designer`（即時產生專案標誌）與 `ollama-optimizer`（本機 LLM 效能調校）等實用現成技能。
-- **[kevin801221/asm](https://github.com/kevin801221/asm)** — Agent Skill Manager。支援 `asm link` 在不同專案間快速軟連結測試技能。
+- **[luongnv89/skills](https://github.com/luongnv89/skills)** — 包含 `logo-designer`（即時產生專案標誌）與 `ollama-optimizer`（本機 LLM 效能調校）等實用現成技能。
+- **[luongnv89/asm](https://github.com/luongnv89/asm)** — Agent Skill Manager。支援 `asm link` 在不同專案間快速軟連結測試技能。
 
 ## 延伸資源
 

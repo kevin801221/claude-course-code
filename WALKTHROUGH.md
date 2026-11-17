@@ -458,7 +458,7 @@ cd ~/claude-code-complete-tutorial/Projects/01-weekly-haiku && claude
 - 🔗 [`docs/walkthroughs/hook_walkthrough.md`](docs/walkthroughs/hook_walkthrough.md) — Hooks 8 種事件與生命週期深入剖析
 - 🔗 [`important-plugins/superpowers_production_walkthrough.md`](important-plugins/superpowers_production_walkthrough.md) — Superpowers 14 招心法與 Pomocat 落地全流程
 - 🔗 [`agent_group_projects/computer-vision-wafer-detection/WALKTHROUGH.md`](agent_group_projects/computer-vision-wafer-detection/WALKTHROUGH.md) — 晶圓瑕疵檢測 4-Agent ML 流水線
-- 🔗 [`Claude_Code_建構指南.md`](Claude_Code_建構指南.md) — 完整功能架構 Reference
+- 🔗 [Claude Code 功能速查](QUICK_REFERENCE.md) — 指令與功能參考
 
 ---
 

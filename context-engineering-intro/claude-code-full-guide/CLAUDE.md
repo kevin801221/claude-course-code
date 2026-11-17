@@ -533,7 +533,7 @@ router = APIRouter(prefix="/api/v1/leads", tags=["leads"])
 @router.get("/agency/{agency_id}")  # GET /api/v1/leads/agency/{agency_id}
 ```
 
-關於完整的命名標準，請參閱 [NAMING_CONVENTIONS.md](./NAMING_CONVENTIONS.md)。
+程式識別字的寫法見本頁的[命名慣例](#命名慣例)。
 
 ## 📝 文件標準
 
