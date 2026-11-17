@@ -1,0 +1,3 @@
+- **節點快取（Add node caching）**：
+  - 啟用方式：1. 在 `compile(cache=...)` 時傳入快取實例（如 `InMemoryCache`，Python 另提供 `SqliteCache`）；2. 在節點掛載 `CachePolicy`。
+  - `CachePolicy` 參數：`key_func`（Python，預設使用 pickle 對輸入進行雜湊）／`keyFunc`（TypeScript），以及 `ttl`（存活秒數，省略時永不過期）。

@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.*
+!.env.example
+secrets/
+tasks.json
+tasks.json.*.tmp
+.outputs/
+__pycache__/
+*.pyc
+.DS_Store
+.claude/settings.local.json
+.claude/projects/
+.firecrawl/

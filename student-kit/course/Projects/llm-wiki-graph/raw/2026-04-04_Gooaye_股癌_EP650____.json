@@ -1,0 +1,451 @@
+{
+  "episode": "EP650 | 🦄",
+  "podcast_name": "Gooaye 股癌",
+  "date": "2026-04-04",
+  "duration_minutes": 50,
+  "insights": [
+    {
+      "type": "macro",
+      "tickers": [],
+      "sentiment": "bearish",
+      "content": "近期市場波動大，美股比台股更難操作。五角大廈的Pizza Tracker顯示，當披薩訂單增加時，可能預示有新的地緣政治狀況發生，因為人們需要熬夜工作。",
+      "key_points": [
+        "市場難做",
+        "美股比台股難做",
+        "Pizza Tracker作為地緣政治指標"
+      ]
+    },
+    {
+      "type": "macro",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "美國對伊朗的行動類似於預防性打擊，伊朗的反擊策略是攻擊周邊盟友，即使是關係好的國家，這使得美國對伊朗發展核武的擔憂是合理的。伊朗與許多作亂團體高度相關。如果美國成功延遲伊朗核武發展數十年，可能迎來和平發展時期。若不成功，油價可能上漲，未來恐有大事件。這是提前享受或延後享受的權衡。",
+      "key_points": [
+        "預防性打擊",
+        "伊朗反擊會攻擊周邊盟友",
+        "伊朗與作亂團體高度相關",
+        "延遲核武發展可能帶來和平",
+        "不作為可能導致油價上漲與未來危機"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "網紅或專家常只關注眼前的價格漲跌，而忽略更宏觀的影響。預測事件並非重點，重點是如何在事件發生後處理。僅關注短期漲幅或在股價大漲後才看報告，會錯失更大的潛力。買在最低點很難，內部人往往能更早買入。市場並不單純。",
+      "key_points": [
+        "KOLs只看眼前，缺乏宏觀視角",
+        "處理事件比預測事件更重要",
+        "不要只看短期漲幅，格局決定看到的東西",
+        "買在最低點很難，市場不單純"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "bullish",
+      "content": "從更長遠的角度看，目前的市場痛苦可能化解未來許多不確定性，帶來更好的發展。",
+      "key_points": [
+        "短期痛苦可能化解長期不確定性"
+      ]
+    },
+    {
+      "type": "macro",
+      "tickers": [],
+      "sentiment": "bearish",
+      "content": "若油價持續在高檔並突破新高，可能導致訂單終止和市場大幅回檔。",
+      "key_points": [
+        "⚠️ 風險: 油價持續高漲可能引發市場回檔"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "目前市場被視為大格局上的多頭回檔。若後續持續破底且油價破高，策略將調整。節目分享側重於市場交易和產品組合。未來是無法預測的，例如俄烏戰爭許多人沒預料到，但它發生了。",
+      "key_points": [
+        "目前視為多頭回檔",
+        "策略會隨市場變化調整",
+        "未來無法預測"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [
+        "INTC.US",
+        "AMD.US",
+        "3533.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "美股開始關注CPU相關標的，討論已持續3-5個月。股票型態作為輔助判斷。Agentic AI需要大量推理、前後處理、查詢資料庫和API，這些都是CPU的工作範圍。在複雜的Agentic AI工作流中，CPU的用量甚至可能超過一半。業界巨頭如Nvidia、AMD、Intel都開始關注CPU。Nvidia推出CPU整櫃解決方案，Meta也是重要用戶。",
+      "key_points": [
+        "CPU相關標的受關注",
+        "股票型態為輔助",
+        "Agentic AI需要大量CPU運算",
+        "Agentic AI中CPU用量大增",
+        "Nvidia推出CPU解決方案",
+        "Meta是CPU重要用戶"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [
+        "NVDA.US"
+      ],
+      "sentiment": "neutral",
+      "content": "在AI訓練時代，GPU叢集是共識。但進入Agentic AI時代，CPU的角色正在改變。GPU像強大的球員（擅長砍分），CPU則像教練（負責指揮調度複雜工作流）。",
+      "key_points": [
+        "GPU在AI訓練中重要",
+        "Agentic AI改變CPU角色",
+        "GPU是球員，CPU是教練"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "不要過度吹捧一方而貶低另一方，CPU和GPU是同時發展的。",
+      "key_points": [
+        "CPU與GPU同時發展"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "探討CPU是否可能出現缺貨或漲價的意外發展。",
+      "key_points": [
+        "CPU可能缺貨漲價"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [],
+      "sentiment": "bullish",
+      "content": "AI最缺HBM和SSD，但SSD漲幅驚人，DRAM表現也很好。消費級CPU在不被看好下，可能會有意外的表現。",
+      "key_points": [
+        "SSD漲幅驚人",
+        "DRAM表現好",
+        "消費級CPU可能意外反彈"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "研究始於想像、報導或論文，再透過業界一線人士的說法進行確認。",
+      "key_points": [
+        "研究從想像開始，由業界確認"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "股民常過度美化喜歡的題材，忽略負面或過早投入。",
+      "key_points": [
+        "避免過度美化題材",
+        "太早投入可能不賺錢"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [
+        "AMD.US",
+        "INTC.US",
+        "NVDA.US"
+      ],
+      "sentiment": "bullish",
+      "content": "AMD CEO提到Agentic工作流中的傳統CPU任務，Intel CFO錯估CPU需求，Nvidia CEO提到更多獨立CPU部署，這些都確認了CPU趨勢。",
+      "key_points": [
+        "AMD、Intel、Nvidia高層確認CPU趨勢"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [
+        "AMD.US",
+        "INTC.US",
+        "NVDA.US"
+      ],
+      "sentiment": "bullish",
+      "content": "AMD在x86市場逐漸蠶食Intel市佔。AI訓練下，AMD和Intel都有望受惠。Nvidia也有自己的Vera CPU。",
+      "key_points": [
+        "AMD蠶食Intel市佔",
+        "AMD/Intel/Nvidia皆有望受惠"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "選擇投資標的時，偏好純度高的公司。新故事不一定能推動股價，若舊故事已反映。尋找被低估且有新故事的標的。",
+      "key_points": [
+        "選擇純度高標的",
+        "新故事與舊故事的影響"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [
+        "AMD.US",
+        "INTC.US",
+        "NVDA.US"
+      ],
+      "sentiment": "bullish",
+      "content": "投資CPU應先看AMD和Intel。Nvidia可作為市場調整的參考。",
+      "key_points": [
+        "AMD和Intel是CPU投資首選",
+        "Nvidia作為市場參考"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [
+        "ARM"
+      ],
+      "sentiment": "bullish",
+      "content": "ARM伺服器市佔率從2018年不到5%增至2022年20-25%，在超大規模運算中達50%。主要雲端供應商使用自研ARM CPU。",
+      "key_points": [
+        "ARM伺服器市佔率大增",
+        "雲端供應商採用ARM CPU"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [
+        "INTC.US",
+        "AMD.US"
+      ],
+      "sentiment": "bullish",
+      "content": "若Intel和AMD持續上漲，考慮加碼。估值非首要考量，專注於題材佈局。若跌破支撐則停止加碼。",
+      "key_points": [
+        "關注Intel和AMD走勢",
+        "題材佈局優先於估值",
+        "⚠️ 風險: 跌破支撐停止加碼"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [],
+      "sentiment": "bullish",
+      "content": "CPU在Agentic工作流中佔總延遲的50-90%。Agentic AI的CPU佔比很高（40-50%），傳統AI僅10%。趨勢明確，但實際貢獻取決於產能。",
+      "key_points": [
+        "CPU是Agentic AI瓶頸",
+        "CPU佔比高",
+        "實際貢獻取決於產能"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [
+        "2330.TW",
+        "2303.TW"
+      ],
+      "sentiment": "neutral",
+      "content": "AI的一大瓶頸是台積電，而台積電的瓶頸之一是聯電。CPU和GPU可能搶奪產能。",
+      "key_points": [
+        "台積電是AI瓶頸",
+        "聯電是台積電瓶頸之一",
+        "CPU與GPU可能搶產能"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [],
+      "sentiment": "bullish",
+      "content": "中東兩家鋁廠被炸，導致鋁價突破波段新高，歷史新高在2022年。中東供應全球約10%的鋁，供需缺口可能影響全球鋁價。鋁是市場上非常需要的原料，特別是AI領域。碳電阻和鋁電容目前缺貨，類似記憶體。可能導致供應鏈斷裂。若中東問題未解且鋁價創新高，可能引發傳導效應，導致鋁箔和鋁電容價格上漲。",
+      "key_points": [
+        "中東鋁廠被炸",
+        "鋁價突破新高",
+        "中東鋁供應佔比10%",
+        "供需缺口影響鋁價",
+        "鋁是AI重要原料",
+        "碳電阻、鋁電容缺貨",
+        "供應鏈斷裂危機",
+        "鋁價上漲可能影響鋁箔、鋁電容"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "業界人士指出，MLCC和TLVR電感未來可能取代鋁電容和碳電阻。三星電機已提及使用MLCC。這可能緩解長期缺貨風險。",
+      "key_points": [
+        "MLCC可能取代鋁電容",
+        "緩解長期缺貨風險"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "bullish",
+      "content": "若戰爭持續，投資策略需調整。關注鋁等原物料。即使被炸工廠非AI關鍵供應商，情緒因素仍可能推升價格。鋁價上漲可能推升鋁箔及下游應用價格，尤其在AI高需求下。這可作為戰爭風險的避險佈局。",
+      "key_points": [
+        "戰爭持續影響投資策略",
+        "關注原物料",
+        "情緒因素推升價格",
+        "鋁價上漲影響下游",
+        "避險戰爭風險"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "⚠️ 風險: 鋁價下跌（戰爭結束）或MLCC等技術三年內取代鋁。這意味著本益比可能不高。",
+      "key_points": [
+        "⚠️ 風險: 鋁價下跌",
+        "⚠️ 風險: 技術取代鋁",
+        "本益比可能不高"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "塑化股也屬於景氣循環或事件型題材。",
+      "key_points": [
+        "塑化股為景氣循環/事件型題材"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "台股目前不特別需要這些替代佈局，但若戰爭惡化且需分散多單風險，鋁相關標的可能是選項。這些策略可能隨市場情勢和估值變化而調整。節目旨在分享最新想法。",
+      "key_points": [
+        "台股目前不需替代佈局",
+        "戰爭惡化可考慮鋁相關標的",
+        "策略會隨市場變化調整"
+      ]
+    },
+    {
+      "type": "sector",
+      "tickers": [
+        "NVDA.US"
+      ],
+      "sentiment": "bullish",
+      "content": "Nvidia的VR BOM成本和物料清單公開，顯示他們直接拉被動元件，暗示被動元件需求強勁。曾因漲價但股價不動而放棄被動元件，現因鋁電容漲價重新關注。若需求固定且快速增加，供給端可能產生新的價格變化。",
+      "key_points": [
+        "Nvidia拉被動元件",
+        "被動元件需求強勁",
+        "重新關注被動元件",
+        "鋁電容價格上漲",
+        "需求增加可能推升價格"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "祝福聽眾丈夫身體健康，早日退休。如何應對不喜歡的綽號？不要反應，忽略對方，或完全不與對方來往。孩子戒尿布要接受他們犯錯，讓生活更輕鬆（如使用保潔墊）。父母情緒會影響孩子。分享生活點滴：給小費、生日、人生觀。台灣/日本給小費是驚喜，美國是期待。人生觀：物質是次要，內心平靜最重要。嫉妒是快樂之賊。經歷過奮鬥才能理解簡單幸福的價值。不要讓別人的「日常」破壞自己的小確幸。",
+      "key_points": [
+        "祝福聽眾",
+        "不反應、忽略對方",
+        "不與對方來往",
+        "接受孩子犯錯",
+        "父母情緒影響孩子",
+        "使用生活小撇步",
+        "給小費的文化差異",
+        "物質是次要，內心平靜最重要",
+        "嫉妒是快樂之賊",
+        "經歷奮鬥才能理解幸福",
+        "不要讓別人影響自己的快樂"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [
+        "8069.TW"
+      ],
+      "sentiment": "neutral",
+      "content": "聽眾在8069.TW上虧損10%（10萬台幣），詢問應從中學習什麼。沒人知道你買進的理由。若怪罪他人，就是韭菜。只有自己知道為何買。節目不提供個股建議。若是題材型投資者，8069.TW現在很貴且無新催化劑。若是價值型，現在更便宜為何不買？若是動能型，不會等到回檔這麼多。沒人知道你的策略。你需要自己探索原因。",
+      "key_points": [
+        "虧損10%在8069.TW",
+        "如何從虧損中學習",
+        "自己負責投資決策",
+        "不怪罪他人",
+        "節目不提供個股建議",
+        "不同投資策略的考量",
+        "8069.TW無新催化劑",
+        "沒人知道你的策略",
+        "自己探索投資原因"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "bullish",
+      "content": "工作與老闆相處不順，但擔心換工作影響貸款。如何調適心情？工作是為了錢。若能滿足財務需求（如房貸），就忍耐。目標是交屋，而非與老闆交友。要釐清優先順序。若工作影響心理健康，考慮是否能延遲交屋夢想以換取心靈平靜。需釐清優先順序。",
+      "key_points": [
+        "工作不順影響心情",
+        "擔心換工作影響貸款",
+        "工作是為了錢",
+        "優先滿足財務需求",
+        "釐清人生目標",
+        "心理健康與夢想的權衡",
+        "釐清優先順序"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "詢問如何透過基本面故事選股，以PS4/PS5為例。如何識別哪些供應商最受惠，或市場會炒作哪個環節。已多次討論。AI伺服器需識別關鍵環節。消費電子（如Switch）需識別組裝廠和特定元件供應商。關注小公司獲得大訂單，因對營收影響大。這是研究能力的差異。成功人士與打零工者的區別在於認知程度。研究需要大量時間與努力，不要期望輕鬆獲勝。",
+      "key_points": [
+        "基本面選股",
+        "識別受惠供應商",
+        "市場炒作環節",
+        "AI伺服器關鍵環節",
+        "消費電子供應鏈",
+        "小公司大訂單影響大",
+        "研究能力差異",
+        "不要期望輕鬆獲勝",
+        "需要時間與努力"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "neutral",
+      "content": "投資的核心是供需。所有研究（基本面、技術面、籌碼面）都只是為了理解供需。",
+      "key_points": [
+        "投資核心是供需",
+        "所有研究皆為理解供需"
+      ]
+    },
+    {
+      "type": "stock",
+      "tickers": [
+        "6257.TW",
+        "6285.TW"
+      ],
+      "sentiment": "bullish",
+      "content": "提及6257.TW (光通)和6285.TW (啟碁)最近很多人在看，很活潑。",
+      "key_points": [
+        "6257.TW和6285.TW受關注"
+      ]
+    },
+    {
+      "type": "strategy",
+      "tickers": [],
+      "sentiment": "bullish",
+      "content": "股市中做多期望值較高。做空最多賺100%，做多則無限。建議做多。做空是個「人人喊打」的行業，做空者常不被喜歡，甚至面臨騷擾。真正的大空頭非常低調，他們認為找高估股票比找低估股票容易。他們會忍受小虧損，等待一次大反咬。選擇比努力重要。若做空績效不佳，可能需改變策略。",
+      "key_points": [
+        "做多期望值較高",
+        "做空最大獲利100%",
+        "做多獲利無限",
+        "做空者常不被喜歡",
+        "做空可能面臨騷擾",
+        "大空頭低調",
+        "找高估股票容易",
+        "忍受小虧損等待大反咬",
+        "選擇比努力重要",
+        "績效決定策略是否有效"
+      ]
+    }
+  ],
+  "status": "confirmed",
+  "processed_at": "2026-04-06T23:30:41.838218"
+}

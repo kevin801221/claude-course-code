@@ -1,0 +1,5 @@
+package com.kevinluo.arxiv_reader
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()

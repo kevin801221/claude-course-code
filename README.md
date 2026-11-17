@@ -13,6 +13,8 @@
 
 **[15 分鐘快速上手](#15-分鐘快速上手)** | **[找到你的等級](#不知道從哪裡開始)** | **[實戰專案工廠](#實戰專案工廠-projects)** | **[瀏覽功能目錄](CATALOG.md)**
 
+**[下載學生實作包 v2.0.0（ZIP）](https://raw.githubusercontent.com/kevin801221/claude-course-code/main/student-kit/dist/claude-code-student-kit-v2.0.0-2026-11-12.zip)** · [五個課後問題與兩個延伸實作](student-kit/realtek/README.md)
+
 
 ---
 

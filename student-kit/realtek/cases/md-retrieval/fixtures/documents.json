@@ -1,0 +1,88 @@
+{
+  "docs": [
+    {
+      "id": "langchain/short-term-memory",
+      "category": "langchain",
+      "slug": "short-term-memory",
+      "title": "Short-term memory",
+      "begin": 8,
+      "end": 12,
+      "body": "## Overview\n\nMemory is a system that remembers information about previous interactions. For AI agents, memory is crucial because it lets them remember previous interactions, learn from feedback, and adapt to user preferences. As agents tackle more complex tasks with numerous user interactions, this capability becomes essential for both efficiency and user satisfaction.\n\nShort term memory lets your application remember previous interactions within a single thread or conversation.\n",
+      "index": {
+        "summary": "介紹代理的短期記憶：管理單一對話串的歷史，含修剪、刪除、摘要訊息與讀寫記憶。",
+        "keywords": [
+          "short-term memory",
+          "短期記憶",
+          "thread",
+          "對話串",
+          "conversation history",
+          "對話歷史",
+          "context window",
+          "上下文視窗",
+          "trim messages",
+          "修剪訊息",
+          "delete messages",
+          "summarize messages",
+          "摘要",
+          "custom state",
+          "自訂狀態"
+        ]
+      }
+    },
+    {
+      "id": "langgraph/graph-api-nodes",
+      "category": "langgraph",
+      "slug": "graph-api-nodes",
+      "title": "Configure nodes",
+      "begin": 393,
+      "end": 407,
+      "body": "## Add node caching\n\nUse node caching when a step is expensive and you want to reuse results for the same input.\n\nTo enable caching:\n\n1. Pass a cache when you compile the graph (for example, `InMemoryCache`). `SqliteCache` is also available in Python.\n2. Attach a @[`CachePolicy`] on the node.\n\n@[`CachePolicy`] options:\n\n:::python\n- **`key_func`**: Function that builds a cache key from the node input. Defaults to a hash of the input (via pickle).\n- **`ttl`**: Time to live in seconds. When omitted, the cache entry does not expire.\n:::\n",
+      "index": {
+        "summary": "說明如何設定 LangGraph 節點：執行期設定、重試、逾時、錯誤處理、預設值與快取。",
+        "keywords": [
+          "configure nodes",
+          "節點設定",
+          "retry policy",
+          "重試策略",
+          "timeout",
+          "逾時",
+          "error handler",
+          "錯誤處理",
+          "node defaults",
+          "節點預設值",
+          "node caching",
+          "節點快取",
+          "execution info",
+          "drain",
+          "server info"
+        ]
+      }
+    },
+    {
+      "id": "langgraph/persistence",
+      "category": "langgraph",
+      "slug": "persistence",
+      "title": "Persistence",
+      "begin": 14,
+      "end": 16,
+      "body": "Persistence lets LangGraph applications keep useful information beyond a single graph run. It matters when an agent needs to continue a conversation, resume after an interruption, recover from a failure, or remember information across interactions.\n\nLangGraph provides two complementary persistence systems:\n",
+      "index": {
+        "summary": "說明 LangGraph 持久化層：以 checkpointer 提供短期記憶、以 store 提供長期記憶，並附疑難排解。",
+        "keywords": [
+          "persistence",
+          "持久化",
+          "checkpointer",
+          "檢查點",
+          "store",
+          "儲存庫",
+          "thread",
+          "執行緒",
+          "InMemorySaver",
+          "PostgresSaver",
+          "short-term memory",
+          "長期記憶"
+        ]
+      }
+    }
+  ]
+}

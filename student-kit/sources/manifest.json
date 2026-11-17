@@ -1,0 +1,550 @@
+{
+  "schema_version": 1,
+  "prepared_at": "2026-11-11",
+  "lecture": {
+    "filename": "Claude_Code_完整教學_v13_2_講師版_2026-10-2.pdf",
+    "sha256": "4ee031b449d8a60d8bbaf18be4cf78e86f5df1134866784802189a01cabf0605",
+    "pdf_pages": 609,
+    "printed_total": 610,
+    "included_in_archive": false
+  },
+  "snapshots": [
+    {
+      "name": "claude-code-best-practice",
+      "remote": "https://github.com/kevin801221/claude-code-best-practice.git",
+      "commit": "17b25b2948ecea4aa5e7e60c4e015876fc7063c7",
+      "dirty": false,
+      "license": "MIT",
+      "license_file": "licenses/claude-code-best-practice.LICENSE",
+      "license_sha256": "ff213c37152ebef37261ce48b413e9f2d62a156a7d105ba297cd5a0cfe18cbac"
+    },
+    {
+      "name": "claude-code-zh-tw",
+      "remote": "https://github.com/kevin801221/claude-code-zh-tw.git",
+      "commit": "9c6e34d69eee8cf634bbf269df5f812b6e13e987",
+      "dirty": false,
+      "license": "MIT",
+      "license_file": "licenses/claude-code-zh-tw.LICENSE",
+      "license_sha256": "ff213c37152ebef37261ce48b413e9f2d62a156a7d105ba297cd5a0cfe18cbac"
+    },
+    {
+      "name": "claude-course-code",
+      "remote": "https://github.com/kevin801221/claude-course-code.git",
+      "commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332",
+      "dirty": false,
+      "license": "MIT",
+      "license_file": "licenses/claude-course-code.LICENSE",
+      "license_sha256": "2da8cc9ddc42bed2e5bce6b64ac0481a9908d5dc140fbec180b9f407f4733b85"
+    },
+    {
+      "name": "claude-howto-zh-TW",
+      "remote": "https://github.com/kevin801221/claude-howto-zh-TW.git",
+      "commit": "d7f669d6bd1679a6c2e4a0c9b47d4159c018911e",
+      "dirty": false,
+      "license": "MIT",
+      "license_file": "licenses/claude-howto-zh-TW.LICENSE",
+      "license_sha256": "70af63a728d585a646c86276b0a8ae0f6edffcd6cf535f45e595241fec97fbbf"
+    },
+    {
+      "name": "matt-flow-mods",
+      "remote": "https://github.com/kevin801221/matt-flow-mods.git",
+      "commit": "70b50bc1b822eb18d770f8f75588b3b01f77cc27",
+      "dirty": false,
+      "license": "MIT",
+      "license_file": "licenses/matt-flow-mods.LICENSE",
+      "license_sha256": "21073e31e7cc5b63f6fca32427a1c6541c0161633f099a104a5e202d81c9b29c"
+    }
+  ],
+  "files": [
+    {
+      "source_repo": "claude-code-best-practice",
+      "source_path": ".claude/commands/weather-orchestrator.md",
+      "destination": "examples/weather-workflow/.claude/commands/weather-orchestrator.md",
+      "kind": "adapted",
+      "source_commit": "17b25b2948ecea4aa5e7e60c4e015876fc7063c7",
+      "source_sha256": "7607d1f05d759651c4e31b5b3cc905c3b4a95a6d4a5850251f4a34cd9274dfcd",
+      "destination_sha256": "b3e3b6d335f6ef08c76dfeb9712510ec096ebf9588dd5bc28dd07804352cf7a1",
+      "source_url": "https://github.com/kevin801221/claude-code-best-practice/blob/17b25b2948ecea4aa5e7e60c4e015876fc7063c7/.claude/commands/weather-orchestrator.md"
+    },
+    {
+      "source_repo": "claude-code-best-practice",
+      "source_path": ".claude/agents/weather-agent.md",
+      "destination": "examples/weather-workflow/.claude/agents/weather-agent.md",
+      "kind": "adapted",
+      "source_commit": "17b25b2948ecea4aa5e7e60c4e015876fc7063c7",
+      "source_sha256": "3fa40ad12d5041ab613d09b789be05f6c3055f948bb4d337487ed35ed723f27e",
+      "destination_sha256": "faba6ecdcd6b285849dd429fedbe1f4e1b8f6305d9b98c6a564614120992bdf1",
+      "source_url": "https://github.com/kevin801221/claude-code-best-practice/blob/17b25b2948ecea4aa5e7e60c4e015876fc7063c7/.claude/agents/weather-agent.md"
+    },
+    {
+      "source_repo": "claude-code-best-practice",
+      "source_path": ".claude/skills/weather-fetcher/SKILL.md",
+      "destination": "examples/weather-workflow/.claude/skills/weather-fetcher/SKILL.md",
+      "kind": "copy",
+      "source_commit": "17b25b2948ecea4aa5e7e60c4e015876fc7063c7",
+      "source_sha256": "4350c64fd975416da3a1ed34c6f1add622b28413edc377994f4a320263cf661e",
+      "destination_sha256": "4350c64fd975416da3a1ed34c6f1add622b28413edc377994f4a320263cf661e",
+      "source_url": "https://github.com/kevin801221/claude-code-best-practice/blob/17b25b2948ecea4aa5e7e60c4e015876fc7063c7/.claude/skills/weather-fetcher/SKILL.md"
+    },
+    {
+      "source_repo": "claude-code-best-practice",
+      "source_path": ".claude/skills/weather-svg-creator/SKILL.md",
+      "destination": "examples/weather-workflow/.claude/skills/weather-svg-creator/SKILL.md",
+      "kind": "adapted",
+      "source_commit": "17b25b2948ecea4aa5e7e60c4e015876fc7063c7",
+      "source_sha256": "b157e73e8da5c5705dc0c56c83a47483b0db349ef66e8d0016cd0bbe972ebefa",
+      "destination_sha256": "d700e91cf9c0e616b11eaecf76d08bec18141319e36993968450784ca5176013",
+      "source_url": "https://github.com/kevin801221/claude-code-best-practice/blob/17b25b2948ecea4aa5e7e60c4e015876fc7063c7/.claude/skills/weather-svg-creator/SKILL.md"
+    },
+    {
+      "source_repo": "claude-code-best-practice",
+      "source_path": ".claude/skills/weather-svg-creator/reference.md",
+      "destination": "examples/weather-workflow/.claude/skills/weather-svg-creator/reference.md",
+      "kind": "copy",
+      "source_commit": "17b25b2948ecea4aa5e7e60c4e015876fc7063c7",
+      "source_sha256": "1ff5ca7768d1d1e6127789a6d2bcc3a13285646b0add5727bbe448a5bdff1bf3",
+      "destination_sha256": "1ff5ca7768d1d1e6127789a6d2bcc3a13285646b0add5727bbe448a5bdff1bf3",
+      "source_url": "https://github.com/kevin801221/claude-code-best-practice/blob/17b25b2948ecea4aa5e7e60c4e015876fc7063c7/.claude/skills/weather-svg-creator/reference.md"
+    },
+    {
+      "source_repo": "claude-code-best-practice",
+      "source_path": ".claude/skills/weather-svg-creator/examples.md",
+      "destination": "examples/weather-workflow/.claude/skills/weather-svg-creator/examples.md",
+      "kind": "copy",
+      "source_commit": "17b25b2948ecea4aa5e7e60c4e015876fc7063c7",
+      "source_sha256": "33c25099150c2e2884b7b0487f725b522185521bf2be2808ecd2a624b3267500",
+      "destination_sha256": "33c25099150c2e2884b7b0487f725b522185521bf2be2808ecd2a624b3267500",
+      "source_url": "https://github.com/kevin801221/claude-code-best-practice/blob/17b25b2948ecea4aa5e7e60c4e015876fc7063c7/.claude/skills/weather-svg-creator/examples.md"
+    },
+    {
+      "source_repo": "claude-code-zh-tw",
+      "source_path": "reports/why-harness-is-important.md",
+      "destination": "docs/reading-guide.md",
+      "kind": "reading-reference",
+      "source_commit": "9c6e34d69eee8cf634bbf269df5f812b6e13e987",
+      "source_sha256": "e087607a27951783c63d7188cf5beb51843cd2887071f478a740389e34c6e3b0",
+      "destination_sha256": "d28c12521d047fbbcb9a2b66a9407a916feb28c91201a74665d1fa6f3c6bfe28",
+      "source_url": "https://github.com/kevin801221/claude-code-zh-tw/blob/9c6e34d69eee8cf634bbf269df5f812b6e13e987/reports/why-harness-is-important.md"
+    },
+    {
+      "source_repo": "claude-code-zh-tw",
+      "source_path": "reports/claude-agent-command-skill.md",
+      "destination": "docs/reading-guide.md",
+      "kind": "reading-reference",
+      "source_commit": "9c6e34d69eee8cf634bbf269df5f812b6e13e987",
+      "source_sha256": "8eafeeb60086b071831ee3c2f607af5727efb4c508205de21d43dc5b3cab33c0",
+      "destination_sha256": "d28c12521d047fbbcb9a2b66a9407a916feb28c91201a74665d1fa6f3c6bfe28",
+      "source_url": "https://github.com/kevin801221/claude-code-zh-tw/blob/9c6e34d69eee8cf634bbf269df5f812b6e13e987/reports/claude-agent-command-skill.md"
+    },
+    {
+      "source_repo": "claude-code-zh-tw",
+      "source_path": "best-practice/claude-memory.md",
+      "destination": "docs/reading-guide.md",
+      "kind": "reading-reference",
+      "source_commit": "9c6e34d69eee8cf634bbf269df5f812b6e13e987",
+      "source_sha256": "a0d85ec4c82535529d3b649178f904de02e30b95ed09d5f4edf88b12e6a83405",
+      "destination_sha256": "d28c12521d047fbbcb9a2b66a9407a916feb28c91201a74665d1fa6f3c6bfe28",
+      "source_url": "https://github.com/kevin801221/claude-code-zh-tw/blob/9c6e34d69eee8cf634bbf269df5f812b6e13e987/best-practice/claude-memory.md"
+    },
+    {
+      "source_repo": "claude-code-zh-tw",
+      "source_path": "reports/claude-skills-for-larger-mono-repos.md",
+      "destination": "docs/reading-guide.md",
+      "kind": "reading-reference",
+      "source_commit": "9c6e34d69eee8cf634bbf269df5f812b6e13e987",
+      "source_sha256": "49aa8b82eee1389d5ad8b6be7d01171cec9687e16c4e6d89da707b1aace5db27",
+      "destination_sha256": "d28c12521d047fbbcb9a2b66a9407a916feb28c91201a74665d1fa6f3c6bfe28",
+      "source_url": "https://github.com/kevin801221/claude-code-zh-tw/blob/9c6e34d69eee8cf634bbf269df5f812b6e13e987/reports/claude-skills-for-larger-mono-repos.md"
+    },
+    {
+      "source_repo": "claude-code-zh-tw",
+      "source_path": "tips/claude-thariq-tips-17-mar-26.md",
+      "destination": "docs/reading-guide.md",
+      "kind": "reading-reference",
+      "source_commit": "9c6e34d69eee8cf634bbf269df5f812b6e13e987",
+      "source_sha256": "849ab08c1a7c254c636b18df5538311affba835d1fef0d07a9c986484a80e4b4",
+      "destination_sha256": "d28c12521d047fbbcb9a2b66a9407a916feb28c91201a74665d1fa6f3c6bfe28",
+      "source_url": "https://github.com/kevin801221/claude-code-zh-tw/blob/9c6e34d69eee8cf634bbf269df5f812b6e13e987/tips/claude-thariq-tips-17-mar-26.md"
+    },
+    {
+      "source_repo": "claude-code-zh-tw",
+      "source_path": "tips/claude-thariq-tips-16-apr-26.md",
+      "destination": "docs/reading-guide.md",
+      "kind": "reading-reference",
+      "source_commit": "9c6e34d69eee8cf634bbf269df5f812b6e13e987",
+      "source_sha256": "8877d0fe577c89882357d79896649c6c3a29457dac0fb359cf569971e3382b9e",
+      "destination_sha256": "d28c12521d047fbbcb9a2b66a9407a916feb28c91201a74665d1fa6f3c6bfe28",
+      "source_url": "https://github.com/kevin801221/claude-code-zh-tw/blob/9c6e34d69eee8cf634bbf269df5f812b6e13e987/tips/claude-thariq-tips-16-apr-26.md"
+    },
+    {
+      "source_repo": "claude-code-best-practice",
+      "source_path": "orchestration-workflow/orchestration-workflow.md",
+      "destination": "docs/reading-guide.md",
+      "kind": "reading-reference",
+      "source_commit": "17b25b2948ecea4aa5e7e60c4e015876fc7063c7",
+      "source_sha256": "1e0a4c01b646a3ccee4680705ca8dc465a2fed366652473ed434680ef05576f7",
+      "destination_sha256": "d28c12521d047fbbcb9a2b66a9407a916feb28c91201a74665d1fa6f3c6bfe28",
+      "source_url": "https://github.com/kevin801221/claude-code-best-practice/blob/17b25b2948ecea4aa5e7e60c4e015876fc7063c7/orchestration-workflow/orchestration-workflow.md"
+    },
+    {
+      "source_repo": "claude-howto-zh-TW",
+      "source_path": "03-skills/doc-generator/generate-docs.py",
+      "destination": "resources/templates/skills/doc-generator/generate-docs.py",
+      "kind": "copy",
+      "source_commit": "d7f669d6bd1679a6c2e4a0c9b47d4159c018911e",
+      "source_sha256": "e471492489faec27f2290ccac7ec559caa8c1db243b853203e4ec3593d6261f8",
+      "destination_sha256": "e471492489faec27f2290ccac7ec559caa8c1db243b853203e4ec3593d6261f8",
+      "source_url": "https://github.com/kevin801221/claude-howto-zh-TW/blob/d7f669d6bd1679a6c2e4a0c9b47d4159c018911e/03-skills/doc-generator/generate-docs.py"
+    },
+    {
+      "source_repo": "claude-howto-zh-TW",
+      "source_path": "03-skills/doc-generator/SKILL.md",
+      "destination": "resources/templates/skills/doc-generator/SKILL.md",
+      "kind": "adapted",
+      "source_commit": "d7f669d6bd1679a6c2e4a0c9b47d4159c018911e",
+      "source_sha256": "b6c3fd91311979c22afdde7737fca42b5de3f5e1e6849d15669c98b932494060",
+      "destination_sha256": "1fad3a7b67da90f9d19a852738dcc32025868f3137cded3a5cea675ea022b605",
+      "source_url": "https://github.com/kevin801221/claude-howto-zh-TW/blob/d7f669d6bd1679a6c2e4a0c9b47d4159c018911e/03-skills/doc-generator/SKILL.md"
+    },
+    {
+      "source_repo": "claude-howto-zh-TW",
+      "source_path": "03-skills/code-review-specialist/templates/review-checklist.md",
+      "destination": "resources/templates/review/review-checklist.md",
+      "kind": "copy",
+      "source_commit": "d7f669d6bd1679a6c2e4a0c9b47d4159c018911e",
+      "source_sha256": "a105e1c05bb2e2f9a1852cc4f6606f59643cb52058ad95b1cbdf6f276d24e3d2",
+      "destination_sha256": "a105e1c05bb2e2f9a1852cc4f6606f59643cb52058ad95b1cbdf6f276d24e3d2",
+      "source_url": "https://github.com/kevin801221/claude-howto-zh-TW/blob/d7f669d6bd1679a6c2e4a0c9b47d4159c018911e/03-skills/code-review-specialist/templates/review-checklist.md"
+    },
+    {
+      "source_repo": "claude-howto-zh-TW",
+      "source_path": "03-skills/code-review-specialist/templates/finding-template.md",
+      "destination": "resources/templates/review/finding-template.md",
+      "kind": "copy",
+      "source_commit": "d7f669d6bd1679a6c2e4a0c9b47d4159c018911e",
+      "source_sha256": "9c2f21b479f356ec52dd4d27cd9f9b4d8de16032c825ca006bc308edc2b8a24b",
+      "destination_sha256": "9c2f21b479f356ec52dd4d27cd9f9b4d8de16032c825ca006bc308edc2b8a24b",
+      "source_url": "https://github.com/kevin801221/claude-howto-zh-TW/blob/d7f669d6bd1679a6c2e4a0c9b47d4159c018911e/03-skills/code-review-specialist/templates/finding-template.md"
+    },
+    {
+      "source_repo": "claude-course-code",
+      "source_path": "04-subagents/code-reviewer.md",
+      "destination": "resources/templates/agents/kit-reviewer.md",
+      "kind": "adapted",
+      "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332",
+      "source_sha256": "40b273bbca294c929b85da9c943765d2dc80a59a28a105bb7de75715dbd0053e",
+      "destination_sha256": "e67a33d7182cf5239a5070ee5230ce786bd112573238d8d9b2de7cd423449217",
+      "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/04-subagents/code-reviewer.md"
+    },
+    {
+      "source_repo": "claude-course-code",
+      "source_path": "04-subagents/test-engineer.md",
+      "destination": "resources/templates/agents/kit-test-engineer.md",
+      "kind": "adapted",
+      "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332",
+      "source_sha256": "24c87e69fefddb2b242a23c3ef640e1a24f00a8f484b421ca7c1eda0b9ece716",
+      "destination_sha256": "f0840d41ceef960f985868047e7100169acbc4569d892f0483fd84059a1bb730",
+      "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/04-subagents/test-engineer.md"
+    },
+    {
+      "source_repo": "claude-howto-zh-TW",
+      "source_path": "04-subagents/documentation-writer.md",
+      "destination": "resources/templates/agents/kit-docs-writer.md",
+      "kind": "adapted",
+      "source_commit": "d7f669d6bd1679a6c2e4a0c9b47d4159c018911e",
+      "source_sha256": "d7619bc07bb809b30b5f72f99457a768849a57ccce11526e1ffc018a7f2a27c0",
+      "destination_sha256": "3388bf665680170b3625cd78ad5df4fa81c610441294fb5dc72ca6304ede76f9",
+      "source_url": "https://github.com/kevin801221/claude-howto-zh-TW/blob/d7f669d6bd1679a6c2e4a0c9b47d4159c018911e/04-subagents/documentation-writer.md"
+    },
+    {
+      "source_repo": "claude-course-code",
+      "source_path": "01-slash-commands/unit-test-expand.md",
+      "destination": "resources/templates/commands/unit-test-expand.md",
+      "kind": "adapted",
+      "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332",
+      "source_sha256": "077cf793d670e39fa595b0be7ed6a7f3a837a9f9593e66b16c488f8012883d9d",
+      "destination_sha256": "2e081a8fe22cc6aaab4c3f6b3c0fefeb099807b7b7ac388847b9f4a31b249081",
+      "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/01-slash-commands/unit-test-expand.md"
+    },
+    {
+      "source_repo": "claude-howto-zh-TW",
+      "source_path": "01-slash-commands/generate-api-docs.md",
+      "destination": "resources/templates/commands/generate-api-docs.md",
+      "kind": "adapted",
+      "source_commit": "d7f669d6bd1679a6c2e4a0c9b47d4159c018911e",
+      "source_sha256": "64703a59cb6d0fd7e106f5b07b5bfa6a371e331e3a4e673eea092f950e479765",
+      "destination_sha256": "74cc626a884aec6250b8f82d55772f49ecfd247a8a2863f076311d8505ee2ec4",
+      "source_url": "https://github.com/kevin801221/claude-howto-zh-TW/blob/d7f669d6bd1679a6c2e4a0c9b47d4159c018911e/01-slash-commands/generate-api-docs.md"
+    },
+    {
+      "source_repo": "claude-course-code",
+      "source_path": "context-engineering-intro/PRPs/templates/prp_base.md",
+      "destination": "resources/templates/context/PRP.md",
+      "kind": "adapted",
+      "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332",
+      "source_sha256": "256af41b4ed9bbd38f92d1a9dcd7abedb4e6b56c45686c2f05cd065521de088b",
+      "destination_sha256": "0eed2564d66f42c9696c0cb847a4f359162cca1ed06ed6a8ceb2472fc1591e33",
+      "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/context-engineering-intro/PRPs/templates/prp_base.md"
+    },
+    {
+      "source_repo": "claude-course-code",
+      "source_path": "agent_group_projects/computer-vision-wafer-detection/.claude/agents/data-hunter.md",
+      "destination": "advanced/project-recipes/wafer/source-agents/data-hunter.md",
+      "kind": "copy",
+      "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332",
+      "source_sha256": "3faf9caf9fd532be39ae6695ac9d0ae57f82536b576f23eec2441e526d1d4aec",
+      "destination_sha256": "3faf9caf9fd532be39ae6695ac9d0ae57f82536b576f23eec2441e526d1d4aec",
+      "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/agent_group_projects/computer-vision-wafer-detection/.claude/agents/data-hunter.md"
+    },
+    {
+      "source_repo": "claude-course-code",
+      "source_path": "agent_group_projects/computer-vision-wafer-detection/.claude/agents/bbox-labeler.md",
+      "destination": "advanced/project-recipes/wafer/source-agents/bbox-labeler.md",
+      "kind": "copy",
+      "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332",
+      "source_sha256": "035ae161b1a880ad33d8398b77a5d4c9af209c44d3cad9de80827fffbb6e3c40",
+      "destination_sha256": "035ae161b1a880ad33d8398b77a5d4c9af209c44d3cad9de80827fffbb6e3c40",
+      "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/agent_group_projects/computer-vision-wafer-detection/.claude/agents/bbox-labeler.md"
+    },
+    {
+      "source_repo": "claude-course-code",
+      "source_path": "agent_group_projects/computer-vision-wafer-detection/.claude/agents/training-runner.md",
+      "destination": "advanced/project-recipes/wafer/source-agents/training-runner.md",
+      "kind": "copy",
+      "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332",
+      "source_sha256": "90302bf8d0203324bf8fa678c21e03ea5ff41a9ce10aab14801c9d2702c87391",
+      "destination_sha256": "90302bf8d0203324bf8fa678c21e03ea5ff41a9ce10aab14801c9d2702c87391",
+      "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/agent_group_projects/computer-vision-wafer-detection/.claude/agents/training-runner.md"
+    },
+    {
+      "source_repo": "claude-course-code",
+      "source_path": "agent_group_projects/computer-vision-wafer-detection/.claude/agents/inference-runner.md",
+      "destination": "advanced/project-recipes/wafer/source-agents/inference-runner.md",
+      "kind": "copy",
+      "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332",
+      "source_sha256": "e9b14afe930ff6144f9d133e2eb3d7e898949439620d9e5b5681bd81271fb135",
+      "destination_sha256": "e9b14afe930ff6144f9d133e2eb3d7e898949439620d9e5b5681bd81271fb135",
+      "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/agent_group_projects/computer-vision-wafer-detection/.claude/agents/inference-runner.md"
+    },
+    {
+      "source_repo": "claude-course-code",
+      "source_path": "agent_teams/ios-app-flutter-dev/arxiv-2-空白課堂版/_Context/api-contract.md",
+      "destination": "advanced/project-recipes/agent-teams/source-context/api-contract.md",
+      "kind": "copy",
+      "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332",
+      "source_sha256": "f4dcdf08dee47e5564089d351c1cf65672d5b0dc9c492339f332c8458d46a9b4",
+      "destination_sha256": "f4dcdf08dee47e5564089d351c1cf65672d5b0dc9c492339f332c8458d46a9b4",
+      "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/agent_teams/ios-app-flutter-dev/arxiv-2-%E7%A9%BA%E7%99%BD%E8%AA%B2%E5%A0%82%E7%89%88/_Context/api-contract.md"
+    },
+    {
+      "source_repo": "claude-course-code",
+      "source_path": "agent_teams/ios-app-flutter-dev/arxiv-2-空白課堂版/_Context/team-roles.md",
+      "destination": "advanced/project-recipes/agent-teams/source-context/team-roles.md",
+      "kind": "copy",
+      "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332",
+      "source_sha256": "ae6d96e670c0e5f2db2305b9ee16e5898ab7c2c3344ec5e5ffc90d8a83372949",
+      "destination_sha256": "ae6d96e670c0e5f2db2305b9ee16e5898ab7c2c3344ec5e5ffc90d8a83372949",
+      "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/agent_teams/ios-app-flutter-dev/arxiv-2-%E7%A9%BA%E7%99%BD%E8%AA%B2%E5%A0%82%E7%89%88/_Context/team-roles.md"
+    },
+    {
+      "source_repo": "claude-course-code",
+      "source_path": "agent_group_projects/computer-vision-wafer-template/README.md",
+      "destination": "advanced/project-recipes/wafer/README.md",
+      "kind": "reading-reference",
+      "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332",
+      "source_sha256": "842f869fca53583b3cf0d4fabe6f8e26a2320504956a4df24015cac8693d2788",
+      "destination_sha256": "01c4bd353d3936d480f9ace39c773a54da96d6ef0c3d105f5ac2a876371024c8",
+      "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/agent_group_projects/computer-vision-wafer-template/README.md"
+    },
+    {
+      "source_repo": "claude-course-code",
+      "source_path": "agent_group_projects/computer-vision-wafer-detection/scripts/prepare_dataset.py",
+      "destination": "advanced/project-recipes/wafer/README.md",
+      "kind": "reading-reference",
+      "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332",
+      "source_sha256": "7384a18a647032c760032c19702ed1349dc625dd6d7543fc07074d7b4167a2a1",
+      "destination_sha256": "01c4bd353d3936d480f9ace39c773a54da96d6ef0c3d105f5ac2a876371024c8",
+      "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/agent_group_projects/computer-vision-wafer-detection/scripts/prepare_dataset.py"
+    },
+    {
+      "source_repo": "claude-course-code",
+      "source_path": "agent_group_projects/computer-vision-wafer-agents-detection-demo/CLAUDE.md",
+      "destination": "advanced/project-recipes/wafer/README.md",
+      "kind": "reading-reference",
+      "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332",
+      "source_sha256": "cbff0285d654be0ff858e345952848f6d81248d9ad5ed879bb8dd5f1d6f333e3",
+      "destination_sha256": "01c4bd353d3936d480f9ace39c773a54da96d6ef0c3d105f5ac2a876371024c8",
+      "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/agent_group_projects/computer-vision-wafer-agents-detection-demo/CLAUDE.md"
+    },
+    {
+      "source_repo": "claude-course-code",
+      "source_path": "agent_teams/ios-app-flutter-dev/agent-team-playbook.md",
+      "destination": "advanced/project-recipes/agent-teams/README.md",
+      "kind": "reading-reference",
+      "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332",
+      "source_sha256": "ad2e9914c17e7ce4b6a102c93708f97d13d4b53b1e6a3883f8dc1a889521d661",
+      "destination_sha256": "fa6616ba12d7157fa06644a3a22b1e22a48cff2898986e10b45304abd2b09dc6",
+      "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/agent_teams/ios-app-flutter-dev/agent-team-playbook.md"
+    },
+    {
+      "source_repo": "matt-flow-mods",
+      "source_path": ".claude-plugin/plugin.json",
+      "destination": "advanced/matt-flow-mods/.claude-plugin/plugin.json",
+      "kind": "copy",
+      "source_commit": "70b50bc1b822eb18d770f8f75588b3b01f77cc27",
+      "source_sha256": "a03c52f4ca14f195f10e2cd2b9ff788ec7f4f634cf86ef60a4aab003c4c3f4ca",
+      "destination_sha256": "a03c52f4ca14f195f10e2cd2b9ff788ec7f4f634cf86ef60a4aab003c4c3f4ca",
+      "source_url": "https://github.com/kevin801221/matt-flow-mods/blob/70b50bc1b822eb18d770f8f75588b3b01f77cc27/.claude-plugin/plugin.json"
+    },
+    {
+      "source_repo": "matt-flow-mods",
+      "source_path": ".claude-plugin/marketplace.json",
+      "destination": "advanced/matt-flow-mods/.claude-plugin/marketplace.json",
+      "kind": "copy",
+      "source_commit": "70b50bc1b822eb18d770f8f75588b3b01f77cc27",
+      "source_sha256": "f579c595da77a68d853b54e03af13eef3099f13264bfc3face4be26bd4dcd955",
+      "destination_sha256": "f579c595da77a68d853b54e03af13eef3099f13264bfc3face4be26bd4dcd955",
+      "source_url": "https://github.com/kevin801221/matt-flow-mods/blob/70b50bc1b822eb18d770f8f75588b3b01f77cc27/.claude-plugin/marketplace.json"
+    },
+    {
+      "source_repo": "matt-flow-mods",
+      "source_path": "hooks/hooks.json",
+      "destination": "advanced/matt-flow-mods/hooks/hooks.json",
+      "kind": "copy",
+      "source_commit": "70b50bc1b822eb18d770f8f75588b3b01f77cc27",
+      "source_sha256": "d842d789476d67282d0f04b7e5fdc68a3d981ccec65dd79cfa2d11eed13fb828",
+      "destination_sha256": "d842d789476d67282d0f04b7e5fdc68a3d981ccec65dd79cfa2d11eed13fb828",
+      "source_url": "https://github.com/kevin801221/matt-flow-mods/blob/70b50bc1b822eb18d770f8f75588b3b01f77cc27/hooks/hooks.json"
+    },
+    {
+      "source_repo": "matt-flow-mods",
+      "source_path": "hooks/register.tsx",
+      "destination": "advanced/matt-flow-mods/hooks/register.tsx",
+      "kind": "copy",
+      "source_commit": "70b50bc1b822eb18d770f8f75588b3b01f77cc27",
+      "source_sha256": "5daa284f49efe91d43c5d7e32d8c3383670a419c58f5df8dc4a52838121cc4b3",
+      "destination_sha256": "5daa284f49efe91d43c5d7e32d8c3383670a419c58f5df8dc4a52838121cc4b3",
+      "source_url": "https://github.com/kevin801221/matt-flow-mods/blob/70b50bc1b822eb18d770f8f75588b3b01f77cc27/hooks/register.tsx"
+    },
+    {
+      "source_repo": "matt-flow-mods",
+      "source_path": "hooks/register.test.tsx",
+      "destination": "advanced/matt-flow-mods/hooks/register.test.tsx",
+      "kind": "copy",
+      "source_commit": "70b50bc1b822eb18d770f8f75588b3b01f77cc27",
+      "source_sha256": "bdfb53fdbc448779b795ce25bc956d937befeea069b36859df33c1fbb24e5554",
+      "destination_sha256": "bdfb53fdbc448779b795ce25bc956d937befeea069b36859df33c1fbb24e5554",
+      "source_url": "https://github.com/kevin801221/matt-flow-mods/blob/70b50bc1b822eb18d770f8f75588b3b01f77cc27/hooks/register.test.tsx"
+    },
+    {
+      "source_repo": "matt-flow-mods",
+      "source_path": "types/index.d.ts",
+      "destination": "advanced/matt-flow-mods/types/index.d.ts",
+      "kind": "copy",
+      "source_commit": "70b50bc1b822eb18d770f8f75588b3b01f77cc27",
+      "source_sha256": "a07d88da8465c3345c40132f97fd9fbb7a6ae014c3ae5c8659e63a48e8a0277b",
+      "destination_sha256": "a07d88da8465c3345c40132f97fd9fbb7a6ae014c3ae5c8659e63a48e8a0277b",
+      "source_url": "https://github.com/kevin801221/matt-flow-mods/blob/70b50bc1b822eb18d770f8f75588b3b01f77cc27/types/index.d.ts"
+    },
+    {
+      "source_repo": "matt-flow-mods",
+      "source_path": "scripts/typecheck",
+      "destination": "advanced/matt-flow-mods/scripts/typecheck",
+      "kind": "copy",
+      "source_commit": "70b50bc1b822eb18d770f8f75588b3b01f77cc27",
+      "source_sha256": "810d413ef2462070c030e32f7c3a8e2aee3d1768a7f1fbe1c6970f067c392d67",
+      "destination_sha256": "810d413ef2462070c030e32f7c3a8e2aee3d1768a7f1fbe1c6970f067c392d67",
+      "source_url": "https://github.com/kevin801221/matt-flow-mods/blob/70b50bc1b822eb18d770f8f75588b3b01f77cc27/scripts/typecheck"
+    },
+    {
+      "source_repo": "matt-flow-mods",
+      "source_path": "scripts/live-check",
+      "destination": "advanced/matt-flow-mods/scripts/live-check",
+      "kind": "copy",
+      "source_commit": "70b50bc1b822eb18d770f8f75588b3b01f77cc27",
+      "source_sha256": "e67ea1be05688118cb9d11de01728afc6ca2b65181f259d43ba60f7efb858445",
+      "destination_sha256": "e67ea1be05688118cb9d11de01728afc6ca2b65181f259d43ba60f7efb858445",
+      "source_url": "https://github.com/kevin801221/matt-flow-mods/blob/70b50bc1b822eb18d770f8f75588b3b01f77cc27/scripts/live-check"
+    },
+    {
+      "source_repo": "matt-flow-mods",
+      "source_path": ".githooks/pre-commit",
+      "destination": "advanced/matt-flow-mods/.githooks/pre-commit",
+      "kind": "copy",
+      "source_commit": "70b50bc1b822eb18d770f8f75588b3b01f77cc27",
+      "source_sha256": "36156e3003a8ddf54a779eef343cdb2574cf6f5618e1309442e1d025adf0e2c1",
+      "destination_sha256": "36156e3003a8ddf54a779eef343cdb2574cf6f5618e1309442e1d025adf0e2c1",
+      "source_url": "https://github.com/kevin801221/matt-flow-mods/blob/70b50bc1b822eb18d770f8f75588b3b01f77cc27/.githooks/pre-commit"
+    },
+    {
+      "source_repo": "matt-flow-mods",
+      "source_path": "LICENSE",
+      "destination": "advanced/matt-flow-mods/LICENSE",
+      "kind": "copy",
+      "source_commit": "70b50bc1b822eb18d770f8f75588b3b01f77cc27",
+      "source_sha256": "21073e31e7cc5b63f6fca32427a1c6541c0161633f099a104a5e202d81c9b29c",
+      "destination_sha256": "21073e31e7cc5b63f6fca32427a1c6541c0161633f099a104a5e202d81c9b29c",
+      "source_url": "https://github.com/kevin801221/matt-flow-mods/blob/70b50bc1b822eb18d770f8f75588b3b01f77cc27/LICENSE"
+    },
+    {
+      "source_repo": "claude-course-code",
+      "source_path": "Projects/01-weekly-haiku/.claude/commands/weekly-haiku.md",
+      "destination": "examples/lecture-mini-projects/weekly-haiku/source/commands/weekly-haiku.md",
+      "kind": "copy",
+      "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332",
+      "source_sha256": "0efa1efd0d3422ba0318464e13c0c9db58a6973777367bf52eff970cfbc54eb1",
+      "destination_sha256": "0efa1efd0d3422ba0318464e13c0c9db58a6973777367bf52eff970cfbc54eb1",
+      "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/01-weekly-haiku/.claude/commands/weekly-haiku.md"
+    },
+    {
+      "source_repo": "claude-course-code",
+      "source_path": "Projects/02-recipe-genie/.claude/agents/recipe-genie.md",
+      "destination": "examples/lecture-mini-projects/recipe-genie/source/agents/recipe-genie.md",
+      "kind": "copy",
+      "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332",
+      "source_sha256": "a2fec5e0e728e65c1f882a4b81b68593ba8571e905527b75bf8e37b7c18112f9",
+      "destination_sha256": "a2fec5e0e728e65c1f882a4b81b68593ba8571e905527b75bf8e37b7c18112f9",
+      "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/02-recipe-genie/.claude/agents/recipe-genie.md"
+    },
+    {
+      "source_repo": "claude-course-code",
+      "source_path": "Projects/04-pomodoro/.claude/hooks/pomodoro.sh",
+      "destination": "examples/lecture-mini-projects/pomodoro/source/hooks/pomodoro.sh",
+      "kind": "copy",
+      "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332",
+      "source_sha256": "105a4decc72c3e5c5ede8b0f1b845863ace19ddbf28c006d05b3e689ea983b75",
+      "destination_sha256": "105a4decc72c3e5c5ede8b0f1b845863ace19ddbf28c006d05b3e689ea983b75",
+      "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/04-pomodoro/.claude/hooks/pomodoro.sh"
+    },
+    {
+      "source_repo": "claude-course-code",
+      "source_path": "Projects/04-pomodoro/try/.claude/settings.json",
+      "destination": "examples/lecture-mini-projects/pomodoro/source/settings.json",
+      "kind": "copy",
+      "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332",
+      "source_sha256": "98ae11c02a54bc3ea2a75c2d2ab129bf06704fa22b1edd67c4cdcd0c1e413c47",
+      "destination_sha256": "98ae11c02a54bc3ea2a75c2d2ab129bf06704fa22b1edd67c4cdcd0c1e413c47",
+      "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/04-pomodoro/try/.claude/settings.json"
+    },
+    {
+      "source_repo": "claude-course-code",
+      "source_path": "Projects/01-weekly-haiku/.claude/commands/weekly-haiku.md",
+      "destination": "examples/lecture-mini-projects/weekly-haiku/modern-skill/SKILL.md",
+      "kind": "adapted",
+      "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332",
+      "source_sha256": "0efa1efd0d3422ba0318464e13c0c9db58a6973777367bf52eff970cfbc54eb1",
+      "destination_sha256": "9b94677c6da213532e70ba90a40df8df1ef11823e9163b57504d6cf728189edd",
+      "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/01-weekly-haiku/.claude/commands/weekly-haiku.md"
+    },
+    {
+      "source_repo": "claude-course-code",
+      "source_path": "Projects/04-pomodoro/try/.claude/settings.json",
+      "destination": "examples/lecture-mini-projects/pomodoro/settings.project.example.json",
+      "kind": "adapted",
+      "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332",
+      "source_sha256": "98ae11c02a54bc3ea2a75c2d2ab129bf06704fa22b1edd67c4cdcd0c1e413c47",
+      "destination_sha256": "be8ae152b39151cfd6f5f52573a01618bb086e7fa7587796f87aa514bbee16ec",
+      "source_url": "https://github.com/kevin801221/claude-course-code/blob/475fe057ed234f836ff3eb06f4c5eecad9e36332/Projects/04-pomodoro/try/.claude/settings.json"
+    }
+  ]
+}

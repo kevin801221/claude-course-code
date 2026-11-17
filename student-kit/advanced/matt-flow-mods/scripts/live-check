@@ -1,0 +1,85 @@
+#!/bin/sh
+# Runs the mod in a real Claude Code session, where /clear and the gates meet the engine itself: a throwaway
+# project, this working tree loaded by --plugin-dir, a VHS tape and one cheap Haiku turn. It checks that a jump
+# is dropped, that a skip is kept, and that after /clear the code gate still refuses an edit.
+# ponytail: the run leaves its trust answer in ~/.claude.json and its prompts in ~/.claude/history.jsonl, since
+# running sessions write both; prune the throwaway paths from them by hand once no session runs.
+cd "$(dirname "$0")/.." || exit 1
+for tool in vhs claude jq; do
+  if ! command -v "$tool" >/dev/null 2>&1; then
+    echo "live-check skipped: $tool is not installed"
+    exit 0
+  fi
+done
+# The session started here inherits nothing of one that ran this script.
+for name in $(env | sed -n 's/^\(CLAUDE[A-Za-z0-9_]*\)=.*/\1/p'); do unset "$name"; done
+work=$(cd "$(mktemp -d)" && pwd -P)
+out=$(mktemp -d)
+store="$HOME/.claude/plugins/store"
+before=$(ls "$store" 2>/dev/null)
+# A session's folder under ~/.claude/projects is its path with every other character a dash.
+transcripts="$HOME/.claude/projects/$(printf '%s' "$work/shop" | sed 's/[^A-Za-z0-9]/-/g')"
+# The store files this run wrote: the plugin copy keeps its progress in an inline file of its own.
+new_stores() {
+  for file in $(ls "$store" 2>/dev/null); do
+    case "$file" in matt-flow_inline-*) ;; *) continue ;; esac
+    case "$before" in *"$file"*) ;; *) echo "$store/$file" ;; esac
+  done
+}
+cleanup() {
+  for file in $(new_stores); do rm -f "$file"; done
+  rm -rf "$work" "$transcripts"
+}
+trap cleanup EXIT
+
+mkdir -p "$work/plugin" "$work/shop/docs/agents" "$work/shop/src"
+cp -R .claude-plugin hooks types "$work/plugin/"
+rm -f "$work/plugin/hooks/"*.test.tsx
+printf '# Issue tracker: Local Markdown\n' > "$work/shop/docs/agents/issue-tracker.md"
+original='export const total = (items: number[]) => items.reduce((a, b) => a + b, 0)'
+printf '%s\n' "$original" > "$work/shop/src/cart.ts"
+(cd "$work/shop" && git init -q)
+
+# A command sent through the slash menu: typed, the menu closed, sent.
+slash() { printf 'Type "%s"\nSleep 1s\nEscape\nSleep 500ms\nEnter\n' "$1"; }
+# Each step waits for its own evidence on screen, so a slow turn is waited for and a missing one stops the tape.
+{
+  printf 'Output "%s/live.gif"\nSet Shell bash\nSet Width 1500\nSet Height 950\nSet FontSize 15\n' "$out"
+  printf 'Hide\nType "cd %s && clear"\nEnter\nShow\n' "'$work/shop'"
+  printf 'Type "claude --plugin-dir %s --model claude-haiku-5-5 --permission-mode acceptEdits"\nEnter\n' "'$work/plugin'"
+  # The trust dialog draws before it takes keys.
+  printf 'Wait+Screen@60s /Yes, I trust this folder/\nSleep 2s\nDown\nEnter\nWait+Screen@60s /matt-flow: /\n'
+  slash '/implement'
+  printf 'Wait+Screen@30s /Prompt dropped by a hook/\nScreenshot "%s/1-jump-dropped.png"\nBackspace 20\n' "$out"
+  slash '/matt-flow skip'
+  printf 'Wait+Screen@30s /跳過「把想法問清楚」/\nScreenshot "%s/2-skip.png"\n' "$out"
+  slash '/clear'
+  printf 'Sleep 3s\nType "請直接用 Edit 工具把 src/cart.ts 第一行最前面加上註解 // hi，不要問我"\nEnter\n'
+  printf 'Wait+Screen@120s /for [0-9]+s · done/\nScreenshot "%s/3-edit-after-clear.png"\n' "$out"
+  printf 'Ctrl+C\nSleep 1s\nCtrl+C\nSleep 2s\n'
+} > "$work/check.tape"
+if ! vhs "$work/check.tape" > "$out/vhs.log" 2>&1; then
+  echo "FAIL: a step never showed its evidence on screen; see $out/vhs.log and the screenshots in $out"
+  exit 1
+fi
+
+failed=0
+saved=$(for file in $(new_stores); do cat "$file"; done)
+# The jump started nothing and the skip was kept: grilling skipped, building never started.
+if printf '%s' "$saved" | jq -e --arg key "progress:$work/shop" '.[$key].steps | .grill == "skipped" and .build == null' >/dev/null 2>&1; then
+  echo "ok: /implement before grilling was dropped, and /matt-flow skip was kept"
+else
+  echo "FAIL: the stored progress is not grilling skipped with building unstarted"
+  failed=1
+fi
+if [ "$(cat "$work/shop/src/cart.ts")" != "$original" ]; then
+  echo "FAIL: after /clear, src/cart.ts was edited"
+  failed=1
+elif grep -rq '程式碼鎖著' "$transcripts" 2>/dev/null; then
+  echo "ok: after /clear, the code gate refused the edit to src/cart.ts"
+else
+  echo "FAIL: not checked; Claude never tried the edit, so the gate was not reached. Run it again"
+  failed=1
+fi
+echo "screenshots: $out"
+exit "$failed"

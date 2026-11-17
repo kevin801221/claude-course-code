@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "dataset_kind": "synthetic",
+  "topic": "設備溫度濾波與持續升溫告警（瑞昱工作坊教案合成案例，非產品需求）",
+  "question": "在 1 Hz 溫度讀值下，SMA(5)、EMA(α=0.30)、Median(5) 哪個能在不被孤立尖峰誤觸發的前提下，較早偵測持續升溫？",
+  "goals": [
+    "孤立尖峰（教案定義為干擾）不應觸發告警",
+    "持續升溫應被偵測，並量測相對真值首達 45°C 的延遲",
+    "缺測不當 0，且會重置濾波與連續計數"
+  ],
+  "constraints": [
+    "教案預設：濾波輸出 ≥ 45°C 連續 3 筆有效讀值才告警；數值不是量產門檻",
+    "只用合成資料；教室 CPU 耗時不代表 MCU／晶片性能",
+    "預設離線，不需 API key"
+  ],
+  "queries": [
+    "median filter spike rejection temperature sensor",
+    "exponential moving average alarm latency",
+    "moving average filter embedded temperature monitoring"
+  ],
+  "candidates": [
+    {"id": "sma", "name": "SMA：近 5 筆簡單移動平均", "params": {"window": 5},
+     "basis": "teaching_choice", "supporting_sources": ["SYN-ART-001"],
+     "rationale": "最常見的基線方法，教案為了示範而選；合成文章僅說明其實作簡單。"},
+    {"id": "ema", "name": "EMA：α=0.30，第一筆有效樣本初始化", "params": {"alpha": 0.30},
+     "basis": "source_claim", "supporting_sources": ["SYN-ARXIV-001", "SYN-YT-001"],
+     "rationale": "合成論文摘要主張 EMA 反應較快；影片只示範操作，不證明性能。"},
+    {"id": "median", "name": "Median：近 5 筆中值（偶數取中間兩筆平均）", "params": {"window": 5},
+     "basis": "source_claim", "supporting_sources": ["SYN-IEEE-001", "SYN-PAT-001"],
+     "rationale": "合成會議論文主張中值對孤立尖峰穩健；專利僅為公開主張。"}
+  ]
+}

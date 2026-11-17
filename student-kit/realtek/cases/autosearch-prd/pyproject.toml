@@ -1,0 +1,6 @@
+[project]
+name = "workshop-bc"
+version = "0.1.0"
+description = "瑞昱工作坊教案：B 個人技術研發 × C PRD／SoW 協作（合成案例，可離線重跑）"
+requires-python = ">=3.10"
+dependencies = []  # ponytail: 只用標準函式庫，uv 只負責建 venv 與執行

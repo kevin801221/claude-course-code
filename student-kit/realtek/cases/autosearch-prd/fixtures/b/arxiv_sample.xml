@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 合成 Atom 樣本：只用來測 parser，不是真實 arXiv 回應。 -->
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:arxiv="http://arxiv.org/schemas/atom">
+  <title>Synthetic arXiv query</title>
+  <entry>
+    <id>http://arxiv.org/abs/0000.00002v1</id>
+    <title>Synthetic   Paper on
+      Median Filtering</title>
+    <summary>  A synthetic abstract used only for parser tests. </summary>
+    <arxiv:doi>10.0000/SYNTHETIC.002</arxiv:doi>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0000.00002v2</id>
+    <title>Synthetic Paper on Median Filtering (v2)</title>
+    <summary>Second version of the same synthetic paper.</summary>
+    <arxiv:doi>10.0000/synthetic.002</arxiv:doi>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0000.00003v1</id>
+    <title>Synthetic Paper on EMA</title>
+    <summary>Another synthetic abstract.</summary>
+  </entry>
+</feed>

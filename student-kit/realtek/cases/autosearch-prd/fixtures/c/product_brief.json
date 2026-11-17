@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "title": "設備溫度濾波與持續升溫告警（教案合成產品）",
+  "disclaimer": "瑞昱工作坊教案合成案例：不是瑞昱的產品、設備或已核准需求；不冒充真實公司資料；數值不是量產門檻。",
+  "problem": "維護人員只看到原始溫度讀值時，孤立尖峰容易造成誤報，而真正的持續升溫又可能太晚被注意到；缺測也常被誤當成 0。",
+  "scenarios": [
+    "維護工程師匯入設備的溫度 CSV（1 Hz），同時檢視原始與濾波曲線，確認缺測位置。",
+    "產線主管希望在持續升溫時盡早收到告警，但不希望被單次尖峰打擾。"
+  ],
+  "scope_in": [
+    "CSV 匯入與欄位檢查（REQ-001）",
+    "原始與濾波曲線檢視（REQ-002）",
+    "持續升溫告警規則（REQ-003）",
+    "告警延遲目標的決策紀錄（REQ-004，待驗證）"
+  ],
+  "scope_out": [
+    "設備即時連線、韌體與現場整合",
+    "多感測器（另以變更提案處理）",
+    "價格、期限、法律或專利結論"
+  ],
+  "assumptions": [
+    "取樣 1 Hz，時間戳嚴格遞增（EV-004、EV-006 教案假設）",
+    "告警門檻 45 °C、連續 3 筆為教案預設，非量產門檻",
+    "B 的研究數據來自合成資料，只能當參考值"
+  ],
+  "open_questions": [
+    {"id": "OQ-001", "question": "告警延遲目標應為 ≤ 10 s（EV-001 合成競品規格）還是 5 s 內（EV-003 使用者筆記）？", "evidence_ids": ["EV-001", "EV-003"], "owner": "產品負責人（待指派）"}
+  ],
+  "sow": {
+    "deliverables_repo": [
+      "可離線重跑的 B 研究流程：三個候選濾波器、同一告警器、合成資料、指標、報告與證據包",
+      "可追溯的 C 文件：requirements.json／acceptance.json 與由其渲染的 PRD、SoW、追溯表、未決事項、檢核報告",
+      "變更提案（CR）流程：產生提案不改基準版，人工 accept 才產生新版本"
+    ],
+    "deliverables_future": [
+      "產品 GUI（匯入、曲線、告警顯示）",
+      "設備連線與現場整合"
+    ],
+    "responsibilities": [
+      "講師：提供教案基準、決定是否接受 CR（唯一可執行 c apply --decision accept 的角色）",
+      "學員：執行 B／C 流程、檢查輸出、提出回饋",
+      "Claude Code：依 Skill 呼叫 CLI、起草結構化草稿與語意審查評語；不批准、不發布"
+    ],
+    "preconditions": [
+      "Python ≥ 3.10、CMake ≥ 3.20、C++17 編譯器",
+      "不需要 API key；預設離線"
+    ],
+    "exclusions": [
+      "價格與期限：未承諾，待人工議定",
+      "產品 GUI 與設備整合：不在本 Repo 交付範圍",
+      "真實客戶、競品或供應商資料"
+    ],
+    "acceptance_procedure": [
+      "依 STUDENT.md 執行 cmake／ctest 與 python -m unittest",
+      "執行 python -m workshop demo --offline --out <新目錄>，確認產出 B 報告、A 摘要、PRD／SoW、追溯表、CR 與 review",
+      "c review 結構檢核須回 0；AT-ID 是產品未來驗收規格，本 Repo 不宣稱產品已通過"
+    ],
+    "dependencies": [
+      "B 證據包（選配）：缺少或損毀時相關數值標「待驗證」",
+      "教案基準版本 v1"
+    ],
+    "change_process": [
+      "回饋 → c change 產生 CR（記錄基準版本與雜湊，不改任何版本）",
+      "c review 檢核",
+      "講師另行執行 c apply --decision accept|reject|defer；accept 先核對基準雜湊，過期提案拒絕套用",
+      "前版保留於 versions/，決策寫入 decisions.jsonl"
+    ]
+  }
+}

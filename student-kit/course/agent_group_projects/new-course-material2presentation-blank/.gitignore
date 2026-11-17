@@ -1,0 +1,25 @@
+# Python（若 skill 用到）
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.python-version
+
+# 環境變數
+.env
+.env.local
+
+# OS
+.DS_Store
+
+# 課程產出（agent 每次跑會重生，不進 git）
+Courses/*/
+!Courses/.gitkeep
+
+# Marp / node（若 marp-render 用到）
+node_modules/
+*.local
+
+# log
+*.log

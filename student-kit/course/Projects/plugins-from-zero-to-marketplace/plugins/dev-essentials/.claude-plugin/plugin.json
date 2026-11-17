@@ -1,0 +1,11 @@
+{
+  "name": "dev-essentials",
+  "version": "1.0.0",
+  "description": "開發必備：code review agent + production 防護 + auto format",
+  "author": "kevinluo",
+  "license": "MIT",
+  "components": {
+    "agents": ["code-reviewer"],
+    "hooks": ["prod-guard", "post-edit-format"]
+  }
+}

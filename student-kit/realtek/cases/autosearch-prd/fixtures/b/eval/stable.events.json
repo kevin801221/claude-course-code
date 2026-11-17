@@ -1,0 +1,14 @@
+{
+  "scenario": "stable",
+  "split": "eval",
+  "has_event": false,
+  "event_start_s": null,
+  "t_true_45_s": null,
+  "interference": [],
+  "missing_s": [],
+  "params": {
+    "base_c": 38.0,
+    "sigma_c": 0.1,
+    "seed": 20200
+  }
+}

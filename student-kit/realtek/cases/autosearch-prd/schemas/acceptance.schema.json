@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "workshop-bc/acceptance/1.0",
+  "title": "C 驗收 acceptance.json（schema_version 1.0）；AT 是產品未來驗收規格，不代表已通過",
+  "type": "object",
+  "required": ["schema_version", "acceptance"],
+  "properties": {
+    "schema_version": {"type": "string", "enum": ["1.0"]},
+    "acceptance": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "req_id", "given", "when", "then", "expected_result", "status"],
+        "properties": {
+          "id": {"type": "string"},
+          "req_id": {"type": "string"},
+          "given": {"type": "string"},
+          "when": {"type": "string"},
+          "then": {"type": "string"},
+          "expected_result": {"type": "string"},
+          "status": {"type": "string", "enum": ["not_run"]}
+        }
+      }
+    }
+  }
+}

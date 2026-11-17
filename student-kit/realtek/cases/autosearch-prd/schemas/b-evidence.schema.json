@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "workshop-bc/b-evidence/1.0",
+  "title": "B→C 證據包 evidence.json（schema_version 1.0）",
+  "type": "object",
+  "required": ["schema_version", "run_id", "status", "dataset_kind", "protocol_sha256", "artifacts", "claims"],
+  "properties": {
+    "schema_version": {"type": "string", "enum": ["1.0"]},
+    "run_id": {"type": "string"},
+    "status": {"type": "string", "enum": ["succeeded", "failed"]},
+    "dataset_kind": {"type": "string", "enum": ["synthetic", "user_supplied"]},
+    "protocol_sha256": {"type": ["string", "null"]},
+    "error": {"type": ["string", "null"]},
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "sha256"],
+        "properties": {"path": {"type": "string"}, "sha256": {"type": "string"}}
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["evidence_id", "statement", "metric", "value", "unit", "scenario", "artifact_path", "row_locator", "limitations"],
+        "properties": {
+          "evidence_id": {"type": "string"},
+          "statement": {"type": "string"},
+          "metric": {"type": "string"},
+          "value": {"type": ["number", "null"]},
+          "unit": {"type": "string"},
+          "scenario": {"type": "string"},
+          "artifact_path": {"type": "string"},
+          "row_locator": {"type": "string"},
+          "limitations": {"type": "string"}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_說明": "複製成 config/speakers.json。把 WhisperX 的說話者代號對應到真名。代號在同一場會議內固定，不同會議可能不同，所以也可以用「會議檔名前綴」分組。",
+  "default": {
+    "SPEAKER_00": "Luo",
+    "SPEAKER_01": "同事A"
+  },
+  "2026-11-16_週會": {
+    "SPEAKER_00": "主管",
+    "SPEAKER_01": "Luo",
+    "SPEAKER_02": "同事B"
+  }
+}

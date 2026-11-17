@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "workshop-bc/change-request/1.0",
+  "title": "C 變更提案 CR-xxx.json（schema_version 1.0）",
+  "type": "object",
+  "required": ["schema_version", "cr_id", "status", "base_version", "base_sha256", "source", "suggestion", "affected_requirements", "interfaces", "data_compatibility", "risks", "new_acceptance", "diff", "recommendation", "proposal"],
+  "properties": {
+    "schema_version": {"type": "string", "enum": ["1.0"]},
+    "cr_id": {"type": "string"},
+    "status": {"type": "string", "enum": ["proposed", "accepted", "rejected", "deferred"]},
+    "base_version": {"type": "string"},
+    "base_sha256": {"type": "string"},
+    "source": {"type": "object", "required": ["feedback_id", "evidence_id"]},
+    "suggestion": {"type": "string"},
+    "affected_requirements": {"type": "array", "items": {"type": "string"}},
+    "interfaces": {"type": "array", "items": {"type": "string"}},
+    "data_compatibility": {"type": "string"},
+    "risks": {"type": "object", "required": ["performance", "schedule"]},
+    "new_acceptance": {"type": "array", "items": {"type": "string"}},
+    "diff": {"type": "array"},
+    "recommendation": {"type": "string"},
+    "proposal": {"type": "object", "required": ["modify_requirements", "add_requirements", "add_acceptance"]}
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Claude Code Tutorial Plugins",
+  "description": "3 個範例 plugin：personal-productivity / dev-essentials / fun-pack",
+  "owner": "kevinluo",
+  "homepage": "https://github.com/YOUR_USERNAME/claude-code-tutorial-plugins",
+  "license": "MIT",
+  "plugins": [
+    {
+      "name": "personal-productivity",
+      "version": "1.0.0",
+      "path": "plugins/personal-productivity",
+      "description": "個人生產力套件：weekly-haiku slash + pomodoro hook + youtube-notes skill"
+    },
+    {
+      "name": "dev-essentials",
+      "version": "1.0.0",
+      "path": "plugins/dev-essentials",
+      "description": "開發必備：code-reviewer agent + prod-guard hook + format-on-edit hook"
+    },
+    {
+      "name": "fun-pack",
+      "version": "0.1.0",
+      "path": "plugins/fun-pack",
+      "description": "好玩套件：recipe-genie + commit-poet"
+    }
+  ]
+}

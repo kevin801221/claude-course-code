@@ -1,0 +1,263 @@
+[
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/07-weekly-reports-skill/.claude/skills/drafting-weekly-reports/SKILL.md",
+    "destination": "classroom-fixes/weekly-reports/.claude/skills/drafting-weekly-reports/SKILL.md",
+    "kind": "adapted",
+    "source_sha256": "f4de8197849cddb6897addcafc1a04dbd6bdb59787152bdf1c313bdd9da824a3",
+    "destination_sha256": "48d8f76484ae753878f83c34cb8532b5363575d2758ab665a8f0221badc14995",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/07-weekly-reports-skill/.claude/skills/drafting-weekly-reports/examples/bad-output.md",
+    "destination": "classroom-fixes/weekly-reports/.claude/skills/drafting-weekly-reports/examples/bad-output.md",
+    "kind": "copy",
+    "source_sha256": "e46f13d232ded936175a7588c0f4f8d87ca61b439b96ec8b451c587ddc74cc60",
+    "destination_sha256": "e46f13d232ded936175a7588c0f4f8d87ca61b439b96ec8b451c587ddc74cc60",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/07-weekly-reports-skill/.claude/skills/drafting-weekly-reports/examples/good-output.md",
+    "destination": "classroom-fixes/weekly-reports/.claude/skills/drafting-weekly-reports/examples/good-output.md",
+    "kind": "copy",
+    "source_sha256": "a109ff49d34678db08a6466d195613fe6b824c5dd54e4a60d006562c134b9545",
+    "destination_sha256": "a109ff49d34678db08a6466d195613fe6b824c5dd54e4a60d006562c134b9545",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/07-weekly-reports-skill/.claude/skills/drafting-weekly-reports/references/anti-patterns.md",
+    "destination": "classroom-fixes/weekly-reports/.claude/skills/drafting-weekly-reports/references/anti-patterns.md",
+    "kind": "copy",
+    "source_sha256": "c665cf0f8d876838b0247ccbe2f36dc9a6f11be37639976acc7a3406c06acaeb",
+    "destination_sha256": "c665cf0f8d876838b0247ccbe2f36dc9a6f11be37639976acc7a3406c06acaeb",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/07-weekly-reports-skill/.claude/skills/drafting-weekly-reports/references/output-template.md",
+    "destination": "classroom-fixes/weekly-reports/.claude/skills/drafting-weekly-reports/references/output-template.md",
+    "kind": "copy",
+    "source_sha256": "a0d9242ba29e7f43f7e9ed01e79f51dd4739223031a4ac592e0df191d27707c6",
+    "destination_sha256": "a0d9242ba29e7f43f7e9ed01e79f51dd4739223031a4ac592e0df191d27707c6",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/07-weekly-reports-skill/.claude/skills/drafting-weekly-reports/references/tone-guide.md",
+    "destination": "classroom-fixes/weekly-reports/.claude/skills/drafting-weekly-reports/references/tone-guide.md",
+    "kind": "copy",
+    "source_sha256": "9d4294a90ac9d36f1ca27810aa28d0df6ddbee4a9d261dfed39b531482fe5cdd",
+    "destination_sha256": "9d4294a90ac9d36f1ca27810aa28d0df6ddbee4a9d261dfed39b531482fe5cdd",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/07-weekly-reports-skill/.claude/skills/drafting-weekly-reports/scripts/classify_commits.py",
+    "destination": "classroom-fixes/weekly-reports/.claude/skills/drafting-weekly-reports/scripts/classify_commits.py",
+    "kind": "copy",
+    "source_sha256": "e23e9aea4aebf748db21efe0a11376992a7349259df67e8d153283c84deb807a",
+    "destination_sha256": "e23e9aea4aebf748db21efe0a11376992a7349259df67e8d153283c84deb807a",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/07-weekly-reports-skill/.claude/skills/drafting-weekly-reports/scripts/fetch_commits.sh",
+    "destination": "classroom-fixes/weekly-reports/.claude/skills/drafting-weekly-reports/scripts/fetch_commits.sh",
+    "kind": "adapted",
+    "source_sha256": "837d72195b8094868646675265bbfaabe85d73f724d995bebabddd1f913160e4",
+    "destination_sha256": "a4e910bcc5a227c296607e12473a31247851c81a7e0459238153d21e9af8d697",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/07-weekly-reports-skill/.claude/skills/drafting-weekly-reports/scripts/format_report.py",
+    "destination": "classroom-fixes/weekly-reports/.claude/skills/drafting-weekly-reports/scripts/format_report.py",
+    "kind": "copy",
+    "source_sha256": "cb94a3f4f28b40d3c6bd255eb52fe511b172b0f5148e865047ef6c57754f69e2",
+    "destination_sha256": "cb94a3f4f28b40d3c6bd255eb52fe511b172b0f5148e865047ef6c57754f69e2",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/07-weekly-reports-skill/.claude/skills/drafting-weekly-reports/scripts/fetch_commits.sh",
+    "destination": "classroom-fixes/weekly-reports/.claude/skills/drafting-weekly-reports/scripts/fetch_commits.py",
+    "kind": "adapted",
+    "source_sha256": "837d72195b8094868646675265bbfaabe85d73f724d995bebabddd1f913160e4",
+    "destination_sha256": "2460e3d7f7994b7b5c10048230ce10b62b8ad12f7e992ade5b36bdee06e48b98",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/05-organize-downloads/.claude/settings.json",
+    "destination": "classroom-fixes/mcp-sandbox/.mcp.json",
+    "kind": "adapted",
+    "source_sha256": "0bbf82d9ac42fc9f07e8041735efce2260448bdfae8fd9f3ad0875d48df6542e",
+    "destination_sha256": "99e6e58434504c33096feb62f3dbb09d3e83b46e80096dcf0eb29468cf35f2bd",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/plugins-from-zero-to-marketplace/plugins/fun-pack/README.md",
+    "destination": "classroom-fixes/plugin-marketplace/plugins/fun-pack/README.md",
+    "kind": "adapted",
+    "source_sha256": "465cdd5c62d9bfb73c4c37076b09348be18df121fe0e66ced88c46e115aaa662",
+    "destination_sha256": "8d20da8e950f3a9013f6b9726f2726a04359d1b9d0c49c4303f03323ca2aea87",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/plugins-from-zero-to-marketplace/plugins/personal-productivity/README.md",
+    "destination": "classroom-fixes/plugin-marketplace/plugins/personal-productivity/README.md",
+    "kind": "adapted",
+    "source_sha256": "b063e073999d6cf6310bd7b4ed0d7acc613bf09969ac18820634cc7dc8cbeb54",
+    "destination_sha256": "1a29619fa7f783d532ae30afa93d5ddea5f65eebf944e8375196aacdb7ed188d",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/plugins-from-zero-to-marketplace/plugins/dev-essentials/README.md",
+    "destination": "classroom-fixes/plugin-marketplace/plugins/dev-essentials/README.md",
+    "kind": "adapted",
+    "source_sha256": "24389cbac7efad9a4ea402d53f83515550f51444ec2a047f726cc4bf21d95f6b",
+    "destination_sha256": "a257076f7eb80b8662d832c3ab44974f1b6c209d188c603d8709e62d0ed0c18e",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/plugins-from-zero-to-marketplace/plugins/dev-essentials/agents/code-reviewer.md",
+    "destination": "classroom-fixes/plugin-marketplace/plugins/dev-essentials/agents/code-reviewer.md",
+    "kind": "adapted",
+    "source_sha256": "ec58df23eecaaadebaeed5009931e3e7caafc9c231773c4cc3330e5bf48dd1f5",
+    "destination_sha256": "43c3c29c56fbfd2ee48936395b7b2a383299bd68bd735122c5acc737c4e613f4",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/plugins-from-zero-to-marketplace/plugins/dev-essentials/hooks/post-edit-format.sh",
+    "destination": "classroom-fixes/plugin-marketplace/plugins/dev-essentials/hooks/post-edit-format.sh",
+    "kind": "adapted",
+    "source_sha256": "0d566b74ab32e28b7d77500d9c7ff31e618fbc1fa4b4fc902bfa03c4024784ad",
+    "destination_sha256": "0d00ddf755ae562cdb437f557ff06a9141932a4ea23b9cc87ceb4ff81a5fea3d",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/plugins-from-zero-to-marketplace/plugins/dev-essentials/hooks/prod-guard.sh",
+    "destination": "classroom-fixes/plugin-marketplace/plugins/dev-essentials/hooks/prod-guard.sh",
+    "kind": "adapted",
+    "source_sha256": "c343aee9076bbec365220eacd1ef74fa6384dec8e01109668b4ddc82fdd31773",
+    "destination_sha256": "0542f282593e08f3a9baed46038796697c3e39d2cb45dae5a487f5dc4e87236a",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/plugins-from-zero-to-marketplace/plugins/dev-essentials/.claude-plugin/plugin.json",
+    "destination": "classroom-fixes/plugin-marketplace/plugins/dev-essentials/.claude-plugin/plugin.json",
+    "kind": "adapted",
+    "source_sha256": "80eea001618b5debe995555fb9a57d5a8c7003e2e1dc145d722bf6faa326c4d2",
+    "destination_sha256": "98a04b7756e078280bb64ff93e656a3f48c4d2bb3e2b6444ce29ae5d52001311",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/plugins-from-zero-to-marketplace/plugins/personal-productivity/hooks/pomodoro.sh",
+    "destination": "classroom-fixes/plugin-marketplace/plugins/personal-productivity/hooks/pomodoro.sh",
+    "kind": "adapted",
+    "source_sha256": "c7fafc9bac0f897ddbd77b7dba627ef3728273a7e08fa1d11d45610da6f562b9",
+    "destination_sha256": "566092d705f757d37b27cbd1ef15663045534a8e33c60a0be938c1d007ad7712",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/plugins-from-zero-to-marketplace/plugins/personal-productivity/.claude-plugin/plugin.json",
+    "destination": "classroom-fixes/plugin-marketplace/plugins/personal-productivity/.claude-plugin/plugin.json",
+    "kind": "adapted",
+    "source_sha256": "6ce224d8dca705e20f9485f2d5fd3bb70bb4a6d5ec8209b376765ccb4e9350da",
+    "destination_sha256": "5030cde585ebcb8c84253eebaa46b44f1212eb4170698e8cb27f90997d3bd17d",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/plugins-from-zero-to-marketplace/plugins/personal-productivity/commands/weekly-haiku.md",
+    "destination": "classroom-fixes/plugin-marketplace/plugins/personal-productivity/commands/weekly-haiku.md",
+    "kind": "adapted",
+    "source_sha256": "5091f7a8a153cabfd4392128684779374d2e5e2ded658c06705ba94b14d0d793",
+    "destination_sha256": "b971938f33b62d4d19fdb316ee4584ea75bd03538401151c220e80b95a6a996f",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/plugins-from-zero-to-marketplace/plugins/personal-productivity/skills/youtube-notes/SKILL.md",
+    "destination": "classroom-fixes/plugin-marketplace/plugins/personal-productivity/skills/youtube-notes/SKILL.md",
+    "kind": "adapted",
+    "source_sha256": "648a73bad5ef7265cf79fda3d4d46f3dbc9c7f69cf695b94454cc81ed179c147",
+    "destination_sha256": "714c66f5cdb172a446784ece9e56c1d75c2b80c05ebc74cbee71d5993c50a5bb",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/plugins-from-zero-to-marketplace/plugins/fun-pack/agents/recipe-genie.md",
+    "destination": "classroom-fixes/plugin-marketplace/plugins/fun-pack/agents/recipe-genie.md",
+    "kind": "adapted",
+    "source_sha256": "aefe5ec52e1adbb02817a7913ba38bab6d66b3dc414eef5d84c1dbef5050a2ea",
+    "destination_sha256": "e9a9f265ef7f9f52de3d83a3adca28dbaed674ab13e2be638e265566761552da",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/plugins-from-zero-to-marketplace/plugins/fun-pack/.claude-plugin/plugin.json",
+    "destination": "classroom-fixes/plugin-marketplace/plugins/fun-pack/.claude-plugin/plugin.json",
+    "kind": "adapted",
+    "source_sha256": "b0121cf001eddd79d4c8601dc7e81bd686bc7db12283e84eac8ba54d36760ac9",
+    "destination_sha256": "0d093e97b852d1f6155285dd5f3e90c4ea8bb00296fbbafd3047dbbedd4b7438",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/plugins-from-zero-to-marketplace/plugins/fun-pack/commands/commit-poet.md",
+    "destination": "classroom-fixes/plugin-marketplace/plugins/fun-pack/commands/commit-poet.md",
+    "kind": "adapted",
+    "source_sha256": "05632356976510885be1eb6330c224266fc7339c44fd3340b9e5793aae246205",
+    "destination_sha256": "6387b9d3b59f2b4fcb0e7d2aab1f83c4a53e2ecb1256559a1adf1a5b01ad899a",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "LICENSE",
+    "destination": "classroom-fixes/plugin-marketplace/LICENSE",
+    "kind": "copy",
+    "source_sha256": "2da8cc9ddc42bed2e5bce6b64ac0481a9908d5dc140fbec180b9f407f4733b85",
+    "destination_sha256": "2da8cc9ddc42bed2e5bce6b64ac0481a9908d5dc140fbec180b9f407f4733b85",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/plugins-from-zero-to-marketplace/marketplace.json",
+    "destination": "classroom-fixes/plugin-marketplace/.claude-plugin/marketplace.json",
+    "kind": "adapted",
+    "source_sha256": "230f2272e68395fb4f6f8c4959981e399d0657e8d3af7c28904b732b49045897",
+    "destination_sha256": "6e9e6909ac6835c2dc8ebc30980e5826e664b60feddcaa2c8a6c8b20d56c2c3c",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/plugins-from-zero-to-marketplace/plugins/personal-productivity/.claude-plugin/plugin.json",
+    "destination": "classroom-fixes/plugin-marketplace/plugins/personal-productivity/hooks/hooks.json",
+    "kind": "adapted",
+    "source_sha256": "6ce224d8dca705e20f9485f2d5fd3bb70bb4a6d5ec8209b376765ccb4e9350da",
+    "destination_sha256": "555706d07501cbdbac150713da9f2816cc5c7013c7b69bbe0b9e99058289428e",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  },
+  {
+    "source_repo": "claude-course-code",
+    "source_path": "Projects/plugins-from-zero-to-marketplace/plugins/dev-essentials/.claude-plugin/plugin.json",
+    "destination": "classroom-fixes/plugin-marketplace/plugins/dev-essentials/hooks/hooks.json",
+    "kind": "adapted",
+    "source_sha256": "80eea001618b5debe995555fb9a57d5a8c7003e2e1dc145d722bf6faa326c4d2",
+    "destination_sha256": "a3d4d474965277b9d21f90a93d80c198ccb8b1122107a36048cd4bd5b26c6e75",
+    "source_commit": "475fe057ed234f836ff3eb06f4c5eecad9e36332"
+  }
+]

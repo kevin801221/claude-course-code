@@ -1,0 +1,314 @@
+[
+  {
+    "part": "00",
+    "title": "核心概念",
+    "printed_pages": [
+      10,
+      33
+    ],
+    "pdf_pages": [
+      9,
+      32
+    ],
+    "destination": "labs/00-cli/README.md"
+  },
+  {
+    "part": "01",
+    "title": "認識 Claude Code",
+    "printed_pages": [
+      34,
+      42
+    ],
+    "pdf_pages": [
+      33,
+      41
+    ],
+    "destination": "labs/00-cli/README.md"
+  },
+  {
+    "part": "02",
+    "title": "CLI 基礎與模型",
+    "printed_pages": [
+      43,
+      64
+    ],
+    "pdf_pages": [
+      42,
+      63
+    ],
+    "destination": "labs/00-cli/README.md"
+  },
+  {
+    "part": "03",
+    "title": "內建 Slash Commands",
+    "printed_pages": [
+      65,
+      79
+    ],
+    "pdf_pages": [
+      64,
+      78
+    ],
+    "destination": "labs/00-cli/README.md"
+  },
+  {
+    "part": "04",
+    "title": "自訂 Slash Commands",
+    "printed_pages": [
+      80,
+      90
+    ],
+    "pdf_pages": [
+      79,
+      89
+    ],
+    "destination": "labs/02-commands/README.md"
+  },
+  {
+    "part": "05",
+    "title": "Settings",
+    "printed_pages": [
+      91,
+      104
+    ],
+    "pdf_pages": [
+      90,
+      103
+    ],
+    "destination": "labs/00-cli/README.md"
+  },
+  {
+    "part": "06",
+    "title": "Permissions / Sandbox",
+    "printed_pages": [
+      105,
+      121
+    ],
+    "pdf_pages": [
+      104,
+      120
+    ],
+    "destination": "labs/00-cli/README.md"
+  },
+  {
+    "part": "07",
+    "title": "日常操作與效率",
+    "printed_pages": [
+      122,
+      144
+    ],
+    "pdf_pages": [
+      121,
+      143
+    ],
+    "destination": "labs/00-cli/README.md"
+  },
+  {
+    "part": "08",
+    "title": "CLAUDE.md / Memory",
+    "printed_pages": [
+      145,
+      170
+    ],
+    "pdf_pages": [
+      144,
+      169
+    ],
+    "destination": "labs/01-memory/README.md"
+  },
+  {
+    "part": "09",
+    "title": "Context Engineering",
+    "printed_pages": [
+      171,
+      192
+    ],
+    "pdf_pages": [
+      170,
+      191
+    ],
+    "destination": "labs/01-memory/README.md"
+  },
+  {
+    "part": "10",
+    "title": "Skills",
+    "printed_pages": [
+      193,
+      236
+    ],
+    "pdf_pages": [
+      192,
+      235
+    ],
+    "destination": "labs/03-skills/README.md"
+  },
+  {
+    "part": "11",
+    "title": "Sub-agents 與平行化",
+    "printed_pages": [
+      237,
+      293
+    ],
+    "pdf_pages": [
+      236,
+      292
+    ],
+    "destination": "labs/04-agents/README.md"
+  },
+  {
+    "part": "12",
+    "title": "Hooks",
+    "printed_pages": [
+      294,
+      337
+    ],
+    "pdf_pages": [
+      293,
+      336
+    ],
+    "destination": "labs/05-hooks/README.md"
+  },
+  {
+    "part": "13",
+    "title": "MCP",
+    "printed_pages": [
+      338,
+      362
+    ],
+    "pdf_pages": [
+      337,
+      361
+    ],
+    "destination": "labs/06-mcp/README.md"
+  },
+  {
+    "part": "14",
+    "title": "Plugins / Mods + Lab",
+    "printed_pages": [
+      363,
+      478
+    ],
+    "pdf_pages": [
+      362,
+      477
+    ],
+    "destination": "labs/07-plugins/README.md"
+  },
+  {
+    "part": "15",
+    "title": "IDE、平台與 Artifacts",
+    "printed_pages": [
+      479,
+      506
+    ],
+    "pdf_pages": [
+      478,
+      505
+    ],
+    "destination": "docs/reading-guide.md"
+  },
+  {
+    "part": "16",
+    "title": "Headless / 自動化",
+    "printed_pages": [
+      507,
+      516
+    ],
+    "pdf_pages": [
+      506,
+      515
+    ],
+    "destination": "labs/09-automation/README.md"
+  },
+  {
+    "part": "17",
+    "title": "GitHub 精選資源",
+    "printed_pages": [
+      517,
+      546
+    ],
+    "pdf_pages": [
+      516,
+      545
+    ],
+    "destination": "SOURCES.md"
+  },
+  {
+    "part": "18",
+    "title": "4-Agent ML Pipeline",
+    "printed_pages": [
+      547,
+      554
+    ],
+    "pdf_pages": [
+      546,
+      553
+    ],
+    "destination": "labs/10-projects/README.md"
+  },
+  {
+    "part": "19",
+    "title": "可驗收的成果",
+    "printed_pages": [
+      555,
+      566
+    ],
+    "pdf_pages": [
+      554,
+      565
+    ],
+    "destination": "docs/task-card.md"
+  },
+  {
+    "part": "20",
+    "title": "實戰疑難雜症",
+    "printed_pages": [
+      567,
+      574
+    ],
+    "pdf_pages": [
+      566,
+      573
+    ],
+    "destination": "docs/troubleshooting.md"
+  },
+  {
+    "part": "21",
+    "title": "學習路徑與結語",
+    "printed_pages": [
+      575,
+      585
+    ],
+    "pdf_pages": [
+      574,
+      584
+    ],
+    "destination": "README.md"
+  },
+  {
+    "part": "A",
+    "title": "版本變更對照",
+    "printed_pages": [
+      586,
+      602
+    ],
+    "pdf_pages": [
+      585,
+      601
+    ],
+    "destination": "docs/compatibility.md"
+  },
+  {
+    "part": "B",
+    "title": "AgenticRAG",
+    "printed_pages": [
+      603,
+      609
+    ],
+    "pdf_pages": [
+      602,
+      608
+    ],
+    "destination": "advanced/project-recipes/agentic-rag/README.md"
+  }
+]

@@ -1,0 +1,10 @@
+[project]
+name = "llm-wiki-graph"
+version = "0.1.0"
+description = "將 raw JSON 整理成 Markdown wiki 並生成互動 graph 的工具集"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.uv]
+package = false

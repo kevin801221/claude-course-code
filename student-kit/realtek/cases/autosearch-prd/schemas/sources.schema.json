@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "workshop-bc/sources/1.0",
+  "title": "B 研究來源登錄 sources.json（schema_version 1.0）",
+  "type": "object",
+  "required": ["schema_version", "mode", "sources", "skipped"],
+  "properties": {
+    "schema_version": {"type": "string", "enum": ["1.0"]},
+    "mode": {"type": "string", "enum": ["offline", "online"]},
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source_id", "kind", "title", "url_or_path", "access_level", "retrieved_at", "locator", "claim", "limitations"],
+        "properties": {
+          "source_id": {"type": "string"},
+          "kind": {"type": "string", "enum": ["ieee", "arxiv", "article", "youtube", "patent", "datasheet", "note"]},
+          "title": {"type": "string"},
+          "url_or_path": {"type": "string"},
+          "access_level": {"type": "string", "enum": ["metadata_only", "abstract_only", "full_text", "user_supplied", "synthetic"]},
+          "retrieved_at": {"type": "string"},
+          "locator": {"type": "string"},
+          "claim": {"type": "string"},
+          "limitations": {"type": "string"},
+          "doi": {"type": ["string", "null"]},
+          "arxiv_id": {"type": ["string", "null"]},
+          "selection_basis": {"type": "string", "enum": ["source_claim", "teaching_choice", "context_only"]}
+        }
+      }
+    },
+    "skipped": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source_id", "reason"],
+        "properties": {"source_id": {"type": "string"}, "reason": {"type": "string"}}
+      }
+    }
+  }
+}

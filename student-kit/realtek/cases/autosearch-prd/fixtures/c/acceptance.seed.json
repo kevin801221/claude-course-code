@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "acceptance": [
+    {"id": "AT-001", "req_id": "REQ-001", "status": "not_run",
+     "given": "一份含 timestamp_s,temp_c、180 列、1 Hz 的 CSV", "when": "操作者匯入此檔",
+     "then": "系統載入 180 筆，空值列標為缺測", "expected_result": "載入筆數 = 180；缺測筆數與檔案空值數一致"},
+    {"id": "AT-002", "req_id": "REQ-001", "status": "not_run",
+     "given": "一份只有 timestamp_s 欄位的 CSV", "when": "操作者匯入此檔",
+     "then": "系統顯示「缺少欄位：temp_c」並停止匯入", "expected_result": "訊息文字完全相符，且未載入任何資料"},
+    {"id": "AT-003", "req_id": "REQ-002", "status": "not_run",
+     "given": "已匯入含缺測（t=50、51 s）的資料", "when": "操作者開啟曲線檢視",
+     "then": "原始與濾波曲線共用時間軸與 °C 軸，t=50–51 s 呈現斷點", "expected_result": "缺測區間沒有連續線段"},
+    {"id": "AT-004", "req_id": "REQ-003", "status": "not_run",
+     "given": "濾波輸出依序為 44.99、45.0、45.0、45.0 °C", "when": "系統逐筆評估告警",
+     "then": "第 4 筆（即連續第 3 筆 ≥ 45 °C）觸發告警", "expected_result": "告警只在該筆由未告警轉為告警"},
+    {"id": "AT-005", "req_id": "REQ-003", "status": "not_run",
+     "given": "基準 40 °C 中出現單一筆 70 °C 的孤立尖峰", "when": "系統以選定濾波器處理並評估告警",
+     "then": "不觸發告警", "expected_result": "告警次數 = 0"},
+    {"id": "AT-006", "req_id": "REQ-004", "status": "not_run",
+     "given": "延遲上限已由產品負責人決策（目前待驗證）", "when": "以持續升溫測試資料執行",
+     "then": "首次告警延遲不超過決策後的上限", "expected_result": "上限決策前此驗收無法判定，維持待驗證"}
+  ]
+}

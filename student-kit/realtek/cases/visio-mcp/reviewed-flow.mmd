@@ -1,0 +1,34 @@
+---
+config:
+  theme: base
+  htmlLabels: false
+  themeVariables:
+    fontFamily: '"PingFang TC", "Microsoft JhengHei", "Noto Sans CJK TC", sans-serif'
+    fontSize: 18px
+    primaryTextColor: '#172B46'
+    lineColor: '#415670'
+    edgeLabelBackground: '#FFFFFF'
+  flowchart:
+    curve: monotoneX
+    padding: 12
+    nodeSpacing: 32
+    rankSpacing: 50
+    diagramPadding: 14
+---
+flowchart LR
+    accTitle: 申請流程：主管審核與退回補件
+    accDescr: 填寫申請後送出，由主管審核。通過就完成登記；退回就補件，補件後重新送回同一個主管審核節點。
+
+    fill("填寫申請") --> submit("送出申請")
+    submit --> review("主管審核")
+    review -->|通過| complete("完成登記")
+    review -->|退回| amend("補件")
+    amend -->|重新送審| review
+
+    classDef default fill:#F0F5FA,stroke:#879DB6,stroke-width:1.4px,color:#172B46;
+    classDef decision fill:#DFEAF6,stroke:#355877,stroke-width:2px,color:#152F4B;
+    classDef approved fill:#E6F2EB,stroke:#779C87,stroke-width:1.4px,color:#204B35;
+    classDef returned fill:#FFF0D9,stroke:#BD9560,stroke-width:1.4px,color:#61451F;
+    class review decision;
+    class complete approved;
+    class amend returned;

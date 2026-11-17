@@ -1,0 +1,29 @@
+$primary: #1E2761;
+$accent: #D97757;
+$work: #D97757;
+$short-break: #7FB069;
+$long-break: #9B7EBD;
+
+Screen {
+    background: $primary 10%;
+}
+
+#time-display {
+    width: auto;
+    color: $accent;
+}
+
+#phase-badge {
+    text-align: center;
+    text-style: bold;
+    padding: 1;
+}
+
+.phase-work { color: $work; }
+.phase-short { color: $short-break; }
+.phase-long { color: $long-break; }
+
+#counters {
+    text-align: center;
+    color: $primary 80%;
+}

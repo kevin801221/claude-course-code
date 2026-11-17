@@ -1,0 +1,11 @@
+{
+  "name": "fun-pack",
+  "version": "0.1.0",
+  "description": "好玩套件：冰箱食譜助手 + commit 詩人",
+  "author": "kevinluo",
+  "license": "MIT",
+  "components": {
+    "agents": ["recipe-genie"],
+    "commands": ["commit-poet"]
+  }
+}

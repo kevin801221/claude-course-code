@@ -1,0 +1,9 @@
+{
+  "name": "documentation",
+  "version": "1.0.0",
+  "description": "全面的文件產生與維護",
+  "author": {
+    "name": "Community"
+  },
+  "license": "MIT"
+}

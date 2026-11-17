@@ -1,0 +1,9 @@
+{
+  "name": "fun-pack",
+  "version": "0.1.0",
+  "description": "輕量示範：食譜代理與 commit 詩稿",
+  "author": {
+    "name": "Kevin Luo (kevin801221)"
+  },
+  "license": "MIT"
+}

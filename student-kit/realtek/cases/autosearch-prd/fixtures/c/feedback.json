@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "feedback_id": "FB-001",
+  "source": {"evidence_id": "EV-005", "kind": "supplier_suggestion", "note": "（合成）供應商建議信"},
+  "suggestion": "支援多感測器：同一 CSV 增加 sensor_id 欄位，每個感測器各自濾波與告警。",
+  "proposal": {
+    "interfaces": ["csv_input"],
+    "new_fields": ["sensor_id"],
+    "modify_requirements": [
+      {"id": "REQ-001", "fields": {
+        "statement": "系統應能匯入 timestamp_s,temp_c 欄位的 CSV（1 Hz），並接受選填的 sensor_id 欄位。",
+        "behavior": ["讀取 timestamp_s 與 temp_c 兩欄；temp_c 空值視為缺測，不當 0", "時間戳必須在每個 sensor_id 內嚴格遞增且每秒一筆", "沒有 sensor_id 欄位時視為單一感測器"],
+        "acceptance_ids": ["AT-001", "AT-002", "AT-008"]}}
+    ],
+    "add_requirements": [
+      {"id": "REQ-005", "title": "多感測器", "status": "proposed",
+       "statement": "同一檔案含多個 sensor_id 時，每個感測器各自濾波、各自計算告警。",
+       "interfaces": ["csv_input", "chart", "alarm"], "evidence_ids": ["EV-005"], "acceptance_ids": ["AT-007"],
+       "behavior": ["各 sensor_id 的濾波狀態與連續計數互不影響", "曲線可依 sensor_id 切換"],
+       "exceptions": ["sensor_id 空值時顯示錯誤列號並停止匯入"]}
+    ],
+    "add_acceptance": [
+      {"id": "AT-007", "req_id": "REQ-005", "status": "not_run",
+       "given": "一份含 sensor_id=A、B 兩個感測器的 CSV，只有 A 持續升溫", "when": "操作者匯入並評估告警",
+       "then": "只有 A 觸發告警，B 不受影響", "expected_result": "A 告警次數 ≥ 1；B 告警次數 = 0"},
+      {"id": "AT-008", "req_id": "REQ-001", "status": "not_run",
+       "given": "一份沒有 sensor_id 欄位的舊格式 CSV", "when": "操作者匯入此檔",
+       "then": "系統視為單一感測器並正常載入", "expected_result": "結果與 v1 行為相同（向下相容）"}
+    ],
+    "data_compatibility": "sensor_id 為選填欄位；舊格式 CSV 視為單一感測器，向下相容。時間戳規則改為「每個 sensor_id 內」嚴格遞增。",
+    "risks": {
+      "performance": "濾波與告警狀態依感測器數量線性增加；未在目標硬體量測。",
+      "schedule": "需新增 GUI 切換與驗收案例；本 Repo 不承諾期限。"
+    },
+    "recommendation": "建議擱置（defer），待產品負責人確認多感測器是否在本期範圍；本提案不自動套用。"
+  }
+}

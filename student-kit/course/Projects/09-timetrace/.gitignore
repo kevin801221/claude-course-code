@@ -1,0 +1,28 @@
+# 環境變數
+.env
+.env.local
+
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.python-version
+
+# Next.js / Node
+node_modules/
+.next/
+out/
+dist/
+npm-debug.log*
+
+# Pencil 設計檔產物（視情況；若要進版控請移除下一行）
+# *.pen
+
+# OS
+.DS_Store
+
+# 教學產出 / log
+output/
+*.log

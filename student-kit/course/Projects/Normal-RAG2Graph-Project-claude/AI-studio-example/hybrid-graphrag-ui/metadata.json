@@ -1,0 +1,5 @@
+{
+  "name": "Hybrid GraphRAG UI",
+  "description": "A dark-mode UI for a Hybrid GraphRAG knowledge QA platform.",
+  "requestFramePermissions": []
+}

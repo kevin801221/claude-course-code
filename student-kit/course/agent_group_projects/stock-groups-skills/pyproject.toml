@@ -1,0 +1,14 @@
+[project]
+name = "stock-research-team"
+version = "0.1.0"
+description = "多 agent 個股研究團隊 — Claude Code 教學範例(非投資建議)"
+requires-python = ">=3.11"
+dependencies = [
+    "yfinance>=0.2.40",
+    "pandas>=2.2",
+    "matplotlib>=3.8",
+    "requests>=2.31",
+]
+
+[tool.uv]
+# 用 uv 管理:uv sync 安裝、uv add 加套件、uv run python scripts/fetch_prices.py 執行
