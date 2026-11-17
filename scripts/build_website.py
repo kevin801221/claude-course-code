@@ -62,7 +62,7 @@ from vendor_assets import (
 # Configuration
 # =============================================================================
 
-REPO_URL = "https://github.com/kevin801221/claude-code-tutorial"
+REPO_URL = "https://github.com/kevin801221/claude-course-code"
 DEFAULT_BRANCH = "main"
 
 # Files/dirs that exist in the repo but should not appear on the site.
