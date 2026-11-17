@@ -2,6 +2,8 @@
 
 從學生 ZIP 解壓後的根目錄執行。先備好 Python 3.11 以上、[uv](https://docs.astral.sh/uv/getting-started/installation/) 和可登入使用的 Claude Code。首次同步會下載 Python 套件。這個實作直接讀取原生 `.vsdx` 檔，可在沒有桌面 Visio 的電腦操作。
 
+**想像示範 GIF 一樣邊說邊畫？** 有 Windows 桌面版 Visio 的同學可直接進入[即時畫圖實作](../visio-windows-live/README.md)。把 Claude Code 與 Visio 並排，每次送一段指令，觀察新增的方塊、文字和連線。
+
 ## 1．在有設定檔的地方啟動
 
 ```sh

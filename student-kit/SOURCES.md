@@ -7,6 +7,7 @@
 | 學生包案例 | 上游固定版本 | 收錄範圍 |
 | --- | --- | --- |
 | [Visio MCP](realtek/cases/visio-mcp/STUDENT.md) | [claude-course-code · `b1c5315`](https://github.com/kevin801221/claude-course-code/tree/b1c5315339f8526c07b4d10da2f86ba89f7f8371/Projects/visio-mcp-lab) | 專案 MCP 設定、伺服器、原生起始圖、可重跑的 stdio 測試。 |
+| [Windows 桌面 Visio 即時畫圖](realtek/cases/visio-windows-live/README.md) | [GongRzhe/Office-Visio-MCP-Server · `9b56607`](https://github.com/GongRzhe/Office-Visio-MCP-Server/tree/9b566078f9051028ceafe4912409bce9910943bb) | 以鎖定的 PyPI 1.0.1 版提供新增圖形、文字和連線的 MCP 工具。課堂附 Claude Code 設定、啟動器及驗收步驟。 |
 | [日週報與長期記憶](realtek/cases/claude-mem/Q2.md) | [claude-mem-application_ · `23ede23`](https://github.com/kevin801221/claude-mem-application_/tree/23ede238b63004166a01299b45911f1c4f87036e) | 報表與檢索共用一個案例目錄，離線課堂資料另以合成紀錄提供。 |
 | [Markdown 檢索](realtek/cases/md-retrieval/STUDENT.md) | [compare-claudecode-retrieval-methods · `b741780`](https://github.com/kevin801221/compare-claudecode-retrieval-methods/tree/b7417806ca78bdd98cb54edeb2a04b6b7c402a49) | 以同一題和來源段落示範不同整理方式，完整評測條件請見原始 repo。 |
 | [團隊畫圖 Skill](realtek/cases/mermaid-design/STUDENT.md) | [mermaid-design · `bd9216e`](https://github.com/kevin801221/mermaid-design/tree/bd9216ed6cc45b03ea86bf498138d6b7ba9d5594) | 課堂使用的 Skill、排版規則、範例圖與渲染工具。 |
