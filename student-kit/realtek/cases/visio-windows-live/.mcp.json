@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "visio-live": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["run", "--locked", "--python", "3.12", "python", "live_visio.py"],
+      "env": {"PYTHONUTF8": "1"}
+    }
+  }
+}

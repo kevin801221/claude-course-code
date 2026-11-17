@@ -4,7 +4,7 @@
 
 | 題目 | 學生操作手冊 | 完成時要能做到什麼 | 原簡報與來源 |
 | --- | --- | --- | --- |
-| Q1 | [Claude Code 怎麼接上 Visio MCP？](cases/visio-mcp/STUDENT.md) | 讓 Claude 自己選工具讀出三個圖形和兩支箭頭。 | [解答](https://docs.google.com/presentation/d/10ShW-Ij-aOjli2i4BnXB5YZFQ-RzLgJHL3jCUuvpc1c/edit#slide=id.realtek_visio_mcp) · [claude-course-code](https://github.com/kevin801221/claude-course-code/tree/main/Projects/visio-mcp-lab) |
+| Q1 | [讀取既有 Visio 流程圖](cases/visio-mcp/STUDENT.md) · [Windows 即時畫圖](cases/visio-windows-live/README.md) | 讀出既有圖形與箭頭；有 Windows 桌面版 Visio 時，可看 Claude 逐步畫出新圖。 | [解答](https://docs.google.com/presentation/d/10ShW-Ij-aOjli2i4BnXB5YZFQ-RzLgJHL3jCUuvpc1c/edit#slide=id.realtek_visio_mcp) · [claude-course-code](https://github.com/kevin801221/claude-course-code/tree/main/Projects/visio-mcp-lab) |
 | Q2 | [怎麼從工作紀錄整理個人和主管的日週報？](cases/claude-mem/Q2.md) | 從一筆日報追回來源，再確認主管週報涵蓋哪些人。 | [解答](https://docs.google.com/presentation/d/10ShW-Ij-aOjli2i4BnXB5YZFQ-RzLgJHL3jCUuvpc1c/edit#slide=id.realtek_report_lab) · [claude-mem-application_](https://github.com/kevin801221/claude-mem-application_) |
 | Q3 | [上百份 Markdown，該先讀哪份？](cases/md-retrieval/STUDENT.md) | 用同一道題比較資料夾、索引和 Wiki，指出支撐答案的原文。 | [解答](https://docs.google.com/presentation/d/10ShW-Ij-aOjli2i4BnXB5YZFQ-RzLgJHL3jCUuvpc1c/edit#slide=id.realtek_md_retrieval) · [compare-claudecode-retrieval-methods](https://github.com/kevin801221/compare-claudecode-retrieval-methods) |
 | Q4 | [開新對話後，怎麼找回上次的修法？](cases/claude-mem/Q4.md) | 用 observation ID 找到完整紀錄，對照當時的測試證據。 | [解答](https://docs.google.com/presentation/d/10ShW-Ij-aOjli2i4BnXB5YZFQ-RzLgJHL3jCUuvpc1c/edit#slide=id.realtek_memory_lab) · [claude-mem-application_](https://github.com/kevin801221/claude-mem-application_) |
