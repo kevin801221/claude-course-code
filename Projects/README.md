@@ -33,6 +33,7 @@
 - [WorkshopFlow：從 PM 訪談到實作與共同驗收](workshopflow/README.md)
 - [AgenticRAG：依序跑 Agentic、Corrective、Adaptive 三本筆記本](agentic-rag/README.md)
 - [Visio MCP：用 Claude Code 改既有流程圖，驗證主管審核與補件回路](visio-mcp-lab/README.md)
+- [Windows 桌面 Visio：讓 Claude Code 即時新增圖形、標上文字並連線](../student-kit/realtek/cases/visio-windows-live/README.md)
 
 ## 🚀 快速使用流程
 

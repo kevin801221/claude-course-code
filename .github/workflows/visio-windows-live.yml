@@ -1,0 +1,92 @@
+name: Windows Visio MCP student lab
+
+'on':
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/visio-windows-live.yml'
+      - 'student-kit/realtek/cases/visio-windows-live/**'
+      - 'student-kit/dist/visio-windows-live.zip'
+      - 'student-kit/dist/claude-code-student-kit-v2.0.0-2026-11-12.zip'
+  pull_request:
+    branches: [main]
+    paths:
+      - '.github/workflows/visio-windows-live.yml'
+      - 'student-kit/realtek/cases/visio-windows-live/**'
+      - 'student-kit/dist/visio-windows-live.zip'
+      - 'student-kit/dist/claude-code-student-kit-v2.0.0-2026-11-12.zip'
+
+permissions:
+  contents: read
+
+jobs:
+  student-zip:
+    name: Check both ZIPs and discover tools on Windows
+    runs-on: windows-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /student-kit/realtek/cases/visio-windows-live/
+            /student-kit/dist/visio-windows-live.zip
+            /student-kit/dist/claude-code-student-kit-v2.0.0-2026-11-12.zip
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: false
+
+      - name: Compare student archive contents against the committed lab
+        shell: python
+        run: |
+          import subprocess
+          from pathlib import Path
+          from zipfile import ZipFile
+
+          lab = "student-kit/realtek/cases/visio-windows-live/"
+          tracked = subprocess.check_output(
+              ["git", "ls-tree", "-r", "--name-only", "-z", "HEAD", "--", lab]
+          ).decode("utf-8").split("\0")
+          sources = {
+              name.removeprefix(lab): subprocess.check_output(["git", "show", "HEAD:" + name])
+              for name in tracked if name
+          }
+          assert {".mcp.json", "uv.lock", "smoke.py"} <= sources.keys()
+          archives = Path("student-kit/dist")
+          checks = [
+              (archives / "visio-windows-live.zip", "visio-windows-live/"),
+              (archives / "claude-code-student-kit-v2.0.0-2026-11-12.zip",
+               "claude-code-student-kit/realtek/cases/visio-windows-live/"),
+          ]
+          for archive, prefix in checks:
+              with ZipFile(archive) as zipped:
+                  files = [item.filename for item in zipped.infolist() if not item.is_dir()]
+                  assert len(set(files)) == len(files), f"Duplicate file names in {archive}"
+                  if archive == checks[0][0]:
+                      assert all(name.startswith(prefix) for name in files), archive
+                  members = {name.removeprefix(prefix) for name in files if name.startswith(prefix)}
+                  assert members == sources.keys(), (archive, members ^ sources.keys())
+                  for name, expected in sources.items():
+                      assert zipped.read(prefix + name) == expected, (archive, name)
+              print(f"Matched {len(sources)} tracked lab files in {archive.name}")
+
+      - name: Set up the unzipped lab and discover tools over stdio
+        shell: pwsh
+        run: |
+          $destination = Join-Path $env:RUNNER_TEMP '學生實作 有空格'
+          Expand-Archive -LiteralPath 'student-kit/dist/visio-windows-live.zip' -DestinationPath $destination
+          Set-Location -LiteralPath (Join-Path $destination 'visio-windows-live')
+          Get-ChildItem -Force -LiteralPath '.mcp.json' -ErrorAction Stop
+          uv sync --locked --python 3.12
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          uv run --locked python smoke.py --list-only
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          'Both ZIPs matched the committed lab. The extracted lab completed MCP tool discovery on Windows.' >> $env:GITHUB_STEP_SUMMARY
+          'Desktop drawing needs an interactive session with licensed Microsoft Visio. This job verifies tool discovery only.' >> $env:GITHUB_STEP_SUMMARY

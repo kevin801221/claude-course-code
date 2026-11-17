@@ -2,6 +2,8 @@
 
 這個學生 repo 自帶一個名為 `visio-lab` 的 MCP 伺服器。連線成功後，在 Claude Code 貼一句話，請它呼叫工具讀取現有的 Visio 檔案，回報頁名、圖形與箭頭。這個讀檔示範可在 macOS、Windows 或 Linux 執行，無須安裝桌面版 Visio。
 
+**Windows 即時畫圖實作**　若要讓 Claude Code 一邊呼叫工具、一邊在桌面版 Visio 畫圖，請開啟[分割畫面操作手冊](../../student-kit/realtek/cases/visio-windows-live/README.md)。這個實作使用公開的 GongRzhe Visio MCP。
+
 <a id="connect-visio"></a>
 
 ## 1. 連上這個專案的 MCP
